@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd">
+
+<article lang="es" id="taller-doc">
+  <articleinfo>
+    <title>Taller de creación colaborativa de documentación</title>
+  </articleinfo>
+  <sect1>
+    <title>Objetivos</title>
+    <variablelist>
+      <varlistentry>
+	<term>Creación de documentación original de forma distribuida</term>
+	<listitem>
+	  <para>
+	  Crear una infraestructura que permita la creación de
+	  documentación empleando un sistema de gestión de versiones,
+	  un sistema de publicación automática y una serie de
+	  mecanismos que permitan la revisión entre iguales de la
+	  documentación anterior a la publicación. 
+	  </para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Modificación y mejora de documentación de forma
+	continuada y colaborativa</term> 
+	<listitem>
+	  <para>
+	   Este objetivo consiste en permitir que cualquier persona
+	  que lea una determinada documentación pueda colaborar en su
+	  mejora, ya sea corrigiendo errores o mejorando alguna
+	  sección que domine. Existen varias formas de hacer esto (con
+	  grado de dificultad creciente):
+	  <orderedlist inheritnum="ignore" continuation="restarts">
+	    <listitem>
+	      <para>
+		Mandar un mail al autor describiendo donde está el
+		error u ofreciendo una sección mejorada.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Añadiendo comentarios en la página que son
+		inmediatamente accesibles para el resto de lectores. 
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Modificando on-line el documento. En este esquema debe
+		proveerse de un mecanismo que permita al autor
+		original o editores autorizados revisar los cambios y
+		aceptarlos antes de que puedan ser visualizados por el
+		resto de lectores. Mientras se aceptan podrían ser
+		mostrados en una sección de mejoras propuestas. 
+	      </para>
+	    </listitem>
+	  </orderedlist>
+	  </para>
+	</listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Area para incubar proyectos de documentación</term> 
+      <listitem>
+	  <para>
+	    Se propone la creación de un área donde uno o más autores
+	    pueden exponer sus ideas y buscar colaboradores para crear
+	    documentación o bien ideas sobre cómo crearlo.
+	  </para>
+	  <para>
+	    El funcionamiento esperado de esta <emphasis>incubadora es
+	    el siguiente</emphasis>:
+	    <itemizedlist>
+	      <listitem>
+		<para>Un autor tiene una idea sobre la que quiere escribir</para>
+	      </listitem>
+	      <listitem>
+		<para>Comienza a escribir y a exponer sus ideas sobre
+		lo que está escribiendo o va a escribir. Lo que va
+		escribiendo y las ideas asociadas se hacen públicas en
+		un área especial para proyectos en desarrollo.</para>
+	      </listitem>
+	      <listitem>
+		<para>Todos los que leen las ideas o lo que se va
+		escribiendo pueden aportar algo:</para>
+		<itemizedlist>
+		  <listitem>
+		    <para>Contactando con el autor para colaborar</para>
+		  </listitem>
+		  <listitem>
+		    <para>Enviando correcciones</para>
+		  </listitem>
+		  <listitem>
+		    <para>Añadiendo comentarios con ideas o peticiones
+		    de temas que le gustaría que se trataran</para>
+		  </listitem>
+		  <listitem>
+		    <para>Aunque no aporte nada directamente se
+		    mantienen estadísticas de las visitas que pueden
+		    servir al autor como guía del éxito que está
+		    teniendo.</para> 
+		  </listitem>
+		</itemizedlist>
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+  </sect1>
+</article>
+
+
+
+
+
+
