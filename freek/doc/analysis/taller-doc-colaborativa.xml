@@ -295,10 +295,11 @@ FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo n
 	</itemizedlist>
       </sect3>
     </sect2>
+  </sect1>
+  <sect1>
+    <title>Análisis del sistema</title>
     <sect2>
-      <title>Análisis del sistema</title>
-      <sect3>
-	<title>Casos de uso</title>
+      <title>Análisis de casos de uso</title>
 	<para>
 	  Los casos de uso representan las acciones que un usuario del
 	  sistema puede realizar en éste. En este documento se usará
@@ -365,19 +366,19 @@ FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo n
 	  <title>Diagrama de casos de uso de colaboradores</title>
 	  <graphic fileref="img/use-cases-contributor.png" format="PNG"/>
 	</figure>
-      </sect3>
+      </sect2>
 
 
-      <sect3>
+      <sect2>
 	<title>Análisis funcional</title>
 	<para></para>
 
-	<sect4 role="jorge">
+	<sect3 role="jorge">
 	  <title>Interacción con los autores</title>
 	  <para></para>
-	</sect4>
+	</sect3>
 
-	<sect4 role="grex">
+	<sect3 role="grex">
 	  <title>Estados de un documento y gestión de sus versiones</title>
 	  <para>
 	    Al igual que en muchos proyectos de software libre se ha considerado oportuno que el mismo documento se encuentre simultáneamente en dos estados. Este sistema nos va a permitir gozar de varias ventajas y de una mayor flexibilidad a la hora de realizar mejoras o modificaciones a la documentación existente.
@@ -397,39 +398,36 @@ FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo n
           <para>
 	    La potestad para hacer que un documento en desarrollo pase a tener un estado estable corresponderá siempre a sus autores originales, por lo que de esta manera también se facilita el hecho de que el autor principal tenga el poder de validación sobre los cambios o modificaciones que se hagan sobre su documento.
 	  </para>
-	</sect4>
+	</sect3>
 
-	<sect4 role="grex">
+	<sect3 role="grex">
 	  <title>Revisión entre iguales</title>
 	  <para></para>
-	</sect4>
+	</sect3>
 
-	<sect4 role="jorge">
+	<sect3 role="jorge">
 	  <title>Publicación de un documento</title>
 	  <para></para>
-	</sect4>
+	</sect3>
 
-	<sect4>
+	<sect3>
 	  <title>Recepción de aportaciones</title>
 	  <para></para>
-	</sect4>
+	</sect3>
 
-	<sect4>
+	<sect3>
 	  <title>Validación de aportaciones</title>
 	  <para></para>
-	</sect4>
+	</sect3>
 
-      </sect3>
+      </sect2>
 
       
-      <sect3>
+      <sect2>
 	<title>Análisis arquitectural</title>
 	<para></para>
-      </sect3>
+      </sect2>
 
-
-    </sect2>
-    
   </sect1>
   <sect1>
     <title>Conclusiones</title>
