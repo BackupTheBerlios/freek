@@ -25,10 +25,10 @@
   4.1 Viabilidad del proyecto
   4.2 Dificultades previstas
   4.3 Extensiones al taller
-    - Área para crear proyectos de documentación
-    - Biblioteca semántica
-    - Traducciones
-    - Integración con editores de escritorio
+  - Área para crear proyectos de documentación
+  - Biblioteca semántica
+  - Traducciones
+  - Integración con editores de escritorio
   5 Bibliografía
 
   ¿Metemos algo de un Libro de estilo o correctores ortográficos?
@@ -104,7 +104,7 @@
       <variablelist>
 	<varlistentry>
 	  <term>Publicación de documentación original de forma
-	  distribuida</term> 
+	    distribuida</term> 
 	  <listitem>
 	    <para>
 	      Mediante este proyecto se prentede crear una
@@ -160,85 +160,95 @@
     </para>
     <sect2>
       <title>Requisitos funcionales</title>
-	<itemizedlist>
-	  <listitem>
-	    <para>
-	      Debe soportarse una gestión de versiones de los
-	      documentos. Debe resolverse el problema de la
-	      posibilidad de que haya aportaciones realizadas sobre
-	      versiones antiguas. 
-	    </para>
-	  </listitem>
-	</itemizedlist>
-	<itemizedlist>
-	  <listitem>
-	    <para>
-	      Todo el que lee un documento debe poder realizar
-	      aportaciones con el menor esfuerzo posible 
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Deben permitirse y fomentarse las aportaciones
-	      pequeñas. Por ejemplo:
-	      <itemizedlist>
-		<listitem>
-		  <para>Añadido</para>
-		</listitem>
-		<listitem>
-		  <para>Nota</para>
-		</listitem>
-		<listitem>
-		  <para>Comentario</para>
-		</listitem>
-		<listitem>
-		  <para>Referencia</para>
-		</listitem>
-		<listitem>
-		  <para>Modificar línea</para>
-		</listitem>
-	      </itemizedlist>
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Debe poder modificarse el documento sin necesidad de
-	      saber docbook.
-	    </para>
-	  </listitem>
-	</itemizedlist>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Debe soportarse una gestión de versiones de los
+	    documentos. Debe resolverse el problema de la
+	    posibilidad de que haya aportaciones realizadas sobre
+	    versiones antiguas. 
+	  </para>
+	</listitem>
+      </itemizedlist>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Deben permitirse y fomentarse las aportaciones
+	    pequeñas. Por ejemplo:
+	    <itemizedlist>
+	      <listitem>
+		<para>Añadir bloque: párrafo, lista, etc.</para>
+	      </listitem>
+	      <listitem>
+		<para>Nota</para>
+	      </listitem>
+	      <listitem>
+		<para>Comentario</para>
+	      </listitem>
+	      <listitem>
+		<para>Referencia</para>
+	      </listitem>
+	      <listitem>
+		<para>Modificar línea</para>
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+      </itemizedlist>
+      <listitem>
+	<para>
+	  Debe permitirse a los autores el acceso directo al
+	  sistema de gestión de versiones si disponen de los
+	  conocimientos necesarios.
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Las aportaciones de los lectores deben ser visibles
+	  inmediatamente. Estas deben separarse claramente del
+	  texto original hasta que sean aceptadas. El objetivo es
+	  fomentar que aporten haciendo que sus aportaciones sean
+	  visibles por todos los lectores incluso antes de su
+	  aceptación. 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Los usuarios registrados pueden solicitar que se les
+	  notifique cuando una aportación suya haya sido
+	  aceptada. 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Los usuarios registrados pueden solicitar que se les
+	  notifique cuando aparezca una nueva versión de un
+	  documento publicado.
+	</para>
+      </listitem>
     </sect2>
     <sect2>
       <title>Requisitos no funcionales</title>
+      <sect3>
+	<title>Requisitos de interfaz</title>
+	<para>
+	  El sistema debe ser accesible por el mayor número de
+	  usuarios y autores posibles. Esto implica garantizar el
+	  acceso independientemente de la localización así como la no
+	  necesidad de tener conocimientos técnicos específicos para
+	  poder usarlo, tal y como se concreta en los siguientes
+	  requisitos. 
+	</para>
 	<itemizedlist>
 	  <listitem>
 	    <para>
-	      El sistema debe ser accesible por el mayor número de
-	      usuarios y autores posibles, por lo que se usará un
-	      acceso a través del WWW. ¿hay alternativas?  
+	      Los documentos y la funcionalidad del sistema deben
+	      estar disponibles a través del WWW.
 	    </para>
 	  </listitem>
 	  <listitem>
 	    <para>
-	      Adicionalente deben darse facilidades para integrarse
-	      con aplicaciones de escritorio que permitan trabajo
-	      colaborativo remoto (por ejemplo TeXMacs).  
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Las aportaciones de los lectores deben ser visibles
-	      inmediatamente. Estas deben separarse claramente del
-	      texto original hasta que sean aceptadas. El objetivo es
-	      fomentar que aporten al ver que sus aportaciones son
-	      visibles por todos los lectores instantáneamente. 
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Los usuarios registrados pueden solicitar que se les
-	      notifique cuando una aportación suya haya sido
-	      aceptada. 
+	      No debe cerrarse la posibilidad de otras interfaces:
 	    </para>
 	  </listitem>
 	  <listitem>
@@ -315,6 +325,16 @@
 	    </para>
 	  </listitem>
 	</varlistentry>
+	<varlistentry>
+	  <term>Revisor</term>
+	  <listitem>
+	    <para>Un usuario adquiere este rol cuando revisa un
+	      documento de un autor. Como resultado debe aceptarlo para
+	      su publicación o enviar comentarios al autor. Cualquier
+	      autor puede jugar el rol de revisor de los documentos de
+	      otro autor.</para>
+	  </listitem>
+	</varlistentry>
       </variablelist>
     </para>
     <para>
@@ -322,8 +342,8 @@
       sistema quedan reflejadas en los diagramas de casos
       de uso de las siguientes figuras. A la izquierda se sitúan
       los actores y a la derecha
-      
     </para>
+
     <figure float="0" id="figure-use-cases-reader">
       <title>Diagrama de casos de uso de lectores</title>
       <graphic fileref="img/use-cases-reader.png" format="PNG"/>
@@ -337,9 +357,25 @@
       <graphic fileref="img/use-cases-author.png" format="PNG"/>
     </figure>
   </sect1>
+
+
   <sect1>
     <title>Análisis funcional</title>
-    <para></para>
+    <para>
+      En esta sección se describe el funcionamiento del sistema
+      necesario para cumplir los requisitos y casos de uso expuestos
+      en la sección anterior.
+    </para>
+    <para>
+      Se irán examinando cada uno de dichos casos de uso y se
+      describirá el funcionamiento textualmente y acompañado con
+      diagramas UML de secuencia <!-- FIXME: y estado --> para
+      facilitar su comprensión.
+    </para>
+    <para>
+      Los casos de uso similares se han agrupado para facilitar una
+      descripción de las partes comunes.
+    </para>
 
     <sect2>
       <title>Creación de documentos</title>
@@ -355,22 +391,60 @@
       <sect3 role="grex">
 	<title>Estados de un documento y gestión de sus versiones</title>
 	<para>
-	  Al igual que en muchos proyectos de software libre se ha considerado oportuno que el mismo documento se encuentre simultáneamente en dos estados. Este sistema nos va a permitir gozar de varias ventajas y de una mayor flexibilidad a la hora de realizar mejoras o modificaciones a la documentación existente.
+	  Al igual que en muchos proyectos de software libre se ha
+	  considerado oportuno que el mismo documento se encuentre
+	  simultáneamente en dos estados. Este sistema nos va a
+	  permitir gozar de varias ventajas y de una mayor
+	  flexibilidad a la hora de realizar mejoras o modificaciones
+	  a la documentación existente. 
 	</para>
 	<para>
-	  Por analogía consideraremos un documento en estado 'estable' como un documento acabado, con concordancia en su totalidad y completo. Podríamos suponer que los documentos en este estado están "listos para imprimir" y que tienen la calidad suficiente para poder ser difundidos o publicados tal cual.
+	  Por analogía consideraremos un documento en estado 'estable'
+	  como un documento acabado, con concordancia en su totalidad
+	  y completo. Podríamos suponer que los documentos en este
+	  estado están "listos para imprimir" y que tienen la calidad
+	  suficiente para poder ser difundidos o publicados tal cual. 
 	</para>
 	<para>
-	  Si el documento no cuenta con las características mencionadas y que le hacen 'estable' será calificado como 'en desarrollo'. Como su propia nomenclatura indica, este tipo de documentos necesitan de ciertas mejoras o acciones para pasar a ser estables.
+	  Si el documento no cuenta con las características
+	  mencionadas y que le hacen 'estable' será calificado como
+	  'en desarrollo'. Como su propia nomenclatura indica, este
+	  tipo de documentos necesitan de ciertas mejoras o acciones
+	  para pasar a ser estables. 
 	</para>
 	<para>
-	  Para entender mejor el concepto de estados de un documento, lo mejor será seguir el proceso de creación de documentación más frecuente. Consideramos que todo documento durante sus etapas iniciales se encuentra en desarrollo. Una vez que sus autores lo encuentren suficientemente maduro, podrán cambiar el estado del documento y asignarlo como estable. Aunque el hecho de considerarlo maduro es subjetivo y, por tanto, subceptible de discusión, se pueden establecer una serie de parámetros muy sencillos para certificar que esto es así. Por ejemplo, un documento estable no debe tener secciones o párrafos por terminar (los famosos POR HACER).
+	  Para entender mejor el concepto de estados de un documento,
+	  lo mejor será seguir el proceso de creación de documentación
+	  más frecuente. Consideramos que todo documento durante sus
+	  etapas iniciales se encuentra en desarrollo. Una vez que sus
+	  autores lo encuentren suficientemente maduro, podrán cambiar
+	  el estado del documento y asignarlo como estable. Aunque el
+	  hecho de considerarlo maduro es subjetivo y, por tanto,
+	  subceptible de discusión, se pueden establecer una serie de
+	  parámetros muy sencillos para certificar que esto es
+	  así. Por ejemplo, un documento estable no debe tener
+	  secciones o párrafos por terminar (los famosos POR HACER). 
 	</para>
 	<para>
-	  Una vez especificado el documento como estable, su difusión será mucho mayor y, por tanto, probablemente también la probabilidad de que exista retroalimentación por parte de lectores. Es en este momento, donde pueden empezar a coexistir una sección estable y una en desarrollo. Y es que las modificaciones realizadas sobre la versión estable, pasarán a formar parte de la versión en desarrollo. De esta forma, el lector podrá leer siempre la última versión estable, mientras el que quiera colaborar podrá hacerlo teniendo en cuenta las últimas modificaciones que se han hecho.
+	  Una vez especificado el documento como estable, su difusión
+	  será mucho mayor y, por tanto, probablemente también la
+	  probabilidad de que exista retroalimentación por parte de
+	  lectores. Es en este momento, donde pueden empezar a
+	  coexistir una sección estable y una en desarrollo. Y es que
+	  las modificaciones realizadas sobre la versión estable,
+	  pasarán a formar parte de la versión en desarrollo. De esta
+	  forma, el lector podrá leer siempre la última versión
+	  estable, mientras el que quiera colaborar podrá hacerlo
+	  teniendo en cuenta las últimas modificaciones que se han
+	  hecho. 
 	</para>
 	<para>
-	  La potestad para hacer que un documento en desarrollo pase a tener un estado estable corresponderá siempre a sus autores originales, por lo que de esta manera también se facilita el hecho de que el autor principal tenga el poder de validación sobre los cambios o modificaciones que se hagan sobre su documento.
+	  La potestad para hacer que un documento en desarrollo pase a
+	  tener un estado estable corresponderá siempre a sus autores
+	  originales, por lo que de esta manera también se facilita el
+	  hecho de que el autor principal tenga el poder de validación
+	  sobre los cambios o modificaciones que se hagan sobre su
+	  documento. 
 	</para>
       </sect3>
 
@@ -380,6 +454,9 @@
       </sect3>
 
     </sect2>
+
+
+
 
     <sect2>
       <title>Proceso de revisión</title>
@@ -410,27 +487,28 @@
 	</para>
       </sect3>
       <sect3 role="use-case">
-	     <title>Caso de uso: Autor solicita revisión por otro autor</title>
-	     <para></para>
-	     </sect3>
-	     <sect3 role="use-case">
+	<title>Caso de uso: Autor solicita revisión por otro autor</title>
+	<para></para>
+      </sect3>
+      <sect3 role="use-case">
 	<title>Caso de uso: Autor revisa y envía comentarios al autor</title>
 	<para></para>
       </sect3>
       <sect3 role="use-case">
-	     <title>Caso de uso: Autor revisa y acepta documento</title>
-	     <para></para>
-	     </sect3>
+	<title>Caso de uso: Autor revisa y acepta documento</title>
+	<para></para>
+      </sect3>
+    </sect2>
 
 
-	     </sect2>
 
-	     <sect2>
-	     <title>Publicación e impresión de documentos</title>
-	     <para></para>
 
-	     <sect3 role="use-case">
-	  <title>Caso de uso: Dar formato al documento</title>
+    <sect2>
+      <title>Publicación e impresión de documentos</title>
+      <para></para>
+
+      <sect3 role="use-case">
+	<title>Caso de uso: Dar formato al documento</title>
 	<para></para>
       </sect3>
 
@@ -440,6 +518,10 @@
       </sect3>
 
     </sect2>
+
+
+
+
 
     <sect2>
       <title>Aportaciones de los lectores</title>
@@ -457,22 +539,22 @@
 	  hecho, y como hemos indicado ya con anterioridad, el lector
 	  posee potencialmente todas las habilidades no técnicas
 	  necesarias para hacerlo. 
-	  </para>
-	  <para>
-	    Las habilidades y experiencia con las técnicas de
-	    publicación serán desiguales y variarán sustancialemnte
-	    entre lector y lector. Será tarea del sistema facilitar la
-	    interacción del lector con el documento abstrayendo las
-	    nociones técnicas con las que éste ha de contar. De hecho,
-	    esto supone una diferenciación de lectores en varios
-	    niveles a los que habrá que tratar de manera diferente:
-	    mientras un lector novato en tecnologías de publicación
-	    debería poder contar con una herramienta donde sólo
-	    tuviera que introducir el texto (sin etiquetación
-	    sintáctica ni semántica), mientras un lector conocedor de
-	    las herramientas y métodos existentes debería poder
-	    utilizarlas, de manera que pueda aprovecharse de sus
-	    conocimientos y habilidades. 
+	</para>
+	<para>
+	  Las habilidades y experiencia con las técnicas de
+	  publicación serán desiguales y variarán sustancialemnte
+	  entre lector y lector. Será tarea del sistema facilitar la
+	  interacción del lector con el documento abstrayendo las
+	  nociones técnicas con las que éste ha de contar. De hecho,
+	  esto supone una diferenciación de lectores en varios
+	  niveles a los que habrá que tratar de manera diferente:
+	  mientras un lector novato en tecnologías de publicación
+	  debería poder contar con una herramienta donde sólo
+	  tuviera que introducir el texto (sin etiquetación
+	  sintáctica ni semántica), mientras un lector conocedor de
+	  las herramientas y métodos existentes debería poder
+	  utilizarlas, de manera que pueda aprovecharse de sus
+	  conocimientos y habilidades. 
 	</para>
 	<para>
 	  Antes de entrar en detalle sobre los tipos de aportación que
@@ -485,7 +567,9 @@
 	  que valide el documento y lo asigne con un estado estable. 
 	</para>
 	<para>
-	  Hemos desarrollado un caso de uso en el que especificamos los diferentes tipos de aportación que puede realizar un lector.
+	  Hemos desarrollado un caso de uso en el que especificamos
+	  los diferentes tipos de aportación que puede realizar un
+	  lector. 
 	</para>
       </sect3>
       <sect3>
@@ -564,7 +648,7 @@
 	alcance de este documento.
       </para>
     </sect2>
-  
+    
 
     <sect2>
       <title>Extensiones al taller</title>
@@ -583,7 +667,7 @@
 	      <itemizedlist>
 		<listitem>
 		  <para>Un autor tiene una idea sobre la que quiere
-		  escribir</para> 
+		    escribir</para> 
 		</listitem>
 		<listitem>
 		  <para>Comienza a escribir y a exponer sus ideas sobre
@@ -678,15 +762,42 @@
 	  <surname>Olea</surname>
 	</author>
 	<title>Las tecnologías necesarias para un proyecto de
-	documentación moderno</title> 
+	  documentación moderno</title> 
 	<address format="linespecific">
 	  http://lucas.hispalinux.es/Manuales-LuCAS/LBTD/libro-blanco-tecnologias-doc-0.1/part-lucasv4.html
 	</address>
       </biblioentry>
       
     </bibliodiv>
+    <bibliodiv>
+      <title>Modelo bazar</title>
+      <biblioentry>
+	<author>
+	  <firstname>Eric</firstname>
+	  <surname>Raymond</surname>
+	</author>
+	<title>The cathedral and the bazaar</title>
+	<date>1997</date>
+	<address format="linespecific">
+	  http://www.tuxedo.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+	</address>
+
+      </biblioentry>
+      <biblioentry>
+	<author>
+	  <firstname>Nikolai</firstname>
+	  <surname>Bezroukov</surname>
+	</author>
+	<title>A second look at the cathedral and the bazaar</title>
+	<date>Noviembre 1999</date>
+	<address format="linespecific">
+	  http://www.firstmonday.dk/issues/issue4_12/bezroukov/
+	</address>
+      </biblioentry>
+    </bibliodiv>
     
   </bibliography>
+
   <ackno>
     Documentando, Lucas, TLDP, ...
   </ackno>
