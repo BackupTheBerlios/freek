@@ -111,7 +111,7 @@
 	      <orderedlist inheritnum="ignore" continuation="restarts">
 		<listitem>
 		  <para>
-		    Mandar un mail al autor describiendo donde está el
+		    Mandar un correo-e al autor describiendo d&onde está el
 		    error u ofreciendo una sección mejorada.
 		  </para>
 		</listitem>
@@ -444,7 +444,12 @@
 
       <sect3 role="grex">
 	<title>La revisión entre iguales</title>
-	<para></para>
+	<para>
+	  La revisi&on entre iguales es uno de los mecanismos de control de calidad del sistema. La idea que se persigue es similar a la que se utiliza en un conocido portal de art&iculos sobre los efectos socio-econ&micos de Internet y las tecnolog&ias de la informaci&on llamado Firstmonday (enlace a www.firstmonday.dk). Antes de ser publicado un art&iculo, debe ser le&ido por una serie de editores que dar&an el visto bueno para la publicaci&on definitiva.
+	</para>
+	<para>
+	  Sin embargo, debemos tener en cuenta que nuestro sistema no es s&olo un mero instrumento de publicaci&on, sino que engloba potencialmente todo el proceso de creaci&on y correcci&on. La revisi&on entre iguales es, por tanto, un buen instrumento para situar una frontera n&itida entre las versiones en desarrollo y la primera versi&on estable. De esta manera, se garantiza que la versi&on estable ha alcanzado un nivel de madurez, completitud y correcci&on aceptables para el amplio p&ublico.
+	</para>
       </sect3>
       <sect3 role="use-case">
 	     <title>Caso de uso: Autor solicita revisión por otro autor</title>
@@ -483,14 +488,25 @@
       <para></para>
       <sect3>
 	<title>El papel de las aportaciones de los lectores</title>
-	<para></para>
+	<para>
+	  La filosof&ia del sistema que estamos creando nos lleva a poner especial &enfasis en las aportaciones de los lectores. De hecho, uno de los objetivos principales del sistema lo podr&iamos enunciar diciendo que es nuestro deseo que del lector pasivo al que estamos acostumbrados, se pase a un lector activo, que interactue con el sistema, que enriquezca, complete, valore o aporte al documento. De hecho, y como hemos indicado ya con anterioridad, el lector posee potencialmente todas las habilidades no t&ecnicas necesarias para hacerlo.
+	  </para>
+	  <para>
+	    Las habilidades y experiencia con las t&ecnicas de publicaci&on ser&an desiguales y variar&an sustancialemnte entre lector y lector. Ser&a tarea del sistema facilitar la interacci&on del lector con el documento abstrayendo las nociones t&ecnicas con las que &este ha de contar. De hecho, esto supone una diferenciaci&on de lectores en varios niveles a los que habr&a que tratar de manera diferente: mientras un lector novato en tecnolog&ias de publicaci&on deber&ia poder contar con una herramienta donde s&olo tuviera que introducir el texto (sin etiquetaci&on sint&actica ni sem&antica), mientras un lector conocedor de las herramientas y m&etodos existentes deber&ia poder utilizarlas, de manera que pueda aprovecharse de sus conocimientos y habilidades.
+	</para>
+	<para>
+	  Antes de entrar en detalle sobre los tipos de aportaci&on que hemos considerado, se ha de volver a hacer hincapi&e en el hecho de que la mayor&ia de los documentos cuenten con dos versiones del mismo, una estable y otra en desarrollo. Todas las aportaciones al documento dar&an como resultado una versi&on inestable del documento, nunca una estable. Para pasar a este &ulitmo estado, ha de ser el autor original el que valide el documento y lo asigne con un estado estable.
+	</para>
+	<para>
+	  Hemos desarrollado un caso de uso en el que especificamos los diferentes tipos de aportaci&on que puede realizar un lector.
+	</para>
       </sect3>
       <sect3 role="use-case">
 	<title>Caso de uso: Usuario registrado envia aportación</title>
 	<para>Descripción de "Notifica Erratas", "Añade contenido",
 	  "Modifica contenido", "Añade comentario"</para>
-	<para>Las aportaciones se muestran de instantáneamente junto
-	  al documento. Pero no integradas en él, sino marcadas
+	<para>Las aportaciones se muestran instantáneamente junto
+	  al documento, pero no integradas en él, sino marcadas
 	  claramente como aportaciones.</para>
       </sect3>
       <sect3 role="use-case">
