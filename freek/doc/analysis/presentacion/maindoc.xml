@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOC author="Reginald Stadlbauer" email="reggie@kde.org" editor="KPresenter" mime="application/x-kpresenter" syntaxVersion="2">
+ <PAPER format="5" ptWidth="680" ptHeight="510" mmWidth ="240" mmHeight="180" inchWidth ="9.44882" inchHeight="7.08661" orientation="0" unit="0">
+  <PAPERBORDERS mmLeft="0" mmTop="0" mmRight="0" mmBottom="0" ptLeft="0" ptTop="0" ptRight="0" ptBottom="0" inchLeft="0" inchTop="0" inchRight="0" inchBottom="0"/>
+ </PAPER>
+ <BACKGROUND rastX="10" rastY="10" bred="255" bgreen="255" bblue="255">
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+  <PAGE>
+   <BACKTYPE value="0"/>
+   <BACKVIEW value="1"/>
+   <BACKCOLOR1 red="92" green="77" blue="255"/>
+   <BACKCOLOR2 red="255" green="255" blue="255"/>
+   <BCTYPE value="3"/>
+   <BGRADIENT unbalanced="0" xfactor="117" yfactor="100"/>
+   <PGEFFECT value="0"/>
+  </PAGE>
+ </BACKGROUND>
+ <HEADER show="0">
+  <ORIG x="0" y="0"/>
+  <SIZE width="20" height="20"/>
+  <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+  <EFFECTS effect="0" effect2="0"/>
+  <PRESNUM value="0"/>
+  <ANGLE value="0"/>
+  <FILLTYPE value="0"/>
+  <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+  <PEN red="0" green="0" blue="0" width="1" style="0"/>
+  <BRUSH red="0" green="0" blue="0" style="0"/>
+  <DISAPPEAR effect="0" doit="0" num="1"/>
+  <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="1" bulletType3="2" bulletType4="3" bulletColor1="#000000" bulletColor2="#000000" bulletColor3="#000000" bulletColor4="#000000">
+   <P align="1" type="0" depth="0">
+    <TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+   </P>
+  </TEXTOBJ>
+ </HEADER>
+ <FOOTER show="1">
+  <ORIG x="-26" y="346"/>
+  <SIZE width="680" height="20"/>
+  <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+  <EFFECTS effect="0" effect2="0"/>
+  <PRESNUM value="0"/>
+  <ANGLE value="0"/>
+  <FILLTYPE value="0"/>
+  <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+  <PEN red="0" green="0" blue="0" width="1" style="0"/>
+  <BRUSH red="0" green="0" blue="0" style="0"/>
+  <DISAPPEAR effect="0" doit="0" num="1"/>
+  <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="1" bulletType3="2" bulletType4="3" bulletColor1="#000000" bulletColor2="#000000" bulletColor3="#000000" bulletColor4="#000000">
+   <P align="2" type="0" depth="0">
+    <TEXT family="utopia" pointSize="10" bold="0" italic="0" underline="0" color="#000000">Jorge Ferrer y Gregorio Robles </TEXT>
+   </P>
+  </TEXTOBJ>
+ </FOOTER>
+ <OBJECTS>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="30"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="130"/>
+   <SIZE width="611" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="36" bold="1" italic="0" underline="0" color="#000000">Una herramienta de colaboración en la elaboración de documentación </TEXT>
+    </P>
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Ingeniería de Servicios Internet </TEXT>
+    </P>
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="2" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Jorge Ferrer </TEXT>
+    </P>
+    <P align="2" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Gregorio Robles </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="540"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Motivación </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="640"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Fomentar la creación de conocimiento     tecnológico y científico libre </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Permitir una mayor colaboración: Modelo bazar  </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Falta de calidad homogénea </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Los artículos y libros se escriben pero no se actualizan </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="1050"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="45" bold="1" italic="0" underline="0" color="#000000">Diferencias con el software </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="1150"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Publicación </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">No son necesarios grandes conocimientos técnicos para aportar </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Son posibles aportaciones más pequeñas </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Sociales y legales (licencias diferentes)</TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="1560"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Objetivos </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="1660"/>
+   <SIZE width="581" height="371"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Publicación de documentación original de forma distribuida</TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Modificación y mejora de forma continuada y colaborativa </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Mecanismos de revisión de la documentación </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Mecanismos de "calificación" de la documentación </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="2070"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Requisitos funcionales </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="2170"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Soporte de versiones de documentos </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Fomento de aportaciones pequeñas. </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Acceso directo al sistema de gestión de versiones si se dispone de conocimientos </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Aportaciones visibles inmediatamente</TEXT><TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Mecanismos de notificación de cambios </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Métodos de evaluación</TEXT><TEXT family="utopia" pointSize="20" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Lugar privado para propio uso </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="2580"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Requisitos no funcionales </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="2680"/>
+   <SIZE width="571" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Acceso independiente </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">No necesidad de tener conocimientos técnicos específicos </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Ventajas de conocer las tecnologías usadas </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Disponibilidad a través del web </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="3090"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Actores del sistema </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="3190"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Lector: lee y realiza aportaciones sencillas </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Lector registrado: notificaciones y aportaciones complejas </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Autor: inserta y actualiza documento </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Revisor: autor que revisa el documento de otro autor </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="3600"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Análisis Funcional </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="3700"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Describe el funcionamiento del sistema </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Independiente de las tecnologías que puden usarse </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Formalizado con diagramas UML </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Abarca todos los casos de uso identificados </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="4110"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Decisiones generales </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="4210"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Sobre el formato de la documentación </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Estructurado: contiene información semántica y es independiente de la apariencia. </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Interpretable para extraer información </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> ¿¿¿ algo más ??? </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="4620"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Creación de documentos </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="4720"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Creación y edición a través de una interfaz web </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Al crear un documento nuevo el autor debe aportar ciertos datos (o de manera automática a partir del documento) </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">A partir de esta info. se crea una ficha asociada al documento </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Se envía una notificación a los usuarios interesados en alguna de las categorías del documento. </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="5130"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Gestión de versiones </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="5230"/>
+   <SIZE width="581" height="371"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Objetivo: permitir un proceso de mejora contínua </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Dos líneas simultáneas:</TEXT><TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">publicada y </TEXT><TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">"en elaboración" </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> El documento publicado va a acompañado de fecha y versión </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> Según el tipo de cambio, mayor o menor, se modifica el nº de versión</TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> Sistema de gestión de versiones completo </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="5640"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Proceso de revisión </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="5740"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Los documentos nuevos deben ser revisados </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">La revisión se lleva a cabo "entre iguales": "Cualquier autor puede revisar el trabajo de otro" </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">El objetivo es evitar cuellos de botella </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">No son necesarias revisiones para modificaciones sucesivas  </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Son opcionales cuando se ha realizado un cambio mayor </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="6150"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Publicación e impresión  </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="6260"/>
+   <SIZE width="581" height="331"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Publicación: el autor o revisor decide publicar la versión "en elaboración" </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Paso 1) Se aplica formato definitivo </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Paso 2) Se pasa su ficha y el documento a los almacenes para documentos estables  </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="6660"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Gestión de notificaciones </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="6770"/>
+   <SIZE width="581" height="331"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Permite informar de cambios en los documentos</TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">A los revisores: </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Cuando un autor solicita revisión de un documento </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">A los lectores (registrados):</TEXT><TEXT family="utopia" pointSize="20" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="4">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Cuando cambia un documento concreto </TEXT>
+    </P>
+    <P align="0" type="1" depth="4">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Cuando hay un nuevo documento en una categoría de interés</TEXT><TEXT family="utopia" pointSize="28" bold="0" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="7170"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Aportaciones lectores </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="7270"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Cualquier usuario puede leer los documentos via web </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">También pueden colaborar a mejorarlo:</TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Notificando erratas o propuestas de mejora </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Añadiendo un comentario al documento </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Las aportaciones se muestran inmediatamente </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="7680"/>
+   <SIZE width="611" height="121"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Aportaciones lectores registrados </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="40" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="7820"/>
+   <SIZE width="581" height="291"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Un lector registrado puede realizar mayores aportaciones </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Añadir bloque (párrafo, lista, ...) en cualquier lugar del documento  </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Añadir nota al margen </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Añadir opinión (comentario) </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Añadir referencia </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Modificar contenido: línea a línea </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="8190"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Conclusiones </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="8290"/>
+   <SIZE width="581" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="0" italic="0" underline="0" color="#000000"> </TEXT><TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Viabilidad </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Puede implementarse con las herramientas actuales  </TEXT>
+    </P>
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">    ¡¡¡para poner esto habría que hacer un análisis de herramientas!!! </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> Dificultades </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Es necesaria la creación de una comunidad en torno al taller </TEXT>
+    </P>
+    <P align="0" type="1" depth="2">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Afinamiento del sistema de aceptación de aportaciones </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="8700"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Posibles extensiones </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="60" y="8820"/>
+   <SIZE width="581" height="331"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Área para crear proyectos de documentación </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Biblioteca semántica </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Traducciones </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+    <P align="0" type="1" depth="0">
+     <TEXT family="utopia" pointSize="28" bold="1" italic="0" underline="0" color="#000000">Integración con editores de escritorio </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="9210"/>
+   <SIZE width="611" height="61"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#ff0000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="4" type="0" depth="0">
+     <TEXT family="utopia" pointSize="48" bold="1" italic="0" underline="0" color="#000000">Bibliografía </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+  <OBJECT type="4" sticky="0">
+   <ORIG x="30" y="9310"/>
+   <SIZE width="611" height="341"/>
+   <SHADOW distance="0" direction="5" red="160" green="160" blue="164"/>
+   <EFFECTS effect="0" effect2="0"/>
+   <PRESNUM value="0"/>
+   <ANGLE value="0"/>
+   <FILLTYPE value="0"/>
+   <GRADIENT red1="255" green1="0" blue1="0" red2="0" green2="255" blue2="0" type="1" unbalanced="0" xfactor="100" yfactor="100"/>
+   <PEN red="0" green="0" blue="0" width="1" style="0"/>
+   <BRUSH red="0" green="0" blue="0" style="0"/>
+   <DISAPPEAR effect="0" doit="0" num="1"/>
+   <TEXTOBJ lineSpacing="0" paragSpacing="0" margin="0" bulletType1="0" bulletType2="0" bulletType3="0" bulletType4="0" bulletColor1="#000000" bulletColor2="#ff0000" bulletColor3="#ff0000" bulletColor4="#ff0000">
+    <P align="0" type="0" depth="0">
+     <TEXT family="utopia" pointSize="20" bold="1" italic="0" underline="0" color="#000000"> </TEXT>
+    </P>
+   </TEXTOBJ>
+  </OBJECT>
+ </OBJECTS>
+ <INFINITLOOP value="0"/>
+ <MANUALSWITCH value="1"/>
+ <PRESSPEED value="1"/>
+ <SELSLIDES>
+  <SLIDE nr="0" show="1"/>
+  <SLIDE nr="1" show="1"/>
+  <SLIDE nr="2" show="1"/>
+  <SLIDE nr="3" show="1"/>
+  <SLIDE nr="4" show="1"/>
+  <SLIDE nr="5" show="1"/>
+  <SLIDE nr="6" show="1"/>
+  <SLIDE nr="7" show="1"/>
+  <SLIDE nr="8" show="1"/>
+  <SLIDE nr="9" show="1"/>
+  <SLIDE nr="10" show="1"/>
+  <SLIDE nr="11" show="1"/>
+  <SLIDE nr="12" show="1"/>
+  <SLIDE nr="13" show="1"/>
+  <SLIDE nr="14" show="1"/>
+  <SLIDE nr="15" show="1"/>
+  <SLIDE nr="16" show="1"/>
+  <SLIDE nr="17" show="1"/>
+  <SLIDE nr="18" show="1"/>
+ </SELSLIDES>
+ <PIXMAPS>
+ </PIXMAPS>
+ <CLIPARTS>
+ </CLIPARTS>
+</DOC>
