@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/10 17:50:16 $</date>
-    <releaseinfo>$Revision: 1.28 $</releaseinfo>
+    <date>$Date: 2002/07/10 18:35:57 $</date>
+    <releaseinfo>$Revision: 1.29 $</releaseinfo>
   </articleinfo>
   <sect1>
     <title>Introducción</title>
@@ -1131,7 +1131,7 @@
     <sect2>
       <title>Documentación estructurada</title>
       <para>
-        FIXME
+        Las herramientas de generación de documentación estructurada proporcionan grandes ventajas frente a editores visuales a la hora de crear documentación científica. Existen varias propuestas para crear documentos estructurados que serán presentados y comentados a continuación.
       </para>
       <sect3>
 	<title>Docbook</title>
