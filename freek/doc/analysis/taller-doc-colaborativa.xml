@@ -153,7 +153,13 @@
 	  <term>Mecanismos de calificación de la documentación</term>
 	  <listitem>
 	    <para>
-	      Además de la revisión por parte de un equipo en principio cerrado, deben existir mecanismos para medir la popularidad, así como el interés despertado por un documento. De esta forma, siempre es interesante ver cuántos lectores ha tenido así cómo cuál es la valoración que éstos hacen del contenido que se les ofrece.
+	      Además de la revisión por parte de un equipo en
+	      principio cerrado, deben existir mecanismos para medir
+	      la popularidad, así como el interés despertado por un
+	      documento. De esta forma, siempre es interesante ver
+	      cuántos lectores ha tenido así cómo cuál es la
+	      valoración que éstos hacen del contenido que se les
+	      ofrece. 
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -172,7 +178,16 @@
 	<listitem>
 	  <para>
 	    Debe soportarse una gestión de versiones de los
-	    documentos. Para ello deberán resolver varios problemas. Por ejemplo, debería aclararse si debe existir la posibilidad de realizar aportaciones a versiones antiguas. Asimismo, puede que existan varias versiones en elaboración que parten de una misma versión estable y que han seguido caminos divergentes. A su vez, debería ser posible converger todas estas diferentes versiones en otra nueva versión, obteniendo como resultado un documento que se encuentre en un estado estable o en fase de elaboración.
+	    documentos. Para ello deberán resolver varios
+	    problemas. Por ejemplo, debería aclararse si debe existir
+	    la posibilidad de realizar aportaciones a versiones
+	    antiguas. Asimismo, puede que existan varias versiones en
+	    elaboración que parten de una misma versión estable y que
+	    han seguido caminos divergentes. A su vez, debería ser
+	    posible converger todas estas diferentes versiones en otra
+	    nueva versión, obteniendo como resultado un documento que
+	    se encuentre en un estado estable o en fase de
+	    elaboración. 
 	  </para>
 	</listitem>
       </itemizedlist>
@@ -232,7 +247,19 @@
 	  documento publicado.
 	</para>
 	<para>
-	  Todo lector podrá contar con una página web personal donde además de información personal que el propio lector publique voluntariamente, se podrán seguir las aportaciones que ha hecho a los diferentes documentos. En futuras implementaciones del sistema, podrá exitir un mecanismo para que esas aportaciones sean evaluadas en su conjunto (por otros lectores o por el interés que propicien) y que esto revierta en el estado del lector para con el sistema. Esta idea es utilizada, por ejemplo, en sitios de noticias en Internet como Slashdot o Barrapunto y se conoce como karma. Tener mucho karma es signo inequívoco de que el lector es un miembro con cierto prestigio dentro de la comunidad que se crea alrededor del sistema.
+	  Todo lector podrá contar con una página web personal donde
+	  además de información personal que el propio lector publique
+	  voluntariamente, se podrán seguir las aportaciones que ha
+	  hecho a los diferentes documentos. En futuras
+	  implementaciones del sistema, podrá exitir un mecanismo para
+	  que esas aportaciones sean evaluadas en su conjunto (por
+	  otros lectores o por el interés que propicien) y que esto
+	  revierta en el estado del lector para con el sistema. Esta
+	  idea es utilizada, por ejemplo, en sitios de noticias en
+	  Internet como Slashdot o Barrapunto y se conoce como
+	  karma. Tener mucho karma es signo inequívoco de que el
+	  lector es un miembro con cierto prestigio dentro de la
+	  comunidad que se crea alrededor del sistema. 
 	</para>
       </listitem>
     </sect2>
@@ -348,9 +375,22 @@
 	  <term>Administrador</term>
 	  <listitem>
 	    <para>
-	      El administrador del sistema no cuenta entre sus funciones con tareas relacionadas directamente con los contenidos como en el caso de los anteriores roles. Sin embargo, su labor estará estrechamente ligada a la ordenación y mantenimiendo de la documentación, ya que será él el que cree nuevas secciones y categorías. Asimismo, tendrá poder para modificar o eliminar comentarios, etc.
+	      El administrador del sistema no cuenta entre sus
+	      funciones con tareas relacionadas directamente con los
+	      contenidos como en el caso de los anteriores roles. Sin
+	      embargo, su labor estará estrechamente ligada a la
+	      ordenación y mantenimiendo de la documentación, ya que
+	      será él el que cree nuevas secciones y
+	      categorías. Asimismo, tendrá poder para modificar o
+	      eliminar comentarios, etc. 
 	    <para>
-	       Por otro lado, el administrador del sistema deberá realizar todas las actividades pertinentemente técnicas para mantener el sistema en pie, como son el mantenimiento y actualización del software, el mantenimiento de los contenedores de conteidos (ya sean bases de datos, ficheros, etc.), la gestión de los recursos, etc.
+	       Por otro lado, el administrador del sistema deberá
+	       realizar todas las actividades pertinentemente técnicas
+	       para mantener el sistema en pie, como son el
+	       mantenimiento y actualización del software, el
+	       mantenimiento de los contenedores de conteidos (ya sean
+	       bases de datos, ficheros, etc.), la gestión de los
+	       recursos, etc. 
 	     </para>
 	    </para>
 	  </listitem>
@@ -522,6 +562,28 @@
 
 
 
+    <sect2>
+      <title>Gestión de notificaciones</title>
+      <para></para>
+      <para>
+	Casos de uso involucrados:
+	<itemizedlist>
+	  <listitem>
+	    <para>Lector registrado se subscribe a un documento</para>
+	  </listitem>
+	  <listitem>
+	    <para>Lector registrado se subscribe a una categoría</para>
+	  </listitem>
+	  <listitem>
+	    <para>Revisor se subscribe como revisor a una categoría</para>
+	  </listitem>
+	</itemizedlist>
+      </para>
+
+    </sect2>
+
+
+
 
     <sect2>
       <title>Publicación e impresión de documentos</title>
@@ -664,7 +726,7 @@
 	importantes son:
 	- La falta de un editor de documentación estructurado de uso
 	sencillo así como su integración con el taller
-	- Debido a la gran variedad de posibilidades que se ofrecen y a tener como objetivo que las aportaciones puedan hacerse independientemente del grado de conocimiento y uso de t&ecnicas de publicaci&on por parte de las personas que contribuyen, hacen que el proceso de integraci&on de las diferentes herramientas sea un proceso que se presume ser&a complejo
+	- Debido a la gran variedad de posibilidades que se ofrecen y a tener como objetivo que las aportaciones puedan hacerse independientemente del grado de conocimiento y uso de técnicas de publicación por parte de las personas que contribuyen, hacen que el proceso de integración de las diferentes herramientas sea un proceso que se presume será complejo
 	- Para que el sistema funcione es necesario conseguir una
 	masa crítica de lectores y autores. Cómo lograr esto está fuera del
 	alcance de este documento.
