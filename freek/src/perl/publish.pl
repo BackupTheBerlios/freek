@@ -1,4 +1,7 @@
 #!/usr/bin/perl -w
+# This code is a part of Freek, and is released under the GPL.
+# Copyright 2002 by Alvaro del Castillo, acs@barrapunto.com. See README
+# and COPYING for more information
 
 ########################################################
 # 
@@ -82,7 +85,7 @@ sub publish {
     my $sourceFile = "$sourceName/$sourceName.xml";
     my $targetDir = "$baseTargetDir/$sourceName";
     print("Publishing $sourceFile and its files to $baseTargetDir\n");
-    mkdir($targetDir);
+    mkdir($targetDir,0775);
     &copyFiles($baseTargetDir, $sourceName, $sourceFile);
 
     &createAnnounceBox("$targetDir", $sourceFile);

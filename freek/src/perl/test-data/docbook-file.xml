@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="ISO-8859-1"?>
+<!DOCTYPE article
+  PUBLIC "-//OASIS//DocBook XML DTD V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd">
+  
+<article lang="es" id="xhtml">
+  <articleinfo>
+    <title>XHTML 1.0</title>
+    <date>9 de Abril del 2002</date>
+    <author>
+      <firstname>Rodrigo</firstname>
+      <surname>García</surname>
+    </author>
+    <editor>
+      <firstname>Jorge</firstname>
+      <surname>Ferrer</surname>
+    </editor>
+    <abstract>
+      <para>
+	Con este artículo, aprenderemos cómo escribir páginas web para
+	el estándar más moderno, XHTML. Que será, sin duda alguna, el
+	futuro de la Web. Gracias a él podremos crear páginas en las
+	que separaremos en dos archivos el contenido de la forma,
+	facilitando su actualización y comprensión, y que podrán ser
+	visualizadas en cualquier dispositivo que soporte
+	<emphasis>XML</emphasis> (E<emphasis>X</emphasis>tensible
+	<emphasis>M</emphasis>arkup <emphasis>Language</emphasis>,
+	Lenguaje Ampliable de Etiquetado), de cada vez más rápida
+	difusión.
+      </para>
+  </articleinfo>
+
+  <sect1>
+    <title>Introducción a XHTML.</title>
+
+    <sect2>
+      <title>¿Qué significa XHTML?</title>
+      <para>
+	Para empezar comenzaremos explicando qué significan las siglas
+	XHTML, pues bien, XHTML viene a significar
+	"E<emphasis>X</emphasis>tensible
+	<emphasis>H</emphasis>yper<emphasis>T</emphasis>ext
+	<emphasis>M</emphasis>arkup <emphasis>L</emphasis>anguage",
+	que, traducido al castellano, quiere decir "Lenguaje Ampliable
+	de Etiquetado para Hipertexto". Es decir, como el HTML,
+	lenguaje que ya conocemos, pero <emphasis>con capacidad de
+	crecer</emphasis> de una manera ordenada y cómoda. De hecho,
+	XHTML, es totalmente idéntico a la última especificación del
+	<emphasis>W3C</emphasis> (<emphasis>World Wide Web
+	Consortium</emphasis>, Consorcio para el World Wide Web) de
+	HTML, es decir, HTML 4.01. Además, si siempre hemos programado
+	con un HTML limpio y correcto, no tendremos más ningún
+	problema para escribir XHTML.
+      </para>
+    </sect2>
+  </sect1>	
+</article>
