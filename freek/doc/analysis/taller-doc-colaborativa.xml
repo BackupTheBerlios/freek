@@ -119,7 +119,7 @@
 	    continuada y colaborativa</term> 
 	  <listitem>
 	    <para>
-	      <!-- FIXME: también por parte de lospropios autores -->
+	      <!-- FIXME: también por parte de los propios autores -->
 	      Este objetivo consiste en permitir que cualquier persona
 	      que lea una determinada documentación pueda colaborar en su
 	      mejora, ya sea corrigiendo errores o mejorando alguna
@@ -643,8 +643,9 @@
 	importantes son:
 	- La falta de un editor de documentación estructurado de uso
 	sencillo así como su integración con el taller
+	- Debido a la gran variedad de posibilidades que se ofrecen y a tener como objetivo que las aportaciones puedan hacerse independientemente del grado de conocimiento y uso de t&ecnicas de publicaci&on por parte de las personas que contribuyen, hacen que el proceso de integraci&on de las diferentes herramientas sea un proceso que se presume ser&a complejo
 	- Para que el sistema funcione es necesario conseguir una
-	masa crítica de lectores. Cómo lograr esto está fuera del
+	masa crítica de lectores y autores. Cómo lograr esto está fuera del
 	alcance de este documento.
       </para>
     </sect2>
@@ -802,9 +803,3 @@
     Documentando, Lucas, TLDP, ...
   </ackno>
 </article>
-
-
-
-
-
-
