@@ -1,0 +1,35 @@
+Una herramienta de colaboración en la elaboración de
+documentación distribuida
+
+Jorge Ferrer <jorge@jorgeferrer.com>
+Gregorio Robles <grex@scouts-es.org>
+
+Motivación
+
+* Modelo bazar al estilo que se sigue el software libre para crear documentación
+* 
+* Falta de calidad homogénea
+
+
+Diferencias con el software
+
+* Publicación  
+* Sociales y legales (licencias diferentes)
+
+
+Objetivos
+
+* Publicación de documentación original de forma distribuida
+* Modificación y mejora de forma continuada y colaborativa
+* Mecanismos de revisión de la documentación
+* Mecanismos de "calificación" de la documentación
+
+Requisitos
+
+Análisis: casos de uso
+
+Análisis Funcional
+
+Conclusiones
+
+Bibliografía
