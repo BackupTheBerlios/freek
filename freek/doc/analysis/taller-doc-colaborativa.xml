@@ -155,9 +155,6 @@
 	    <para>
 	      Además de la revisión por parte de un equipo en principio cerrado, deben existir mecanismos para medir la popularidad, así como el interés despertado por un documento. De esta forma, siempre es interesante ver cuántos lectores ha tenido así cómo cuál es la valoración que éstos hacen del contenido que se les ofrece.
 	    </para>
-	    <para>
-	      En el caso de documentos en el estado de elaboración, puede servir para alentar a los creadores y mostrar a potenciales contribuidores que el documento en cuestión tiene un cierto grado de interés.
-	    </para>
 	  </listitem>
 	</varlistentry>
       </variablelist>
@@ -175,9 +172,7 @@
 	<listitem>
 	  <para>
 	    Debe soportarse una gestión de versiones de los
-	    documentos. Debe resolverse el problema de la
-	    posibilidad de que haya aportaciones realizadas sobre
-	    versiones antiguas. 
+	    documentos. Para ello deberán resolver varios problemas. Por ejemplo, debería aclararse si debe existir la posibilidad de realizar aportaciones a versiones antiguas. Asimismo, puede que existan varias versiones en elaboración que parten de una misma versión estable y que han seguido caminos divergentes. A su vez, debería ser posible converger todas estas diferentes versiones en otra nueva versión, obteniendo como resultado un documento que se encuentre en un estado estable o en fase de elaboración.
 	  </para>
 	</listitem>
       </itemizedlist>
