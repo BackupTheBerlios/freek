@@ -61,8 +61,7 @@
 	hay que tener para desarrollar software. En los últimos tiempos
 	se está viendo la necesidad de tener un sistema que, teniendo en
 	cuenta ciertas circunstancias particulares de la creación,
-	edición y modificación de documentos, permita disfrutar a la
-	generación de los mismos de una sinergia similar a la que nos
+	edición y modificación de documentos, permita disfrutar de una sinergia similar a la que nos
 	encontramos en el mundo del software libre a la hora de crear
 	software. 
       </para>
@@ -71,12 +70,13 @@
 	Otro de los intereses existentes consiste en establecer los
 	mecanismos necesarios para garantizar una calidad homogénea de
 	la documentación libre. La carencia de los mismos actualmente
-	provoca la opinión de que este tipo de documentación tiene una
-	baja calidad. La realidad es que existen documentos libres de
+	provoca una sensación que hace que el lector frecuentemente opine que 
+	este tipo de documentación sea de 
+	baja calidad. Sin embargo, la realidad nos demuestra que existen documentos libres de
 	gran calidad que en ocasiones quedan ocultos por otros que
 	simplemente están en elaboración todavía. En particular
-	creemos que es posible establecer en este entorno 
-	los mecanismos de revisión presentes en las publicaciones
+	creemos que es posible establecer en un entorno de creación de documentación 
+	unos mecanismos de revisión que se encuentran presentes en las publicaciones
 	editoriales tradicionales a la vez que se mantienen las
 	ventajas del modelo bazar. 
       </para>
@@ -86,7 +86,7 @@
 	aplicación que permita y facilite la creación colaborativa y
 	distribuida de documentación de calidad, así como su
 	adaptación y mejora 
-	contínua. En él se presentan tanto los objetivos perseguidos,
+	continua. En él se presentan tanto los objetivos que se perseguen,
 	como la manera de llevarlos a cabo, argumentando el porqué de
 	las decisiones que se han tomado. 
       </para>
@@ -96,10 +96,10 @@
     <sect2>
       <title>Objetivos</title>
       <para>
-        La plataforma para creación de documentación distribuida tiene
-        unos objetivos claros y concisos. Es probable que la forma de
+        Como hemos podido ver en los párrafos introductorios, la plataforma para la creación de documentación distribuida tiene
+        unos objetivos claros y concisos. Aunque es probable que la forma de
         implementarlos en futuras fases de desarrollo varíen a lo
-        largo del tiempo, pero los objetivos que se van a enumerar en
+        largo del tiempo, aún así los objetivos que se van a enumerar en
         los siguientes párrafos deberán prevalecer. 
       </para>
       <variablelist>
@@ -109,10 +109,10 @@
 	  <listitem>
 	    <para>
 	      Debe ofrecerse una infraestructura que permita publicar
-	      un documentos. Esta publicación incluirá la difusión de
-	      dicho documento en los ámbitos interesados así como la
+	      documentos. La publicación incluirá la difusión del
+	      documento en los ámbitos interesados por la temática que cubre, así como la
 	      aplicación de los formatos de impresión, visualización,
-	      etc que se consideren necesarios.
+	      etc que se consideren necesarios. Se debe hacer hincapié en que el autor puede estar en todo momento en un lugar diferente a la plataforma y a los lectores (potenciales colaboradores).
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -124,17 +124,15 @@
 	      <!-- FIXME: también por parte de los propios autores -->
 	      Este objetivo consiste en permitir que cualquier persona
 	      que lea una determinada documentación pueda colaborar en su
-	      mejora, ya sea corrigiendo errores o mejorando alguna
-	      sección que domine. Se debe hacer hincapié en facilitar
+	      mejora, ya sea corrigiendo errores o mejorando algún
+	      apartado que domine. Se debe poner énfasis en facilitar
 	      todo tipo de colaboración por parte de los
 	      lectores. Esto puede suponer que existan varios tipos de
 	      mecanismos de comunicación con el autor, desde los más
 	      simples y primitivos para usuarios ocasionales y sin
-	      conocmientos técnicos de publicación, hasta otros más
+	      conocimientos técnicos de publicación, hasta otros más
 	      complejos y efectivos para contribuidores asiduos o más
-	      experimentados. <!-- (quedaba muy largo) con
-	      herramientas de edición y publicación 
-	      de documentación. -->
+	      experimentados.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -219,23 +217,23 @@
 	  Las aportaciones de los lectores deben ser visibles
 	  inmediatamente. Éstas deben separarse claramente del
 	  texto original hasta que sean aceptadas. El objetivo es
-	  fomentar que aporten haciendo que sus aportaciones sean
+	  fomentar que colaboren haciendo que sus aportaciones sean
 	  visibles por todos los lectores incluso antes de su
-	  aceptación. 
+	  aceptación final por parte del autor. 
 	</para>
       </listitem>
       <listitem>
 	<para>
 	  Los usuarios registrados pueden solicitar que se les
-	  notifique mediante correo electrónico cuando una aportación
+	  notifique mediante correo electrónico u otro medio de notificación cuando una aportación
 	  suya haya sido aceptada. 
 	</para>
       </listitem>
       <listitem>
 	<para>
 	  Los usuarios registrados pueden solicitar que se les
-	  notifique por correo-e cuando aparezca una nueva versión de un
-	  documento publicado.
+	  notifique por correo-e u otro medio de notificación cuando aparezca una nueva versión de un
+	  documento publicado del que hayan mostrado explícitamente interés.
 	</para>
 	<para>
 	  Todo lector podrá contar con una página web personal donde
@@ -287,17 +285,17 @@
 	  </listitem>
 	  <listitem>
 	    <para>
-	      Si el autor conoce herramientas como CVS, docbook, etc
+	      Si el autor conoce herramientas como CVS, docbook o cualquiera sobre las que se base el sistema que se va a crear,
 	      debe poder beneficiarse de ello. De esta forma se
 	      promueve que los autores las aprendan, ya que conocerlas
-	      aporta beneficios. 
+	      les aporta beneficios directos.
 	    </para>
 	  </listitem>
 	  <listitem>
 	    <para>
 	      El autor debe recibir notificaciones por correo
-	      electrónico de las aportaciones hechas por los
-	      usuarios. 
+	      electrónico u otro medio de notificación de las aportaciones hechas por los
+	      lectores u otros autores. 
 	    </para>
 	  </listitem>
 	  <listitem>
@@ -421,7 +419,7 @@
       diagramas UML de secuencia y estado.
     </para>
     <para>
-      Los casos de uso similares se han agrupado para facilitar una
+      Se han agrupado casos de uso similares para facilitar una
       descripción de las partes comunes.
     </para>
 
@@ -445,7 +443,7 @@
 	<title>Estados de un documento y gestión de sus versiones</title>
 	<para>
 	  Se pretende que un documento sea publicado sólo cuando tenga
-	  suficiente calidad, pero después tiene que seguir un
+	  suficiente calidad, aunque después existe la posibilidad de seguir un
 	  proceso de mejora continua.
 	</para>
 	<para>
@@ -459,7 +457,7 @@
 	  a la documentación existente. 
 	</para>
 	<para>
-	  Por analogía consideraremos un documento
+	  Por analogía con las versiones estables del núcleo Linux, consideraremos un documento
 	  <emphasis>publicado</emphasis> 
 	  como un documento acabado, con concordancia en su totalidad
 	  y completo. Podríamos suponer que los documentos en este
@@ -470,7 +468,7 @@
 	  Por su parte un documento se encuentra <emphasis>en
 	  elaboración</emphasis> cuando, como su propia nomenclatura
 	  indica, necesita de ciertas mejoras o revisiones
-	  antes de pasar a ser publicados. 
+	  antes de pasar a ser publicados. En el caso análogo de Linux, existen versiones llamadas <emphasis>en desarrollo</emphasis> donde se introducen modificaciones que todavía no se encuentran convenientemente maduras o probadas como para que aparezcan en la versión estable.
 	</para>
 	<figure float="0" id="figure-estados">
 	  <title>Estados de un documento</title>
@@ -516,6 +514,15 @@
 	  sobre los cambios o modificaciones que se hagan sobre su
 	  documento. 
 	</para>
+	<para>
+	  En realidad, el proceso que se ha comentado, es un simplificación del proceso
+	  que se sigue en la realidad, ya que hemos obviado la etapa en la que el documento
+	  se encuentra <emphasis>en revisión</emphasis>. Se trata de un estado intermedio
+	  entre en elaboración y publicado durante el cual los revisores tras leerse el
+	  documento certifican que el mismo está listo para ser considerado como publicado
+	  o por el contrario todavía no se encuentra suficientemente maduro y ha de seguir
+	  en el estado en elaboración.
+	</para>
       </sect3>
 
       <sect3 role="use-case">
@@ -525,12 +532,8 @@
 	  <title>Nueva versión de un documento</title>
 	  <graphic fileref="img/new-version.png" format="PNG"/>
 	</figure>
-
       </sect3>
-
     </sect2>
-
-
 
 
     <sect2>
@@ -562,6 +565,15 @@
 	  madurez, completitud y corrección aceptables para el amplio
 	  público. 
 	</para>
+	<para>
+	  Existe una revisión que es indispensable para todos los documentos del sistema
+	  que es aquélla que se ha de pasar la primera vez que un documento pase del estado
+	  en elaboración al de publicado (esto pasará, claro está, si los revisores así
+	  lo consideran). Una vez que el documento tiene una versión que está en el estado 
+	  publicado, el autor es libre de pasar una versión en elaboración a publicado
+	  sin tener que pedir una revisión para tal efecto. En todo caso, si lo cree oportuno
+	  podrá hacerlo, pero se tratará de una medida voluntaria.
+	</para>
       </sect3>
       <sect3 role="use-case">
 	<title>Caso de uso: Autor solicita revisión por otro autor</title>
@@ -582,53 +594,67 @@
     </sect2>
 
 
-
     <sect2>
       <title>Gestión de notificaciones</title>
-      <para></para>
+      <para>
+        Mediante el uso de notificaciones se pretende crear vínculos dinámicos entre 
+	intereses. De esta forma se da un servicio adicional que permite informar
+	de la evolución de contenidos a los que así lo deseen. Ésta es otra forma de 
+	conseguir que los usuarios visiten el sistema de manera asidua y vean que existe
+	movimiento.
+      </para>
       <para>
 	Casos de uso involucrados:
 	<itemizedlist>
 	  <listitem>
-	    <para>Lector registrado se subscribe a un documento</para>
+	    <para>Lector registrado se suscribe a un documento</para>
 	  </listitem>
 	  <listitem>
-	    <para>Lector registrado se subscribe a una categoría</para>
+	    <para>Lector registrado se suscribe a una categoría</para>
 	  </listitem>
 	  <listitem>
-	    <para>Revisor se subscribe como revisor a una categoría</para>
+	    <para>Revisor se suscribe como revisor a una categoría</para>
 	  </listitem>
 	</itemizedlist>
       </para>
-
+      <para>
+        Las notificaciones pueden realizarse mediante mensajes de correo electrónico u otro 
+	tipo alternativo de mensajería.
+      </para>
     </sect2>
-
-
 
 
     <sect2>
       <title>Publicación e impresión de documentos</title>
-      <para></para>
+      <para>
+        FIXME
+      </para>
 
       <sect3 role="use-case">
 	<title>Caso de uso: Dar formato al documento</title>
 	<para></para>
       </sect3>
 
+      <para>
+        FIXME
+      </para>
+
       <sect3 role="use-case">
 	<title>Caso de uso: Publicar documento</title>
 	<para></para>
       </sect3>
-
     </sect2>
-
-
-
 
 
     <sect2>
       <title>Aportaciones de los lectores</title>
-      <para></para>
+
+      <para>
+        Ya en el resto del documento hemos venido hablando de la importancia que los
+	lectores, potenciales colaboradores y autores, tienen en el sistema. En el siguiente
+	apartado se hace hincapié en los aspectos que afectan a los mismos. 
+      </para>
+
       <sect3>
 	<title>El papel de las aportaciones de los lectores</title>
 	<para>
@@ -648,25 +674,25 @@
 	  publicación serán desiguales y variarán sustancialemnte
 	  entre lector y lector. Será tarea del sistema facilitar la
 	  interacción del lector con el documento abstrayendo las
-	  nociones técnicas con las que éste ha de contar. De hecho,
-	  esto supone una diferenciación de lectores en varios
+	  nociones técnicas con las que éste ha de contar.
+	  Esto supone una diferenciación de lectores en varios
 	  niveles a los que habrá que tratar de manera diferente:
 	  mientras un lector novato en tecnologías de publicación
 	  debería poder contar con una herramienta donde sólo
 	  tuviera que introducir el texto (sin etiquetación
-	  sintáctica ni semántica), mientras un lector conocedor de
+	  sintáctica ni semántica), un lector conocedor de
 	  las herramientas y métodos existentes debería poder
 	  utilizarlas, de manera que pueda aprovecharse de sus
 	  conocimientos y habilidades. 
 	</para>
 	<para>
 	  Antes de entrar en detalle sobre los tipos de aportación que
-	  hemos considerado, se ha de volver a hacer hincapié en el
+	  hemos considerado, hemos de profundizar en el
 	  hecho de que la mayoría de los documentos cuenten con dos
 	  versiones del mismo, una estable y otra en desarrollo. Todas
 	  las aportaciones al documento darán como resultado una
 	  versión inestable del documento, nunca una estable. Para
-	  pasar a este úlitmo estado, ha de ser el autor original el
+	  pasar a este último estado, ha de ser el autor original el
 	  que valide el documento y lo asigne con un estado estable. 
 	</para>
 	<para>
@@ -720,38 +746,124 @@
 	<para></para>
       </sect3>
     </sect2>
-
   </sect1>
 
 
 
   <sect1>
     <title>Análisis arquitectónico</title>
-    <para>Modelo de dominio</para>
+    <para>Modelo de dominio: FIXME --> Jorge: esto te lo dejo a ti, que no sé ni por
+    dónde cogerlo ;-)</para>
   </sect1>
-
 
 
   <sect1>
     <title>Análisis de tecnologías y herramientas</title>
+    <para>
+      Una vez que hemos hecho un análisis detallado del sistema que queremos, a la vez
+      que hemos priorizado entre los diferentes objetivos, y para terminar este estudio
+      preliminar sobre un sistema de creación, edición y publicación de documentación,
+      vale la pena reflexionar sobre las tecnologías sobre las que pudiera sustentarse.
+      Los siguientes apartados intentan ser una breve introducción a las tecnologías y
+      herramientas existentes en la actualidad. También se hará una escueta evaluación
+      de los mismos y se estudiará su adecuación para ser utilizados en el sistema que
+      se pretende crear.
+    </para>
+
     <sect2>
       <title>Documentación estructurada</title>
-      <para>Docbook, Latex, TeXmacs, OpenOffice, ...</para>
+      <para>
+        FIXME
+      </para>
+      <sect3>
+	<title>Docbook</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>LaTeX</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>TeXmacs</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>OpenOffice</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
     </sect2>
+
     <sect2>
       <title>Tecnologías web</title>
-      <para>PHP, Slash, </para>
+      <para>
+        FIXME
+      </para>
+      <sect3>
+	<title>PHP</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>Slash</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>Zope</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>Wiki</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
     </sect2>
+
     <sect2>
       <title>Gestión de versiones y repositorio</title>
-      <para>CVS y Subversion</para>
+      <para>
+        FIXME
+      </para>
+      <sect3>
+	<title>Concurren Version System (CVS)</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
+      <sect3>
+	<title>Subversion</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
     </sect2>
+
     <sect2>
       <title>Gestión de notificaciones</title>
-      <para>Listas de correo (mailman, majordomo)</para>
+      <para>
+        FIXME
+      </para>
+      <sect3>
+	<title>Listas de correo (Majordomo, GNU Mailman)</title>
+	<para>
+	  FIXME
+	</para>
+      </sect3>
     </sect2>
   </sect1>
-
 
 
   <sect1>
@@ -759,6 +871,7 @@
     <sect2>
       <title>Viabilidad del proyecto</title>
       <para>
+        FIXME
       </para>
     </sect2>
     <sect2>
@@ -807,13 +920,9 @@
 	    </para>
 	  </listitem>
 	</itemizedlist>
-	
-
-
       </para>
     </sect2>
     
-
     <sect2>
       <title>Extensiones al taller</title>
       <variablelist>
@@ -888,6 +997,7 @@
   </sect1>
 
   <bibliography>
+
     <bibliodiv>
       <title>Edición editorial</title>
       <biblioentry id="sousa99">
@@ -905,8 +1015,10 @@
 	<date>1999</date>
       </biblioentry>
     </bibliodiv>
+
     <bibliodiv>
       <title>Documentación libre</title>
+
       <biblioentry id="GFDL">
 	<author>
 	  <affiliation>
@@ -931,10 +1043,11 @@
 	  http://lucas.hispalinux.es/Manuales-LuCAS/LBTD/libro-blanco-tecnologias-doc-0.1/part-lucasv4.html
 	</address>
       </biblioentry>
-      
     </bibliodiv>
+
     <bibliodiv>
       <title>Modelo bazar</title>
+
       <biblioentry id="Raymond97">
 	<author>
 	  <firstname>Eric</firstname>
@@ -945,8 +1058,8 @@
 	<address format="linespecific">
 	  http://www.tuxedo.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
 	</address>
-
       </biblioentry>
+
       <biblioentry id="Bezroukov99">
 	<author>
 	  <firstname>Nikolai</firstname>
@@ -958,11 +1071,12 @@
 	  http://www.firstmonday.dk/issues/issue4_12/bezroukov/
 	</address>
       </biblioentry>
-    </bibliodiv>
-    
-  </bibliography>
+ 
+     </bibliodiv>
+   </bibliography>
 
   <ackno>
     Documentando, Lucas, TLDP, ...
   </ackno>
 </article>
+
