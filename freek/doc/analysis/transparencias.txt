@@ -1,19 +1,23 @@
 Una herramienta de colaboración en la elaboración de
-documentación distribuida
+documentación
 
 Jorge Ferrer <jorge@jorgeferrer.com>
 Gregorio Robles <grex@scouts-es.org>
 
+
 Motivación
 
-* Modelo bazar al estilo que se sigue el software libre para crear documentación
-* 
+* Fomentar la creación de conocimiento tecnológico y científico libre
+* Permitir una mayor colaboración: Modelo bazar 
 * Falta de calidad homogénea
+* Los artículos y libros se escriben pero no se actualizan
 
 
 Diferencias con el software
 
 * Publicación  
+* No son necesarios grandes conocimientos técnicos para aportar
+* Son posibles aportaciones más pequeñas
 * Sociales y legales (licencias diferentes)
 
 
@@ -24,6 +28,7 @@ Objetivos
 * Mecanismos de revisión de la documentación
 * Mecanismos de "calificación" de la documentación
 
+
 Requisitos funcionales
 
 * Soporte de versiones de documentos
@@ -32,6 +37,7 @@ Requisitos funcionales
 * Las aportaciones de los lectores deben ser visibles inmediatamente. Deberían existir mecanismos de notificación de cambios
 * Deben existir métodos de evaluación de autores/lectores y algún lugar privado para propio uso
 
+
 Requisitos no funcionales
 
 * acceso independiente
@@ -39,19 +45,115 @@ Requisitos no funcionales
 * ventajas por conocer las tecnologías usadas
 * disponibilidad a través del web
 
-Análisis: casos de uso
+Casos de uso: actores del sistema
 
-* Actores del sistema
+* Lector: lee y realiza aportaciones sencillas
+* Lector registrado: notificaciones y aportaciones complejas
+* Autor: inserta y actualiza documento
+* Revisor: autor que revisa el documento de otro autor
 
 
 Análisis Funcional
 
+* Describe el funcionamiento del sistema
+* Independiente de las tecnologías que puden usarse
+* Formalizado con diagramas UML
+* Abarca todos los casos de uso identificados
+
+
+Decisiones generales
+
+* Sobre el formato de la documentación:
+  - Estructurado: contiene información semántica y es independiente de
+  la apariencia.
+  - Interpretable para extraer información
+* ¿¿¿ algo más ???
+
+
+Creación de documentos
+
+* Los documentos se crean y actualizan a través de una interfaz web
+* Al crear un documento nuevo el autor debe aportar ciertos datos. Por
+  ejemplo las categorías en las que desea clasificarlo.
+* Estos datos pueden ser completados con info. obtanida del propio
+  documento
+* A partir de esta info. se crea una ficha asociada al documento
+* Se envía una notificación a los usuarios interesados en alguna de
+  las categorías del documento.
+
+
+Gestión de versiones
+
+* Objetivo: permitir un proceso de mejora contínua
+* Dos líneas simultáneas para cada documento: publicada y "en elaboración"
+* El documento publicado va a acompañado de fecha y versión
+* Según el tipo de cambio, mayor o menor, se modifica el nº de versión
+* Se emplea un sistema de gestión de versiones completo
+
+
+Proceso de revisión 
+
+* Los documentos nuevos deben ser revisados
+* La revisión se lleva a cabo "entre iguales":
+  "Cualquier autor puede revisar el trabajo de otro"
+* El objetivo es no crear cuellos de botella
+* No son necesarias revisiones para modificaciones sucesivas 
+* Son opcionales cuando se ha realizado un cambio mayor
+
+
+Publicación e impresión de un documento
+
+* Publicación: el autor o revisor decide publicar la versión "en
+  elaboración"
+* Paso 1) Se aplica formato ¿¿¿o se ha hecho ya antes???
+* Paso 2) Se pasa su ficha y el documento a los almacenes para
+  documentos estables 
+
+
+Gestión de notificaciones
+
+* Permite informar de cambios en los documentos
+* A los revisores:
+  - Cuando un autor solicita revisión de un documento
+* A los lectores (registrados):
+  - Cuando cambia un documento concreto
+  - Cuando hay un nuevo documento en una categoría de interés
+
+
+Aportaciones de los lectores
+
+* Cualquier usuario puede leer los documentos via web
+* También pueden colaborar a mejorarlo:
+  - Notificando erratas o propuestas de mejora
+  - Añadiendo un comentario al documento
+* Las aportaciones se muestran inmediatamente
+
+
+Aportaciones de los lectores registrados
+
+* Un lector registrado puede realizar mayores aportaciones
+* Añadir bloque (párrafo, lista, ...) en cualquier lugar del documento 
+* Añadir nota al margen ¿¿¿Cual es la diferencia con un comentario???
+* Añadir referencia
+* Modificar contenido: línea a línea
 
 
 Conclusiones
 
 * Viabilidad
+  - Puede implementarse con las herramientas actuales 
+    ¡¡¡para poner esto habría que hacer un análisis de herramientas!!!
 * Dificultades
-* Extensiones
+  - Es necesaria la creación de una comunidad entorno al taller
+  - Afinamiento del sistema de aceptación de aportaciones
+
+
+Posibles extensiones
+
+* Área para crear proyectos de documentación
+* Biblioteca semántica
+* Traducciones
+* Integración con editores de escritorio
+
 
 Bibliografía
