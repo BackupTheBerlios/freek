@@ -310,12 +310,14 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	  sistema quedan reflejadas en el siguiente diagrama de casos
 	  de uso:
 	</para>
-	<!--
-	<figure float="0" id="use-cases-figure">
-	  <title>Use cases</title>
-	  <graphic fileref="img/use-cases.png" format="PNG"/>
+	<figure float="0" id="use-cases-figure-reader">
+	  <title>Diagrama de casos de uso</title>
+	  <graphic fileref="img/use-cases-reader.png" format="PNG"/>
 	</figure>
-        -->
+	<figure float="0" id="use-cases-figure-author">
+	  <title>Diagrama de casos de uso</title>
+	  <graphic fileref="img/use-cases-author.png" format="PNG"/>
+	</figure>
       </sect3>
 
 
@@ -378,7 +380,17 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	<para></para>
       </sect3>
 
-      <sect3>
+
+    </sect2>
+    
+  </sect1>
+  <sect1>
+    <title>Conclusiones</title>
+    <sect2>
+      <title>Viabilidad del proyecto</title>
+      <para></para>
+    </sect2>
+      <sect2>
 	<title>Dificultades</title>
 	<para>
 	  Se han identificado una serie de dificultades que se podrían
@@ -391,13 +403,8 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	  masa crítica de lectores. Cómo lograr esto está fuera del
 	  alcance de este documento.
 	</para>
-      </sect3>
+      </sect2>
 
-    </sect2>
-    
-  </sect1>
-  <sect1>
-    <title>Conclusiones</title>
     <para>
     </para>
   </sect1>
