@@ -24,14 +24,25 @@ Objetivos
 * Mecanismos de revisión de la documentación
 * Mecanismos de "calificación" de la documentación
 
-Requisitos
+Requisitos funcionales
 
 * Soporte de versiones de documentos
 * Deben permitirse y fomentarse las aportaciones pequeñas.
 * Debe permitirse a los autores el acceso directo al sistema de gestión de versiones si disponen de los conocimientos necesarios.
-* Las aportaciones de los lectores deben ser visibles inmediatamente.
+* Las aportaciones de los lectores deben ser visibles inmediatamente. Deberían existir mecanismos de notificación de cambios
+* Deben existir métodos de evaluación de autores/lectores y algún lugar privado para propio uso
+
+Requisitos no funcionales
+
+* acceso independiente
+* no necesidad de tener conocimientos técnicos específicos
+* ventajas por conocer las tecnologías usadas
+* disponibilidad a través del web
 
 Análisis: casos de uso
+
+
+
 
 Análisis Funcional
 
