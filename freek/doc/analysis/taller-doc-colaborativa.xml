@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/10 12:53:12 $</date>
-    <releaseinfo>$Revision: 1.26 $</releaseinfo>
+    <date>$Date: 2002/07/10 13:59:40 $</date>
+    <releaseinfo>$Revision: 1.27 $</releaseinfo>
   </articleinfo>
   <sect1>
     <title>Introducción</title>
@@ -20,9 +20,9 @@
 	dos últimas décadas. De hecho, se ha calculado que el volumen de
 	código fuente de aplicaciones de software libre se duplica cada
 	18 meses. Esta forma de hacer software se ha venido a denominar
-	el modelo de bazar, en contraposici&on con el tradicional en el que 
-	un arquitecto realiza el dise&o y el reparto de tareas y un equipo de peones y operarios
-	llevan a cabo la implementaci&on del sistema. Podemos ver, por tanto, que el bazar supone interacciones entre colaboradores mucho m&as abiertas.
+	el modelo de bazar, en contraposición con el tradicional en el que 
+	un arquitecto realiza el diseño y el reparto de tareas y un equipo de peones y operarios
+	llevan a cabo la implementación del sistema. Podemos ver, por tanto, que el bazar supone interacciones entre colaboradores mucho más abiertas.
       </para>
 
       <para>
@@ -131,7 +131,7 @@
 	      documento. Siempre es interesante ver
 	      cuántos lectores ha tenido, así cómo cuál es la
 	      valoración que éstos hacen del contenido que se les
-	      ofrece. Este tipo de realimentaci&on no existe en las publicaciones tradicionales de papel y vagamente en las que se hacen en Internet. Es muy dif&icil que un autor conozca el impacto de su(s) art&iculo(s) sino es por medios indirectos, como buenas cr&iticas o el n&umero de art&iculos en los que aparece referenciado.
+	      ofrece. Este tipo de realimentación no existe en las publicaciones tradicionales de papel y vagamente en las que se hacen en Internet. Es muy difícil que un autor conozca el impacto de su(s) artículo(s) sino es por medios indirectos, como buenas críticas o el número de artículos en los que aparece referenciado.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -155,15 +155,15 @@
 	    registrados. Para facilitar la búsqueda de dichos
 	    documentos deben estar clasificados. En concreto se
 	    presentará una lista de los últimos documentos global y
-	    por categorías. Esta clasificaci&on se har&a de forma manual, aunque veremos
-	    que tambi&en existen mecanismos que posibilitar&an clasificaciones semiautom&aticas.
+	    por categorías. Esta clasificación se hará de forma manual, aunque veremos
+	    que también existen mecanismos que posibilitarán clasificaciones semiautomáticas.
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>Los usuarios del sistema podrán registrarse en el
 	  mismo. Cuando accedan al sistema y se autentiquen podrán
 	  disponer de ventajas adicionales. No se requerirá ningún
-	  dato personal m&as all&a del propio correo electr&onico para realizar el registro. El anonimato, de todas formas, es una decisi&on voluntaria por parte del usuario, ya que tendr&a una p&agina propio donde podr&a presentarse si as&i lo desea.</para>
+	  dato personal más allá del propio correo electrónico para realizar el registro. El anonimato, de todas formas, es una decisión voluntaria por parte del usuario, ya que tendrá una página propio donde podrá presentarse si así lo desea.</para>
 	</listitem>
 	<listitem>
 	  <para>
@@ -493,7 +493,7 @@
 	  <emphasis>Aplicación web</emphasis>,
 	  <emphasis>Revisor automático</emphasis>,
 	  <emphasis>Bibliotecario</emphasis>,
-	  <emphasis>Almac&en de metainformación</emphasis> y
+	  <emphasis>Almacén de metainformación</emphasis> y
 	  <emphasis>Repositorio de ficheros.</emphasis>.
 	</para>
 	<para>
@@ -519,12 +519,12 @@
 	<para>
 	  Se pretende que un documento sea publicado sólo cuando tenga
 	  suficiente calidad, aunque después existe la posibilidad de seguir un
-	  proceso de mejora continua. Es importante en este punto tener clara una idea: un documento puede tener varias versiones paralelas. De esta forma, ser&a muy frecuente el hecho de que un documento tenga una versi&on en un estado, mientras otra versi&on del mismo documento se encuentre en otro estado. Los siguientes p&arrafos intentan mostrar el funcionamiento de este sistema, a la vez que pretende aclarar la idea de tener varias versiones simult&aneas de un documento.
+	  proceso de mejora continua. Es importante en este punto tener clara una idea: un documento puede tener varias versiones paralelas. De esta forma, será muy frecuente el hecho de que un documento tenga una versión en un estado, mientras otra versión del mismo documento se encuentre en otro estado. Los siguientes párrafos intentan mostrar el funcionamiento de este sistema, a la vez que pretende aclarar la idea de tener varias versiones simultáneas de un documento.
 	</para>
 	<para>
 	  En un entorno colaborativo con
 	  más de un autor es necesario que existan simultáneamente dos
-	  estados de la versi&on:
+	  estados de la versión:
 	  <emphasis>publicada</emphasis> y 
 	  <emphasis>en elaboración</emphasis>. Este sistema nos va a
 	  permitir gozar de varias ventajas y de una mayor
@@ -533,14 +533,14 @@
 	</para>
 	<para>
 	  Por analogía con las versiones estables del núcleo Linux,
-	  consideraremos una versi&on 
+	  consideraremos una versión 
 	  <emphasis>publicada</emphasis> 
-	  como una versi&on del documento acabado y completo, con concordancia en su totalidad. Podríamos suponer que las versiones del documento en este
-	  estado se encuentran "listos para imprimir" y que tienen la
+	  como una versión del documento acabado y completo, con concordancia en su totalidad. Podríamos suponer que las versiones del documento en este
+	  estado se encuentran &quot;listos para imprimir&quot; y que tienen la
 	  calidad suficiente para poder ser difundidos tal cual. 
 	</para>
 	<para>
-	  Por su parte una versi&on del documento se encuentra <emphasis>en
+	  Por su parte una versión del documento se encuentra <emphasis>en
 	  elaboración</emphasis> cuando, como su propia nomenclatura
 	  indica, necesita de ciertas mejoras o revisiones
 	  antes de pasar a ser publicados. En el caso análogo de
@@ -561,20 +561,20 @@
 	  etapas iniciales se compone de versiones que se encuentran <emphasis>en
 	  elaboración</emphasis>. Una vez que sus 
 	  autores lo encuentren suficientemente maduro, podrán cambiar
-	  el estado de la versi&on del documento y asignarla como publicado. Aunque el
+	  el estado de la versión del documento y asignarla como publicado. Aunque el
 	  hecho de considerarlo maduro es subjetivo y, por tanto,
 	  subceptible de discusión, se pueden establecer una serie de
 	  parámetros muy sencillos para certificar que esto es
-	  así. Por ejemplo, una versi&on publicada no debe tener
+	  así. Por ejemplo, una versión publicada no debe tener
 	  secciones o párrafos por terminar (los famosos POR HACER). 
 	</para>
 	<para>
-	  Una vez un documento pasa a tener una versi&on en estado
+	  Una vez un documento pasa a tener una versión en estado
 	  <emphasis>publicada</emphasis>, su difusión 
-	  será mucho mayor y, por tanto, crecer&a también la
+	  será mucho mayor y, por tanto, crecerá también la
 	  probabilidad de que exista realimentación por parte de
 	  lectores. Es en este momento, donde pueden empezar a
-	  coexistir esta versi&on publicada con otras versiones del documento <emphasis>en
+	  coexistir esta versión publicada con otras versiones del documento <emphasis>en
 	  elaboración</emphasis>. Y es que
 	  las modificaciones realizadas por los lectores sobre la
 	  versión publicada, pasarán a formar parte de la versión
@@ -585,7 +585,7 @@
 	  hecho. 
 	</para>
 	<para>
-	  La potestad para hacer que una versi&on de documento <emphasis>en
+	  La potestad para hacer que una versión de documento <emphasis>en
 	  elaboración</emphasis> pase a ser publicada corresponderá
 	  siempre a sus autores 
 	  originales, por lo que de esta manera también se facilita el
@@ -595,10 +595,10 @@
 	</para>
 	<para>
 	  En realidad, el proceso que se ha comentado, es una simplificación del proceso
-	  que se sigue en la realidad, ya que hemos obviado la etapa en la que la versi&on del documento
+	  que se sigue en la realidad, ya que hemos obviado la etapa en la que la versión del documento
 	  se encuentra <emphasis>en revisión</emphasis>. Se trata de un estado intermedio
 	  entre en elaboración y publicada en el que los revisores, tras leerse el
-	  documento, podr&an certificar que está lista para ser considerada como publicada
+	  documento, podrán certificar que está lista para ser considerada como publicada
 	  o por el contrario todavía no se encuentra suficientemente madura y ha de seguir
 	  en el estado en elaboración.
 	</para>
@@ -613,8 +613,8 @@
 	  que se actualice la metainformación del documento y que se
 	  introduzcan los nuevos ficheros en el <emphasis>repositorio
 	  de ficheros</emphasis>. Tras hacer esto se dará formato al
-	  documento y se mostrará como nueva versión "en
-	  elaboración".
+	  documento y se mostrará como nueva versión <emphasis>en
+	  elaboración</emphasis>.
 	</para>
 	<para>
 	   A partir de ese momento un autor puede pedir su revisión
@@ -698,7 +698,7 @@
 	<title>Caso de uso: Autor solicita revisión de su documento</title>
 	<para>
 	  Los autores disponen de una interfaz donde pueden ver el estado
-	  de las versiones de sus documentos. Desde esta interfaz podr&an solicitar la
+	  de las versiones de sus documentos. Desde esta interfaz podrán solicitar la
 	  revisión del mismo para su publicación.
 	</para>
 	<para>
@@ -780,7 +780,7 @@
       <title>Gestión de notificaciones</title>
       <para>
         Mediante el uso de notificaciones se pretende crear vínculos dinámicos entre 
-	intereses. As&i se da un servicio adicional que permite informar
+	intereses. Así se da un servicio adicional que permite informar
 	de la evolución de contenidos a los que así lo deseen. Ésta es otra forma de 
 	conseguir que los usuarios visiten el sistema de manera asidua y vean que existe
 	movimiento.
@@ -874,7 +874,7 @@
       <para>
 	La impresión consiste en aplicar formato a un documento para
 	facilitar su lectura y difusión. Todos los documentos deben
-	compartir un formato homogéneo que d&e sensación de
+	compartir un formato homogéneo que dé sensación de
 	coherencia a los lectores. Por otro lado se
 	proporcionaran al menos una versión lista para imprimir (PDF) y otra
 	versión navegable (HTML) para ser consultada a través de la interfaz
@@ -952,7 +952,7 @@
 	  las aportaciones al documento darán como resultado una
 	  versión en desarrollo del documento, nunca una publicada. Para
 	  pasar a este último estado, ha de ser el autor original el
-	  que valide esa versi&on del documento y le asigne el estado publicada. 
+	  que valide esa versión del documento y le asigne el estado publicada. 
 	</para>
 	<para>
 	  Hemos desarrollado un caso de uso en el que especificamos
@@ -993,7 +993,7 @@
 	</para>
       </sect3>
 
-<!-- FIXME: como no lo tenemos terminado, no lo ense&namos
+<!-- FIXME: como no lo tenemos terminado, no lo enseñamos
 
       <sect3 role="use-case">
 	<title>Caso de uso: Usuario registrado envia aportación</title>
@@ -1072,7 +1072,7 @@
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Gesti&on de notificaciones</term>
+	<term>Gestión de notificaciones</term>
 	<listitem>
 	  <para>Envío de notificaciones a lectores, autores y
 	  revisores y de acuerdo con las subscripciones realizadas por
@@ -1080,7 +1080,7 @@
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Almac&en de metainformación</term>
+	<term>Almacén de metainformación</term>
 	<listitem>
 	  <para>Contiene toda la información disponible en el taller
 	  sobre un documento, incluyendo su versión publicada y su
@@ -1101,7 +1101,7 @@
       <varlistentry>
 	<term>Formatos impresos</term>
 	<listitem>
-	  <para>En este almac&en se encuentran los formatos de un
+	  <para>En este almacén se encuentran los formatos de un
 	  documento listos para ser vistos a través de la interfaz
 	  web. Se incluye al menos una versión imprimible y una
 	  versión navegable del documento.</para>
@@ -1119,7 +1119,7 @@
   <sect1 id="tecnologias">
     <title>Análisis de tecnologías y herramientas</title>
     <para>
-      Hasta ahora, hemos hecho un an&alisis detallado del sistema y hemos priorizado entre los diferentes objetivos. Para terminar este estudio
+      Hasta ahora, hemos hecho un análisis detallado del sistema y hemos priorizado entre los diferentes objetivos. Para terminar este estudio
       preliminar sobre un sistema de creación, edición y publicación de documentación,
       vale la pena reflexionar sobre las tecnologías sobre las que pudiera sustentarse.
       Los siguientes apartados intentan ser una breve introducción a las tecnologías y
@@ -1136,7 +1136,7 @@
       <sect3>
 	<title>Docbook</title>
 	<para>
-	  
+	  DocBook es un dialecto de SGML ampliamente difundido a la hora de escribir documentación técnica. No en vano es el formato utilizado para los proyectos de documentación de Linux, de FreeBSD, KDE o GNOME. DocBook basa su estructuración en el uso de etiquetas. Las últimas versiones de DocBook permiten crear documentos conformes con el estándar XML.
 	</para>
 	<para>
 	  En el caso de Docbook pueden emplearse plantillas DSSL o XSL
@@ -1153,19 +1153,13 @@
       <sect3>
 	<title>LaTeX</title>
 	<para>
-	  FIXME
+	  LaTeX es una extensión hecha por Leslie Lamport del TeX diseñado por Donald Knuth. Aunque no permite una estructuración tan rígida como con DocBook, tiene características mucho mejores a la hora de realizar documentos que incluyan fórmulas matemáticas. Cuenta con un repositorio de material de publicación de nombre CTAN que sigue la analogía del CPAN de Perl. La flexibilidad de LaTeX, aun cuando podría parecer una ventaja, supone ciertos inconvenientes que ha hecho que pierda terreno con respecto a DocBook.
 	</para>
       </sect3>
       <sect3>
 	<title>TeXmacs</title>
 	<para>
-	  FIXME
-	</para>
-      </sect3>
-      <sect3>
-	<title>OpenOffice</title>
-	<para>
-	  FIXME
+	  GNU TeXmacs es una editor de texto científico que aglutina el editor GNU Emacs con TeX, de forma que permite escribir documentos en TeX usando el paradigma WYSIWYG (What You See Is What You Get - Lo que ves es lo que obtienes). TeXmacs ofrece un gran número de posibilidades y es extensible utilizando los lenguajes de guión Guile/Scheme.
 	</para>
       </sect3>
     </sect2>
@@ -1178,13 +1172,13 @@
       <sect3>
 	<title>PHP</title>
 	<para>
-	  PHP viene de &quot;PHP Hypertext Preprocessor" que es un acrónimo recursivo al estilo GNU. Se trata de un lenguaje de guión estructurado orientado inicialmente a la creación de páginas web que ha ido creciendo para incluir orientación (parcial) a objetos, convertirse en un lenguaje de shell y llegar incluso a hacer sus pinitos en campos tan diferentes a las páginas web como es un entorno de escritorio (proyecto PHP-GTK).
+	  PHP viene de &quot;PHP Hypertext Preprocessor&quot; que es un acrónimo recursivo al estilo GNU. Se trata de un lenguaje de guión estructurado orientado inicialmente a la creación de páginas web que ha ido creciendo para incluir orientación (parcial) a objetos, convertirse en un lenguaje de shell y llegar incluso a hacer sus pinitos en campos tan diferentes a las páginas web como es un entorno de escritorio (proyecto PHP-GTK).
 	</para>
 	<para>
 	  PHP se ha convertido en uno de los lenguajes más populares debido sobre todo a su facilidad de aprendizaje, así como en la perfecta y sencilla integración con bases de datos con la que cuenta. De esta forma, muchas de las aplicaciones web que hacen uso extensivo de bases de datos utilizan PHP como lenguaje de programación.
 	</para>
 	<para>
-	  Sin embargo, sólo permite la programación orientada a objetos de manera bastante limitada, carece de grandes repositorios de clases o bibliotecas como las que cuenta Perl con CPAN y hace que los desarrolladores tiendan a integrar código de presentación en HTML y c&odigo PHP en la creación de las aplicaciones web, de modo que el código se hace engorroso y difícil de depurar y mantener.
+	  Sin embargo, sólo permite la programación orientada a objetos de manera bastante limitada, carece de grandes repositorios de clases o bibliotecas como las que cuenta Perl con CPAN y hace que los desarrolladores tiendan a integrar código de presentación en HTML y código PHP en la creación de las aplicaciones web, de modo que el código se hace engorroso y difícil de depurar y mantener.
 	</para>
       </sect3>
       <sect3>
@@ -1196,7 +1190,7 @@
       <sect3>
 	<title>Zope</title>
 	<para>
-	  Zope, acrónimo de "Z Object Publishing Environment", es un servidor de aplicaciones ideado con la finalidad de facilitar la publicación de contenidos en el web. En un principio, estaba pensado para ser usado como servicio de publicación para un periódico, aunque su flexibilidad, modularidad y orientación a objetos ha hecho del mismo un servidor de aplicaciones web en toda regla. Zope cuenta con una arquitectura muy sofisticada, a veces demasiado compleja. Permite crear aplicaciones de manera muy rápida, aunque se desestima su uso para aplicaciones con gran carga, ya que su arquitectura está sobredimensionada para hacer posible utilizarlo para solucionar un montón de problemas. Zope cuenta con una curva de aprendizaje muy alta que hace muy difícil encontrar desarrolladores que lo conozcan.
+	  Zope, acrónimo de &quot;Z Object Publishing Environment&quot;, es un servidor de aplicaciones ideado con la finalidad de facilitar la publicación de contenidos en el web. En un principio, estaba pensado para ser usado como servicio de publicación para un periódico, aunque su flexibilidad, modularidad y orientación a objetos ha hecho del mismo un servidor de aplicaciones web en toda regla. Zope cuenta con una arquitectura muy sofisticada, a veces demasiado compleja. Permite crear aplicaciones de manera muy rápida, aunque se desestima su uso para aplicaciones con gran carga, ya que su arquitectura está sobredimensionada para hacer posible utilizarlo para solucionar un montón de problemas. Zope cuenta con una curva de aprendizaje muy alta que hace muy difícil encontrar desarrolladores que lo conozcan.
 	</para>
       </sect3>
       <sect3>
@@ -1237,7 +1231,7 @@
       <sect3>
 	<title>Listas de correo (Majordomo, GNU Mailman)</title>
 	<para>
-	  Las listas de correo han sido, en parte, las grandes artífices de muchos proyectos de software libre, ya que han permitido la discusión y difusión de información. Sin embargo, para el sistema que nos atañe, la funcionalidad más interesante es la gestión de sus usuarios. Mediante el uso de listas de correo, el usuario puede administrar su suscripción de manera bastante sencilla, y m&as a&un desde que todos los gestores de listas tienen un interfaz web de administración. En caso de que existan errores temporales o duraderos, es el propio software de gesti&on el que toma las medidas oportunas para que el funcionamiento de la misma siga siendo óptimo y, lo que es más importante, no tenga que haber intervención humana.
+	  Las listas de correo han sido, en parte, las grandes artífices de muchos proyectos de software libre, ya que han permitido la discusión y difusión de información. Sin embargo, para el sistema que nos atañe, la funcionalidad más interesante es la gestión de sus usuarios. Mediante el uso de listas de correo, el usuario puede administrar su suscripción de manera bastante sencilla, y más aún desde que todos los gestores de listas tienen un interfaz web de administración. En caso de que existan errores temporales o duraderos, es el propio software de gestión el que toma las medidas oportunas para que el funcionamiento de la misma siga siendo óptimo y, lo que es más importante, no tenga que haber intervención humana.
 	</para>
 	<para>
 	  GNU Mailman y majordomo son los dos gestores de listas de correo-e con mayor implantación. Aunque GNU Mailman ha ido desbancando poco a poco al segundo gracias a sus muchas funcionalidades y a la facilidad de configuración a través de su interfaz web, en los últimos tiempos majordomo ha mejorado sustancialmente las posibilidades que ofrece.
@@ -1355,7 +1349,7 @@
 	  </listitem>
 	</varlistentry>
       </variablelist>
-<!-- FIXME: en un futuro ser&a una lista estructura
+<!-- FIXME: en un futuro será una lista estructura
 	<varlistentry>
 	  <term>Biblioteca semántica</term>
 	  <listitem>
@@ -1377,7 +1371,7 @@
       </variablelist>
 -->
     <para>
-      Otras posibles extensiones podr&ian ser la inclusi&on de una biblioteca sem&antica, de soporte a las traducciones y de mecanismos de integraci&on con editores de escritorio.
+      Otras posibles extensiones podrían ser la inclusión de una biblioteca semántica, de soporte a las traducciones y de mecanismos de integración con editores de escritorio.
     </para>
     </sect2>
   </sect1>
@@ -1492,51 +1486,4 @@
 
       <biblioentry id="zope">
 	<author>
-	  <firstname>Álvaro</firstname>
-	  <surname>del Castillo</surname>
-	</author>
-	<title>Zope: el servidor de aplicaciones libre</title>
-	<date>2001</date>
-	<address format="linespecific">
-	  http://programacion.com/tutorial.php?id=zope
-	</address>
-      </biblioentry>
-
-      <biblioentry id="wikipedia">
-	<title>Wikipedia</title>
-	<date>2002</date>
-	<address format="linespecific">
-	  http://es.wikipedia.com
-	</address>
-      </biblioentry>
-
-      <biblioentry id="CVS">
-	<author>
-	  <firstname>Ismael</firstname>
-	  <surname>Olea</surname>
-	</author>
-	<title>Micro-cómo empezar a trabajar con CVS</title>
-	<date>2001</date>
-	<address format="linespecific">
-	  http://www.olea.org/como-empezar-cvs/
-	</address>
-      </biblioentry>
-
-
-      <biblioentry id="Subversion">
-	<author>
-	  <firstname>Ben</firstname>
-	  <surname>Collins-Sussman</surname>
-	</author>
-	<title>Goals of the Subversion Project</title>
-	<date>2001</date>
-	<address format="linespecific">
-	  http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=3
-	</address>
-      </biblioentry>
-
-     </bibliodiv>
-
-   </bibliography>
-</article>
-
+	  <firstname>Álvaro</fir
