@@ -136,7 +136,7 @@
 	  </listitem>
 	</varlistentry>
 	<varlistentry>
-	  <term>Revisión de la documentación</term>
+	  <term>Mecanismos de revisión de la documentación</term>
 	  <listitem>
 	    <para>
 	      Se pretende establecer un mecanismo de revisión de todos
@@ -146,6 +146,17 @@
 	      crearse cuellos de botella en el proceso de revisión. Si
 	      esto ocurriera se perdería una de las grandes ventajas
 	      de la documentación libre, derivadas del modelo bazar.
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Mecanismos de calificación de la documentación</term>
+	  <listitem>
+	    <para>
+	      Además de la revisión por parte de un equipo en principio cerrado, deben existir mecanismos para medir la popularidad, así como el interés despertado por un documento. De esta forma, siempre es interesante ver cuántos lectores ha tenido así cómo cuál es la valoración que éstos hacen del contenido que se les ofrece.
+	    </para>
+	    <para>
+	      En el caso de documentos en el estado de elaboración, puede servir para alentar a los creadores y mostrar a potenciales contribuidores que el documento en cuestión tiene un cierto grado de interés.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -632,7 +643,8 @@
     <title>Conclusiones</title>
     <sect2>
       <title>Viabilidad del proyecto</title>
-      <para></para>
+      <para>
+      </para>
     </sect2>
     <sect2>
       <title>Dificultades identificadas</title>
