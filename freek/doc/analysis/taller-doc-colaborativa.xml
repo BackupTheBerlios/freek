@@ -24,46 +24,74 @@
   4. Conclusiones
   4.1 Viabilidad del proyecto
   4.2 Dificultades previstas
+  4.3 Extensiones al taller
+    - Área para crear proyectos de documentación
+    - Biblioteca semántica
+    - Traducciones
+    - Integración con editores de escritorio
+  5 Bibliografía
+
+  ¿Metemos algo de un Libro de estilo o correctores ortográficos?
+  Ver http://lucas.hispalinux.es/Manuales-LuCAS/LBTD/libro-blanco-tecnologias-doc-0.1/sect1-lucasv4-libroestilo.html
 
   -->
 
   <sect1>
     <title>Introducción</title>
-    <para>
-      La fusión de la filosofía del software libre y las nuevas formas
-      de desarrollo propiciadas por la generalización de conexiones a
-      Internet ha permitido que el desarrollo de software libre
-      distribuido y colaborativo haya experimentado un gran auge en las
-      dos últimas décadas (de hecho, se ha calculado que el volumen de
-      código fuente de aplicaciones de software libre se duplica cada
-      18 meses). Este forma de hacer software se ha venido a denominar
-      el modelo de bazar, ya que se deja atrás un esquema donde unos
-      pocos producen para el resto en favor de otro donde las
-      interacciones entre los colaboradores son mucho más abiertas. 
-    </para>
+    <sect2>
+      <title>Motivación</title>
+      <para>
+	La fusión de la filosofía del software libre y las nuevas formas
+	de desarrollo propiciadas por la generalización de conexiones a
+	Internet ha permitido que el desarrollo de software libre
+	distribuido y colaborativo haya experimentado un gran auge en las
+	dos últimas décadas (de hecho, se ha calculado que el volumen de
+	código fuente de aplicaciones de software libre se duplica cada
+	18 meses). Este forma de hacer software se ha venido a denominar
+	el modelo de bazar, ya que se deja atrás un esquema donde unos
+	pocos producen para el resto en favor de otro donde las
+	interacciones entre los colaboradores son mucho más abiertas. 
+      </para>
 
-    <para>
-      Este tipo de experiencias, sin embargo, no se ha implantado de
-      manera similar a la hora de crear documentos, aún cuando las
-      habilidades necesarias para poder tomar parte en la creación de
-      un documento están potencialmente más generalizadas que las que
-      hay que tener para desarrollar software. En los últimos tiempos
-      se está viendo la necesidad de tener un sistema que, teniendo en
-      cuenta ciertas circunstancias particulares de la creación,
-      edición y modificación de documentos, permita disfrutar a la
-      generación de los mismos de una sinergia similar a la que nos
-      encontramos en el mundo del software libre a la hora de crear
-      software. 
-    </para>
+      <para>
+	Este tipo de experiencias, sin embargo, no se ha implantado de
+	manera similar a la hora de crear documentos, aún cuando las
+	habilidades necesarias para poder tomar parte en la creación de
+	un documento están potencialmente más generalizadas que las que
+	hay que tener para desarrollar software. En los últimos tiempos
+	se está viendo la necesidad de tener un sistema que, teniendo en
+	cuenta ciertas circunstancias particulares de la creación,
+	edición y modificación de documentos, permita disfrutar a la
+	generación de los mismos de una sinergia similar a la que nos
+	encontramos en el mundo del software libre a la hora de crear
+	software. 
+      </para>
 
-    <para>
-      Este documento se centra en la posibilidad de crear una
-      aplicación que permita y facilite la creación colaborativa y
-      distribuida de documentación, así como su adaptación y mejora
-      contínua. En él se presentan tanto los objetivos perseguidos,
-      como la manera de llevarlos a cabo, argumentando el porqué de
-      las decisiones que se han tomado. 
-    </para>
+      <para>
+	Otro de los intereses existentes consiste en establecer los
+	mecanismos necesarios para garantizar una calidad homogénea de
+	la documentación libre. La carencia de los mismos actualmente
+	provoca la opinión de que este tipo de documentación tiene una
+	baja calidad. La realidad es que existen documentos libres de
+	gran calidad que en ocasiones quedan ocultos por otros que
+	simplemente están en elaboración todavía. Por otro lado
+	los autores creemos que es posible en este entorno establecer
+	los mecanismos de revisión presentes de las publicaciones
+	editoriales manteniendo las ventajas del modelo bazar.
+      </para>
+
+      <para>
+	Este documento se centra en la posibilidad de crear una
+	aplicación que permita y facilite la creación colaborativa y
+	distribuida de documentación de calidad, así como su
+	adaptación y mejora 
+	contínua. En él se presentan tanto los objetivos perseguidos,
+	como la manera de llevarlos a cabo, argumentando el porqué de
+	las decisiones que se han tomado. 
+      </para>
+    </sect2>
+
+
     <sect2>
       <title>Objetivos</title>
       <para>
@@ -75,15 +103,14 @@
       </para>
       <variablelist>
 	<varlistentry>
-	  <term>Publicación de documentación original de forma distribuida</term>
+	  <term>Publicación de documentación original de forma
+	  distribuida</term> 
 	  <listitem>
 	    <para>
 	      Mediante este proyecto se prentede crear una
 	      infraestructura que permita la creación de 
-	      documentación empleando un sistema de gestión de versiones,
-	      un sistema de publicación automática y una serie de
-	      mecanismos que permitan la revisión entre iguales de la
-	      documentación anterior a la publicación. 
+	      documentación empleando un sistema de gestión de
+	      versiones y un sistema de publicación automática. 
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -92,7 +119,8 @@
 	    continuada y colaborativa</term> 
 	  <listitem>
 	    <para>
-	       Este objetivo consiste en permitir que cualquier persona
+	      <!-- FIXME: también por parte de lospropios autores -->
+	      Este objetivo consiste en permitir que cualquier persona
 	      que lea una determinada documentación pueda colaborar en su
 	      mejora, ya sea corrigiendo errores o mejorando alguna
 	      sección que domine. Se debe hacer hincapié en facilitar
@@ -104,101 +132,34 @@
 	      complejos y efectivos para contribuidores asiduos o más
 	      experimentados con herramientas de edición y publicación
 	      de documentación. 
-
-	      FIXME: los siguientes párrafos no vienen aquí, ya que
-	      son detalles de más bajo nivel. Existen varias formas de
-	      hacer esto (con grado de dificultad creciente): 
-	      <orderedlist inheritnum="ignore" continuation="restarts">
-		<listitem>
-		  <para>
-		    Mandar un correo-e al autor describiendo d&onde está el
-		    error u ofreciendo una sección mejorada.
-		  </para>
-		</listitem>
-		<listitem>
-		  <para>
-		    Añadiendo comentarios en la página que son
-		    inmediatamente accesibles para el resto de lectores. 
-		  </para>
-		</listitem>
-		<listitem>
-		  <para>
-		    Modificando on-line el documento. En este esquema debe
-		    proveerse de un mecanismo que permita al autor
-		    original o editores autorizados revisar los cambios y
-		    aceptarlos antes de que puedan ser visualizados por el
-		    resto de lectores. Mientras se aceptan podrían ser
-		    mostrados en una sección de mejoras propuestas. 
-		  </para>
-		</listitem>
-	      </orderedlist>
 	    </para>
 	  </listitem>
 	</varlistentry>
 	<varlistentry>
-	  <term>Área para incubar proyectos de documentación</term> 
+	  <term>Revisión de la documentación</term>
 	  <listitem>
 	    <para>
-	      Se propone la creación de un área donde uno o más autores
-	      pueden exponer sus ideas y buscar colaboradores para crear
-	      documentación o bien ideas sobre cómo crearlo.
-	    </para>
-	    <para>
-	      FIXME: esto sobra en los objetivos... va demasiado al detalle. 
-	      El funcionamiento esperado de esta <emphasis>incubadora es
-		el siguiente</emphasis>:
-	      <itemizedlist>
-		<listitem>
-		  <para>Un autor tiene una idea sobre la que quiere escribir</para>
-		</listitem>
-		<listitem>
-		  <para>Comienza a escribir y a exponer sus ideas sobre
-		    lo que está escribiendo o va a escribir. Lo que va
-		    escribiendo y las ideas asociadas se hacen públicas en
-		    un área especial para proyectos en desarrollo.</para>
-		</listitem>
-		<listitem>
-		  <para>Todos los que leen las ideas o lo que se va
-		    escribiendo pueden aportar algo:</para>
-		  <itemizedlist>
-		    <listitem>
-		      <para>Contactando con el autor para colaborar</para>
-		    </listitem>
-		    <listitem>
-		      <para>Enviando correcciones</para>
-		    </listitem>
-		    <listitem>
-		      <para>Añadiendo comentarios con ideas o peticiones
-			de temas que le gustaría que se trataran</para>
-		    </listitem>
-		    <listitem>
-		      <para>Aunque no aporte nada directamente, se
-			mantienen estadísticas de las visitas que pueden
-			servir al autor como guía del interés o éxito que está
-			teniendo.</para> 
-		    </listitem>
-		  </itemizedlist>
-		</listitem>
-	      </itemizedlist>
+	      Se pretende establecer un mecanismo de revisión de todos
+	      los documentos que van a publicarse con el objetivo de
+	      garantizar su calidad y mantener unas guías de
+	      estilo. Este objetivo tiene un grave peligro: no deben
+	      crearse cuellos de botella en el proceso de revisión. Si
+	      esto ocurriera se perdería una de las grandes ventajas
+	      de la documentación libre, derivadas del modelo bazar.
 	    </para>
 	  </listitem>
 	</varlistentry>
       </variablelist>
     </sect2>
-    <sect2>
-      <title>Motivación</title>
-      <para>
-	¿Porqué el bazar funciona para el software y no lo va a hacer
-	para la documentación?
-      </para>
-    </sect2>
   </sect1>
   <sect1>
     <title>Requisitos del taller</title>
+    <para>
+      En esta sección se formalizan y detallan los objetivos descritos
+      hasta ahora en forma de requisitos. 
+    </para>
     <sect2>
       <title>Requisitos funcionales</title>
-      <sect3>
-	<title>Generales</title>
 	<itemizedlist>
 	  <listitem>
 	    <para>
@@ -209,9 +170,6 @@
 	    </para>
 	  </listitem>
 	</itemizedlist>
-      </sect3>
-      <sect3>
-	<title>Relativos a usuarios/lectores</title>
 	<itemizedlist>
 	  <listitem>
 	    <para>
@@ -249,12 +207,9 @@
 	    </para>
 	  </listitem>
 	</itemizedlist>
-      </sect3>
     </sect2>
     <sect2>
       <title>Requisitos no funcionales</title>
-      <sect3>
-	<title>Generales</title>
 	<itemizedlist>
 	  <listitem>
 	    <para>
@@ -270,11 +225,6 @@
 	      colaborativo remoto (por ejemplo TeXMacs).  
 	    </para>
 	  </listitem>
-	</itemizedlist>
-      </sect3>
-      <sect3>
-	<title>Relativas al sistema</title>
-	<itemizedlist>
 	  <listitem>
 	    <para>
 	      Las aportaciones de los lectores deben ser visibles
@@ -291,12 +241,6 @@
 	      aceptada. 
 	    </para>
 	  </listitem>
-	</itemizedlist>
-      </sect3>
-
-      <sect3>
-	<title>Relativos a autores</title>
-	<itemizedlist>
 	  <listitem>
 	    <para>
 	      No debe necesitar más conocimientos técnicos que
@@ -326,7 +270,6 @@
 	    </para>
 	  </listitem>
 	</itemizedlist>
-      </sect3>
     </sect2>
   </sect1>
   <sect1>
@@ -445,10 +388,25 @@
       <sect3 role="grex">
 	<title>La revisión entre iguales</title>
 	<para>
-	  La revisi&on entre iguales es uno de los mecanismos de control de calidad del sistema. La idea que se persigue es similar a la que se utiliza en un conocido portal de art&iculos sobre los efectos socio-econ&micos de Internet y las tecnolog&ias de la informaci&on llamado Firstmonday (enlace a www.firstmonday.dk). Antes de ser publicado un art&iculo, debe ser le&ido por una serie de editores que dar&an el visto bueno para la publicaci&on definitiva.
+	  La revisión entre iguales es uno de los mecanismos de
+	  control de calidad del sistema. La idea que se persigue es
+	  similar a la que se utiliza en un conocido portal de
+	  artículos sobre los efectos socio-económicos de Internet y
+	  las tecnologías de la información llamado Firstmonday
+	  (enlace a www.firstmonday.dk). Antes de ser publicado un
+	  artículo, debe ser leído por una serie de editores que darán
+	  el visto bueno para la publicación definitiva. 
 	</para>
 	<para>
-	  Sin embargo, debemos tener en cuenta que nuestro sistema no es s&olo un mero instrumento de publicaci&on, sino que engloba potencialmente todo el proceso de creaci&on y correcci&on. La revisi&on entre iguales es, por tanto, un buen instrumento para situar una frontera n&itida entre las versiones en desarrollo y la primera versi&on estable. De esta manera, se garantiza que la versi&on estable ha alcanzado un nivel de madurez, completitud y correcci&on aceptables para el amplio p&ublico.
+	  Sin embargo, debemos tener en cuenta que nuestro sistema no
+	  es sólo un mero instrumento de publicación, sino que engloba
+	  potencialmente todo el proceso de creación y corrección. La
+	  revisión entre iguales es, por tanto, un buen instrumento
+	  para situar una frontera nítida entre las versiones en
+	  desarrollo y la primera versión estable. De esta manera, se
+	  garantiza que la versión estable ha alcanzado un nivel de
+	  madurez, completitud y corrección aceptables para el amplio
+	  público. 
 	</para>
       </sect3>
       <sect3 role="use-case">
@@ -489,16 +447,77 @@
       <sect3>
 	<title>El papel de las aportaciones de los lectores</title>
 	<para>
-	  La filosof&ia del sistema que estamos creando nos lleva a poner especial &enfasis en las aportaciones de los lectores. De hecho, uno de los objetivos principales del sistema lo podr&iamos enunciar diciendo que es nuestro deseo que del lector pasivo al que estamos acostumbrados, se pase a un lector activo, que interactue con el sistema, que enriquezca, complete, valore o aporte al documento. De hecho, y como hemos indicado ya con anterioridad, el lector posee potencialmente todas las habilidades no t&ecnicas necesarias para hacerlo.
+	  La filosofía del sistema que estamos creando nos lleva a
+	  poner especial énfasis en las aportaciones de los
+	  lectores. De hecho, uno de los objetivos principales del
+	  sistema lo podríamos enunciar diciendo que es nuestro deseo
+	  que del lector pasivo al que estamos acostumbrados, se pase
+	  a un lector activo, que interactue con el sistema, que
+	  enriquezca, complete, valore o aporte al documento. De
+	  hecho, y como hemos indicado ya con anterioridad, el lector
+	  posee potencialmente todas las habilidades no técnicas
+	  necesarias para hacerlo. 
 	  </para>
 	  <para>
-	    Las habilidades y experiencia con las t&ecnicas de publicaci&on ser&an desiguales y variar&an sustancialemnte entre lector y lector. Ser&a tarea del sistema facilitar la interacci&on del lector con el documento abstrayendo las nociones t&ecnicas con las que &este ha de contar. De hecho, esto supone una diferenciaci&on de lectores en varios niveles a los que habr&a que tratar de manera diferente: mientras un lector novato en tecnolog&ias de publicaci&on deber&ia poder contar con una herramienta donde s&olo tuviera que introducir el texto (sin etiquetaci&on sint&actica ni sem&antica), mientras un lector conocedor de las herramientas y m&etodos existentes deber&ia poder utilizarlas, de manera que pueda aprovecharse de sus conocimientos y habilidades.
+	    Las habilidades y experiencia con las técnicas de
+	    publicación serán desiguales y variarán sustancialemnte
+	    entre lector y lector. Será tarea del sistema facilitar la
+	    interacción del lector con el documento abstrayendo las
+	    nociones técnicas con las que éste ha de contar. De hecho,
+	    esto supone una diferenciación de lectores en varios
+	    niveles a los que habrá que tratar de manera diferente:
+	    mientras un lector novato en tecnologías de publicación
+	    debería poder contar con una herramienta donde sólo
+	    tuviera que introducir el texto (sin etiquetación
+	    sintáctica ni semántica), mientras un lector conocedor de
+	    las herramientas y métodos existentes debería poder
+	    utilizarlas, de manera que pueda aprovecharse de sus
+	    conocimientos y habilidades. 
 	</para>
 	<para>
-	  Antes de entrar en detalle sobre los tipos de aportaci&on que hemos considerado, se ha de volver a hacer hincapi&e en el hecho de que la mayor&ia de los documentos cuenten con dos versiones del mismo, una estable y otra en desarrollo. Todas las aportaciones al documento dar&an como resultado una versi&on inestable del documento, nunca una estable. Para pasar a este &ulitmo estado, ha de ser el autor original el que valide el documento y lo asigne con un estado estable.
+	  Antes de entrar en detalle sobre los tipos de aportación que
+	  hemos considerado, se ha de volver a hacer hincapié en el
+	  hecho de que la mayoría de los documentos cuenten con dos
+	  versiones del mismo, una estable y otra en desarrollo. Todas
+	  las aportaciones al documento darán como resultado una
+	  versión inestable del documento, nunca una estable. Para
+	  pasar a este úlitmo estado, ha de ser el autor original el
+	  que valide el documento y lo asigne con un estado estable. 
 	</para>
 	<para>
-	  Hemos desarrollado un caso de uso en el que especificamos los diferentes tipos de aportaci&on que puede realizar un lector.
+	  Hemos desarrollado un caso de uso en el que especificamos los diferentes tipos de aportación que puede realizar un lector.
+	</para>
+      </sect3>
+      <sect3>
+	<title>Cómo realizar aportaciones</title>
+	<para>
+	  Existen varias formas de en las que un lector puede realizar
+	  una mejora o proponérsela al autor. Se muestran a continuación
+	  ordenadas por grado de dificultad creciente: 
+	  <orderedlist inheritnum="ignore" continuation="restarts">
+	    <listitem>
+	      <para>
+		Mandar un correo-e al autor describiendo dónde está el
+		error u ofreciendo una sección mejorada.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Añadiendo comentarios en la página que son
+		inmediatamente accesibles para el resto de lectores. 
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Modificando on-line el documento. En este esquema debe
+		proveerse de un mecanismo que permita al autor
+		original o editores autorizados revisar los cambios y
+		aceptarlos antes de que puedan ser visualizados por el
+		resto de lectores. Mientras se aceptan podrían ser
+		mostrados en una sección de mejoras propuestas. 
+	      </para>
+	    </listitem>
+	  </orderedlist>
 	</para>
       </sect3>
       <sect3 role="use-case">
@@ -545,13 +564,132 @@
 	alcance de este documento.
       </para>
     </sect2>
+  
+
+    <sect2>
+      <title>Extensiones al taller</title>
+      <variablelist>
+	<varlistentry>
+	  <term>Área para incubar proyectos de documentación</term> 
+	  <listitem>
+	    <para>
+	      Se propone la creación de un área donde uno o más autores
+	      pueden exponer sus ideas y buscar colaboradores para crear
+	      documentación o bien ideas sobre cómo crearlo.
+	    </para>
+	    <para>
+	      El funcionamiento esperado de esta <emphasis>incubadora es
+		el siguiente</emphasis>:
+	      <itemizedlist>
+		<listitem>
+		  <para>Un autor tiene una idea sobre la que quiere
+		  escribir</para> 
+		</listitem>
+		<listitem>
+		  <para>Comienza a escribir y a exponer sus ideas sobre
+		    lo que está escribiendo o va a escribir. Lo que va
+		    escribiendo y las ideas asociadas se hacen públicas en
+		    un área especial para proyectos en desarrollo.</para>
+		</listitem>
+		<listitem>
+		  <para>Todos los que leen las ideas o lo que se va
+		    escribiendo pueden aportar algo:</para>
+		  <itemizedlist>
+		    <listitem>
+		      <para>Contactando con el autor para colaborar</para>
+		    </listitem>
+		    <listitem>
+		      <para>Enviando correcciones</para>
+		    </listitem>
+		    <listitem>
+		      <para>Añadiendo comentarios con ideas o peticiones
+			de temas que le gustaría que se trataran</para>
+		    </listitem>
+		    <listitem>
+		      <para>Aunque no aporte nada directamente, se
+			mantienen estadísticas de las visitas que pueden
+			servir al autor como guía del interés o éxito que está
+			teniendo.</para> 
+		    </listitem>
+		  </itemizedlist>
+		</listitem>
+	      </itemizedlist>
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Biblioteca semántica</term>
+	  <listitem>
+	    <para></para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Traducciones</term>
+	  <listitem>
+	    <para></para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Integración con editores de escritorio</term>
+	  <listitem>
+	    <para></para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
   </sect1>
 
-  <sect1>
-    <title>Agradecimientos</title>
-    <para>Documentando, Lucas, TLDP, ...</para>
-  </sect1>
+  <bibliography>
+    <bibliodiv>
+      <title>Edición editorial</title>
+      <biblioentry>
+	<author>
+	  <firstname>José</firstname>
+	  <surname>Martínez de Sousa</surname>
+	</author>
+	<title>Manual de edición y autoedición</title>
+	<publisher>
+	  <publishername>Pirámide</publishername>
+	  <address format="linespecific">
+	    <city>Madrid</city>
+	  </address>
+	</publisher>
+	<date>1999</date>
+      </biblioentry>
+    </bibliodiv>
+    <bibliodiv>
+      <title>Documentación libre</title>
+      <biblioentry>
+	<author>
+	  <affiliation>
+	    <orgname>Free Software Fundation</orgname></affiliation>
+	</author>
+	<title>GNU Free Documentation License</title>
+	<releaseinfo>Version 1.1</releaseinfo>
+	<date>March 2000</date>
+	<address format="linespecific">
+          http://www.gnu.org/licenses/fdl.html
+	</address>
+      </biblioentry>
 
+      <biblioentry>
+	<author>
+	  <firstname>Ismael</firstname>
+	  <surname>Olea</surname>
+	</author>
+	<title>Las tecnologías necesarias para un proyecto de
+	documentación moderno</title> 
+	<address format="linespecific">
+	  http://lucas.hispalinux.es/Manuales-LuCAS/LBTD/libro-blanco-tecnologias-doc-0.1/part-lucasv4.html
+	</address>
+      </biblioentry>
+      
+    </bibliodiv>
+    
+  </bibliography>
+  <ackno>
+    Documentando, Lucas, TLDP, ...
+  </ackno>
 </article>
 
 
