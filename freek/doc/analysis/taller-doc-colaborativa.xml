@@ -5,8 +5,20 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/10 18:35:57 $</date>
-    <releaseinfo>$Revision: 1.29 $</releaseinfo>
+    <subtitle>Ingeniería de la información</subtitle>
+<!--      <date>$Date: 2002/07/14 16:13:20 $</date> -->
+<!--      <releaseinfo>$Revision: 1.30 $</releaseinfo> -->
+    <authorgroup>
+      <author>
+	<firstname>Gregorio</firstname>
+	<surname>Robles</surname>
+      </author>
+      <author>
+	<firstname>Jorge</firstname>
+	<surname>Ferrer</surname>
+      </author>
+    </authorgroup>
+    <contractsponsor></contractsponsor>
   </articleinfo>
   <sect1>
     <title>Introducción</title>
@@ -1008,9 +1020,9 @@
 	<title>Caso de uso: Autor valida aportación</title>
 	<para></para>
       </sect3>
+-->
     </sect2>
   </sect1>
--->
 
 
   <sect1 id="analisis-arquitectonico">
@@ -1244,14 +1256,33 @@
   <sect1>
     <title>Conclusiones</title>
 
-<!-- FIXME: POR HACER. mientras tanto lo quitamos y no se ve
     <sect2>
       <title>Viabilidad del proyecto</title>
       <para>
-        FIXME
+        El análisis funcional realizado supone en si mismo una
+        especificación bastante completa y detallada del taller. Su
+        expresión formal empleando UML ha permitido descubrir antes de
+        comenzar el desarrollo posibles dificultades y cómo podrían
+        ser resueltas. El resultado final es un modelo que cumple con
+        los objetivos y requisitos propuestos.
+      </para>
+      <para>
+	Pero además del modelo es necesario disponer de las
+	herramientas y las tecnologías necesarias para llevar a cabo
+	su implementación y para permitir su uso por parte de los
+	usuarios. En <xref linkend="tecnologias"/> se demuestra que
+	estas tecnologías existen a día de hoy y muchas de ellas
+	incluso llevan varios años de maduración.
+      </para>
+      <para>
+	En definitiva nuestra conclusión es que es viable la
+	construcción del taller de creación de documentación de forma
+	colaborativa propuesto. En el siguiente apartado se presentan
+	las dificultades identificadas para su construcción y su
+	posterior implantación con éxito.
       </para>
     </sect2>
--->
+
     <sect2>
       <title>Dificultades identificadas</title>
       <para>
@@ -1348,14 +1379,19 @@
 	    </para>
 	  </listitem>
 	</varlistentry>
-      </variablelist>
-<!-- FIXME: en un futuro será una lista estructura
 	<varlistentry>
 	  <term>Biblioteca semántica</term>
 	  <listitem>
-	    <para></para>
+	    <para>Aplicación de las ideas y las tecnologías de la web
+	      semántica para favorecer la difusión de los contenidos y las
+	      búsquedas inteligentes. Para ello se propone el uso de
+	      ontologías existentes como 
+	      DublinCore (http://dublincore.org) y de tecnologías
+	      ampliamente extendidas como RDF, RDFS y DAML+OIL.
+	    </para>
 	  </listitem>
 	</varlistentry>
+<!-- FIXME: en un futuro será una lista estructura
 	<varlistentry>
 	  <term>Traducciones</term>
 	  <listitem>
@@ -1368,8 +1404,8 @@
 	    <para></para>
 	  </listitem>
 	</varlistentry>
-      </variablelist>
 -->
+      </variablelist>
     <para>
       Otras posibles extensiones podrían ser la inclusión de una biblioteca semántica, de soporte a las traducciones y de mecanismos de integración con editores de escritorio.
     </para>
