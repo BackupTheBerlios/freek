@@ -45,9 +45,9 @@
 	de desarrollo propiciadas por la generalización de conexiones a
 	Internet ha permitido que el desarrollo de software libre
 	distribuido y colaborativo haya experimentado un gran auge en las
-	dos últimas décadas (de hecho, se ha calculado que el volumen de
+	dos últimas décadas. De hecho, se ha calculado que el volumen de
 	código fuente de aplicaciones de software libre se duplica cada
-	18 meses). Este forma de hacer software se ha venido a denominar
+	18 meses. Esta forma de hacer software se ha venido a denominar
 	el modelo de bazar, ya que se deja atrás un esquema donde unos
 	pocos producen para el resto en favor de otro donde las
 	interacciones entre los colaboradores son mucho más abiertas. 
@@ -74,10 +74,11 @@
 	provoca la opinión de que este tipo de documentación tiene una
 	baja calidad. La realidad es que existen documentos libres de
 	gran calidad que en ocasiones quedan ocultos por otros que
-	simplemente están en elaboración todavía. Por otro lado
-	los autores creemos que es posible en este entorno establecer
-	los mecanismos de revisión presentes de las publicaciones
-	editoriales manteniendo las ventajas del modelo bazar.
+	simplemente están en elaboración todavía. En particular
+	creemos que es posible establecer en este entorno 
+	los mecanismos de revisión presentes en las publicaciones
+	editoriales tradicionales a la vez que se mantienen las
+	ventajas del modelo bazar. 
       </para>
 
       <para>
@@ -107,10 +108,11 @@
 	    distribuida</term> 
 	  <listitem>
 	    <para>
-	      Mediante este proyecto se prentede crear una
-	      infraestructura que permita la creación de 
-	      documentación empleando un sistema de gestión de
-	      versiones y un sistema de publicación automática. 
+	      Debe ofrecerse una infraestructura que permita publicar
+	      un documentos. Esta publicación incluirá la difusión de
+	      dicho documento en los ámbitos interesados así como la
+	      aplicación de los formatos de impresión, visualización,
+	      etc que se consideren necesarios.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -128,10 +130,11 @@
 	      lectores. Esto puede suponer que existan varios tipos de
 	      mecanismos de comunicación con el autor, desde los más
 	      simples y primitivos para usuarios ocasionales y sin
-	      conocmientos técnicos de publicación hasta otros más
+	      conocmientos técnicos de publicación, hasta otros más
 	      complejos y efectivos para contribuidores asiduos o más
-	      experimentados con herramientas de edición y publicación
-	      de documentación. 
+	      experimentados. <!-- (quedaba muy largo) con
+	      herramientas de edición y publicación 
+	      de documentación. -->
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -178,37 +181,28 @@
 	<listitem>
 	  <para>
 	    Debe soportarse una gestión de versiones de los
-	    documentos. Para ello deberán resolver varios
-	    problemas. Por ejemplo, debería aclararse si debe existir
-	    la posibilidad de realizar aportaciones a versiones
-	    antiguas. Asimismo, puede que existan varias versiones en
-	    elaboración que parten de una misma versión estable y que
-	    han seguido caminos divergentes. A su vez, debería ser
-	    posible converger todas estas diferentes versiones en otra
-	    nueva versión, obteniendo como resultado un documento que
-	    se encuentre en un estado estable o en fase de
-	    elaboración. 
+	    documentos.  
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>
 	    Deben permitirse y fomentarse las aportaciones
-	    pequeñas. Por ejemplo:
+	    pequeñas. En concreto:
 	    <itemizedlist>
 	      <listitem>
-		<para>Añadir bloque: párrafo, lista, etc.</para>
+		<para>Añadir bloques simples: párrafo, lista, etc.</para>
 	      </listitem>
 	      <listitem>
 		<para>Nota</para>
 	      </listitem>
 	      <listitem>
-		<para>Comentario</para>
+		<para>Comentario (opinión)</para>
 	      </listitem>
 	      <listitem>
 		<para>Referencia</para>
 	      </listitem>
 	      <listitem>
-		<para>Modificar línea</para>
+		<para>Modificar contenido (sin modificar el marcado)</para>
 	      </listitem>
 	    </itemizedlist>
 	  </para>
@@ -386,9 +380,9 @@
 	    <para>
 	       Por otro lado, el administrador del sistema deberá
 	       realizar todas las actividades pertinentemente técnicas
-	       para mantener el sistema en pie, como son el
+	       para mantener el sistema en funcionamiento, como son el
 	       mantenimiento y actualización del software, el
-	       mantenimiento de los contenedores de conteidos (ya sean
+	       mantenimiento de los contenedores de contenidos (ya sean
 	       bases de datos, ficheros, etc.), la gestión de los
 	       recursos, etc. 
 	    </para>
@@ -400,7 +394,7 @@
       Las acciones que estos actores pueden realizar sobre el
       sistema quedan reflejadas en los diagramas de casos
       de uso de las siguientes figuras. A la izquierda se sitúan
-      los actores y a la derecha
+      los actores y a la derecha los casos de uso.
     </para>
 
     <figure float="0" id="figure-use-cases-reader">
@@ -421,15 +415,10 @@
   <sect1>
     <title>Análisis funcional</title>
     <para>
-      En esta sección se describe el funcionamiento del sistema
-      necesario para cumplir los requisitos y casos de uso expuestos
-      en la sección anterior.
-    </para>
-    <para>
-      Se irán examinando cada uno de dichos casos de uso y se
-      describirá el funcionamiento textualmente y acompañado con
-      diagramas UML de secuencia y estado para
-      facilitar su comprensión.
+      En esta sección se describe el funcionamiento del sistema.
+      Se irán examinando cada uno de los casos de uso expuestos en la
+      sección anterior y se describirá el funcionamiento con ayuda de
+      diagramas UML de secuencia y estado.
     </para>
     <para>
       Los casos de uso similares se han agrupado para facilitar una
@@ -441,6 +430,11 @@
       <sect3 role="use-case">
 	<title>Caso de uso: Inserta documento nuevo</title>
 	<para></para>
+	<figure float="0" id="figure-inserta1">
+	  <title>Inserción de un nuevo documento</title>
+	  <graphic fileref="img/inserta1.png" format="PNG"/>
+	</figure>
+
       </sect3>
     </sect2>
     <sect2>
@@ -450,32 +444,41 @@
       <sect3 role="grex">
 	<title>Estados de un documento y gestión de sus versiones</title>
 	<para>
-	  Al igual que en muchos proyectos de software libre se ha
-	  considerado oportuno que el mismo documento se encuentre
-	  simultáneamente en dos estados. Este sistema nos va a
+	  Se pretende que un documento sea publicado sólo cuando tenga
+	  suficiente calidad, pero después tiene que seguir un
+	  proceso de mejora continua.
+	</para>
+	<para>
+	  En un entorno colaborativo con
+	  más de un autor es necesario que existan simultáneamente dos
+	  estados del documento:
+	  <emphasis>publicado</emphasis> y 
+	  <emphasis>en elaboración</emphasis>. Este sistema nos va a
 	  permitir gozar de varias ventajas y de una mayor
 	  flexibilidad a la hora de realizar mejoras o modificaciones
 	  a la documentación existente. 
 	</para>
 	<para>
-	  Por analogía consideraremos un documento en estado 'estable'
+	  Por analogía consideraremos un documento
+	  <emphasis>publicado</emphasis> 
 	  como un documento acabado, con concordancia en su totalidad
 	  y completo. Podríamos suponer que los documentos en este
-	  estado están "listos para imprimir" y que tienen la calidad
-	  suficiente para poder ser difundidos o publicados tal cual. 
+	  estado se encuentran "listos para imprimir" y que tienen la
+	  calidad suficiente para poder ser difundidos tal cual. 
 	</para>
 	<para>
-	  Si el documento no cuenta con las características
-	  mencionadas y que le hacen 'estable' será calificado como
-	  'en desarrollo'. Como su propia nomenclatura indica, este
-	  tipo de documentos necesitan de ciertas mejoras o acciones
-	  para pasar a ser estables. 
+	  Por su parte un documento se encuentra <emphasis>en
+	  elaboración</emphasis> cuando, como su propia nomenclatura
+	  indica, necesita de ciertas mejoras o revisiones
+	  antes de pasar a ser publicados. 
 	</para>
 	<para>
-	  Para entender mejor el concepto de estados de un documento,
+	  Para entender mejor el concepto de
+	  <emphasis>estados</emphasis> de un documento, 
 	  lo mejor será seguir el proceso de creación de documentación
 	  más frecuente. Consideramos que todo documento durante sus
-	  etapas iniciales se encuentra en desarrollo. Una vez que sus
+	  etapas iniciales se encuentra <emphasis>en
+	  elaboración</emphasis>. Una vez que sus 
 	  autores lo encuentren suficientemente maduro, podrán cambiar
 	  el estado del documento y asignarlo como estable. Aunque el
 	  hecho de considerarlo maduro es subjetivo y, por tanto,
@@ -485,21 +488,25 @@
 	  secciones o párrafos por terminar (los famosos POR HACER). 
 	</para>
 	<para>
-	  Una vez especificado el documento como estable, su difusión
-	  será mucho mayor y, por tanto, probablemente también la
+	  Una vez un documento pasa a estado
+	  <emphasis>publicado</emphasis>, su difusión 
+	  será mucho mayor y por tanto probablemente también la
 	  probabilidad de que exista retroalimentación por parte de
 	  lectores. Es en este momento, donde pueden empezar a
-	  coexistir una sección estable y una en desarrollo. Y es que
-	  las modificaciones realizadas sobre la versión estable,
-	  pasarán a formar parte de la versión en desarrollo. De esta
+	  coexistir esta sección con una de documentos <emphasis>en
+	  elaboración</emphasis>. Y es que
+	  las modificaciones realizadas por los lectores sobre la
+	  versión publicada, pasarán a formar parte de la versión
+	  <emphasis>en elaboración</emphasis>. De esta 
 	  forma, el lector podrá leer siempre la última versión
-	  estable, mientras el que quiera colaborar podrá hacerlo
+	  publicada, mientras el que quiera colaborar podrá hacerlo
 	  teniendo en cuenta las últimas modificaciones que se han
 	  hecho. 
 	</para>
 	<para>
-	  La potestad para hacer que un documento en desarrollo pase a
-	  tener un estado estable corresponderá siempre a sus autores
+	  La potestad para hacer que un documento <emphasis>en
+	  elaboración</emphasis> pase a ser publicado corresponderá
+	  siempre a sus autores 
 	  originales, por lo que de esta manera también se facilita el
 	  hecho de que el autor principal tenga el poder de validación
 	  sobre los cambios o modificaciones que se hagan sobre su
@@ -528,8 +535,10 @@
 	  control de calidad del sistema. La idea que se persigue es
 	  similar a la que se utiliza en un conocido portal de
 	  artículos sobre los efectos socio-económicos de Internet y
-	  las tecnologías de la información llamado Firstmonday
-	  (enlace a www.firstmonday.dk). Antes de ser publicado un
+	  las tecnologías de la información llamado Firstmonday 
+	  (<ulink
+	  url="http://www.firstmonday.dk">www.firstmonday.dk</ulink>).
+	  Antes de ser publicado un
 	  artículo, debe ser leído por una serie de editores que darán
 	  el visto bueno para la publicación definitiva. 
 	</para>
@@ -550,11 +559,11 @@
 	<para></para>
       </sect3>
       <sect3 role="use-case">
-	<title>Caso de uso: Autor revisa y envía comentarios al autor</title>
+	<title>Caso de uso: Revisor envía comentarios al autor</title>
 	<para></para>
       </sect3>
       <sect3 role="use-case">
-	<title>Caso de uso: Autor revisa y acepta documento</title>
+	<title>Caso de uso: Revisor acepta documento</title>
 	<para></para>
       </sect3>
     </sect2>
@@ -709,6 +718,29 @@
   </sect1>
 
 
+
+  <sect1>
+    <title>Análisis de tecnologías y herramientas</title>
+    <sect2>
+      <title>Documentación estructurada</title>
+      <para>Docbook, Latex, TeXmacs, OpenOffice, ...</para>
+    </sect2>
+    <sect2>
+      <title>Tecnologías web</title>
+      <para>PHP, Slash, </para>
+    </sect2>
+    <sect2>
+      <title>Gestión de versiones y repositorio</title>
+      <para>CVS y Subversion</para>
+    </sect2>
+    <sect2>
+      <title>Gestión de notificaciones</title>
+      <para>Listas de correo (mailman, majordomo)</para>
+    </sect2>
+  </sect1>
+
+
+
   <sect1>
     <title>Conclusiones</title>
     <sect2>
@@ -723,12 +755,48 @@
 	presentar al llevar a cabo la implementación en implantación
 	con éxito del taller de documentación libre. Las más
 	importantes son:
-	- La falta de un editor de documentación estructurado de uso
-	sencillo así como su integración con el taller
-	- Debido a la gran variedad de posibilidades que se ofrecen y a tener como objetivo que las aportaciones puedan hacerse independientemente del grado de conocimiento y uso de técnicas de publicación por parte de las personas que contribuyen, hacen que el proceso de integración de las diferentes herramientas sea un proceso que se presume será complejo
-	- Para que el sistema funcione es necesario conseguir una
-	masa crítica de lectores y autores. Cómo lograr esto está fuera del
-	alcance de este documento.
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      La falta de un editor de documentación estructurado de
+	      uso sencillo así como su integración con el taller 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Debido a la gran variedad de posibilidades que se
+	      ofrecen y a tener como objetivo que las aportaciones
+	      puedan hacerse independientemente del grado de
+	      conocimiento y uso de técnicas de publicación por parte
+	      de las personas que contribuyen, hacen que el proceso de
+	      integración de las diferentes herramientas sea un
+	      proceso que se presume será complejo.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Para que el sistema funcione es necesario conseguir una
+	      masa crítica de lectores y autores. Cómo lograr esto
+	      está fuera del alcance de este documento.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      La integración de las modificaciones enviadas por los
+	      lectores puede llegar a ser complicada en el caso de ser
+	      abundantes. Es necesario seguir buscando mecanismos que
+	      faciliten aún más al autor la tarea de revisarlos e
+	      integrarlos. 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	    </para>
+	  </listitem>
+	</itemizedlist>
+	
+
+
       </para>
     </sect2>
     
@@ -809,7 +877,7 @@
   <bibliography>
     <bibliodiv>
       <title>Edición editorial</title>
-      <biblioentry>
+      <biblioentry id="sousa99">
 	<author>
 	  <firstname>José</firstname>
 	  <surname>Martínez de Sousa</surname>
@@ -826,7 +894,7 @@
     </bibliodiv>
     <bibliodiv>
       <title>Documentación libre</title>
-      <biblioentry>
+      <biblioentry id="GFDL">
 	<author>
 	  <affiliation>
 	    <orgname>Free Software Fundation</orgname></affiliation>
@@ -839,7 +907,7 @@
 	</address>
       </biblioentry>
 
-      <biblioentry>
+      <biblioentry id="Olea">
 	<author>
 	  <firstname>Ismael</firstname>
 	  <surname>Olea</surname>
@@ -854,7 +922,7 @@
     </bibliodiv>
     <bibliodiv>
       <title>Modelo bazar</title>
-      <biblioentry>
+      <biblioentry id="Raymond97">
 	<author>
 	  <firstname>Eric</firstname>
 	  <surname>Raymond</surname>
@@ -866,7 +934,7 @@
 	</address>
 
       </biblioentry>
-      <biblioentry>
+      <biblioentry id="Bezroukov99">
 	<author>
 	  <firstname>Nikolai</firstname>
 	  <surname>Bezroukov</surname>
