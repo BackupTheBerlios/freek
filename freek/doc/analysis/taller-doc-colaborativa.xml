@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/08 22:35:09 $</date>
-    <releaseinfo>$Revision: 1.25 $</releaseinfo>
+    <date>$Date: 2002/07/10 12:53:12 $</date>
+    <releaseinfo>$Revision: 1.26 $</releaseinfo>
   </articleinfo>
   <sect1>
     <title>Introducción</title>
@@ -15,22 +15,21 @@
       <para>
 	La fusión de la filosofía del software libre y las nuevas formas
 	de desarrollo propiciadas por la generalización de conexiones a
-	Internet ha permitido que el desarrollo de software libre
-	distribuido y colaborativo haya experimentado un gran auge en las
+	Internet ha permitido que el desarrollo de software libre, generalmente
+	distribuido y colaborativo, haya experimentado un gran auge en las
 	dos últimas décadas. De hecho, se ha calculado que el volumen de
 	código fuente de aplicaciones de software libre se duplica cada
 	18 meses. Esta forma de hacer software se ha venido a denominar
-	el modelo de bazar, ya que deja atrás un esquema donde unos
-	pocos producen para el resto en favor de otro donde las
-	interacciones entre los colaboradores son mucho más abiertas. 
+	el modelo de bazar, en contraposici&on con el tradicional en el que 
+	un arquitecto realiza el dise&o y el reparto de tareas y un equipo de peones y operarios
+	llevan a cabo la implementaci&on del sistema. Podemos ver, por tanto, que el bazar supone interacciones entre colaboradores mucho m&as abiertas.
       </para>
 
       <para>
-	Este tipo de experiencias, sin embargo, no se ha implantado de
+	Este tipo de experiencias, sin embargo, no se han implantado de
 	manera similar a la hora de crear documentos, aún cuando las
 	habilidades necesarias para poder tomar parte en la creación de
-	un documento están potencialmente más generalizadas que las que
-	hay que tener para desarrollar software. En los últimos tiempos
+	un documento están potencialmente más generalizadas que con las que hay que contar para desarrollar software. En los últimos tiempos
 	se está viendo la necesidad de tener un sistema que, teniendo en
 	cuenta ciertas circunstancias particulares de la creación,
 	edición y modificación de documentos, permita disfrutar de una sinergia similar a la que nos
@@ -39,7 +38,7 @@
       </para>
 
       <para>
-	Otro de los intereses existentes consiste en establecer los
+	Otra de las finalidades del sistema consiste en establecer los
 	mecanismos necesarios para garantizar una calidad homogénea de
 	la documentación libre. La carencia de los mismos actualmente
 	provoca una sensación que hace que el lector frecuentemente opine que 
@@ -58,9 +57,9 @@
 	aplicación que permita y facilite la creación colaborativa y
 	distribuida de documentación de calidad, así como su
 	adaptación y mejora 
-	continua. En él se presentan tanto los objetivos que se perseguen,
-	como la manera de llevarlos a cabo, argumentando el porqué de
-	las decisiones que se han tomado. 
+	continua. En él se presentan tanto los objetivos que se persiguen,
+	como la manera de llevarlos a cabo, explicando las razones que nos han llevado a tomar
+	estas decisiones. 
       </para>
     </sect2>
 
@@ -71,7 +70,7 @@
         Como hemos podido ver en los párrafos introductorios, la plataforma para la creación de documentación distribuida tiene
         unos objetivos claros y concisos. Aunque es probable que la forma de
         implementarlos en futuras fases de desarrollo varíen a lo
-        largo del tiempo, aún así los objetivos que se van a enumerar en
+        largo del tiempo, los objetivos que se van a enumerar en
         los siguientes párrafos deberán prevalecer. 
       </para>
       <variablelist>
@@ -118,7 +117,7 @@
 	      estilo. Este objetivo tiene un grave peligro: no deben
 	      crearse cuellos de botella en el proceso de revisión. Si
 	      esto ocurriera se perdería una de las grandes ventajas
-	      de la documentación libre, derivadas del modelo bazar.
+	      de la documentación libre derivadas del modelo bazar.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -129,10 +128,10 @@
 	      Además de la revisión por parte de un equipo en
 	      principio cerrado, deben existir mecanismos para medir
 	      la popularidad, así como el interés despertado por un
-	      documento. De esta forma, siempre es interesante ver
+	      documento. Siempre es interesante ver
 	      cuántos lectores ha tenido, así cómo cuál es la
 	      valoración que éstos hacen del contenido que se les
-	      ofrece. 
+	      ofrece. Este tipo de realimentaci&on no existe en las publicaciones tradicionales de papel y vagamente en las que se hacen en Internet. Es muy dif&icil que un autor conozca el impacto de su(s) art&iculo(s) sino es por medios indirectos, como buenas cr&iticas o el n&umero de art&iculos en los que aparece referenciado.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -156,14 +155,15 @@
 	    registrados. Para facilitar la búsqueda de dichos
 	    documentos deben estar clasificados. En concreto se
 	    presentará una lista de los últimos documentos global y
-	    por categorías.
+	    por categorías. Esta clasificaci&on se har&a de forma manual, aunque veremos
+	    que tambi&en existen mecanismos que posibilitar&an clasificaciones semiautom&aticas.
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>Los usuarios del sistema podrán registrarse en el
 	  mismo. Cuando accedan al sistema y se autentiquen podrán
 	  disponer de ventajas adicionales. No se requerirá ningún
-	  dato personal para realizar el registro.</para>
+	  dato personal m&as all&a del propio correo electr&onico para realizar el registro. El anonimato, de todas formas, es una decisi&on voluntaria por parte del usuario, ya que tendr&a una p&agina propio donde podr&a presentarse si as&i lo desea.</para>
 	</listitem>
 	<listitem>
 	  <para>
@@ -211,8 +211,8 @@
 	    Todo lector podrá contar con una página web personal donde
 	    además de información personal que el propio lector publique
 	    voluntariamente, se podrán seguir las aportaciones que ha
-	    hecho a los diferentes documentos. Se plantea como mejora
-	    futura la creación de un mecanismo para
+	    hecho a los diferentes documentos. Se plantea como futura mejora 
+	    la creación de un mecanismo para
 	    que esas aportaciones sean evaluadas en su conjunto (por
 	    otros lectores o por el interés que propicien) y que esto
 	    revierta en el estado del lector para con el taller. Esta
@@ -221,7 +221,7 @@
 	    <emphasis>karma</emphasis>. Tener mucho
 	    <emphasis>karma</emphasis> es signo inequívoco de que el  
 	    lector es un miembro con cierto prestigio dentro de la
-	    comunidad que se crea alrededor del taller.
+	    comunidad alrededor del taller.
 	  </para>
 	</listitem>
 	<listitem>
@@ -237,7 +237,7 @@
 	      <listitem>
 		<para>A los lectores acceder a la última versión
 		publicada, a versiones anteriores publicadas o a la
-		última versión de un documento que está todavía en
+		última versión de un documento todavía en
 		elaboración.</para> 
 	      </listitem>
 	      <listitem>
@@ -253,7 +253,7 @@
 	</listitem>
 	<listitem>
 	  <para>Cualquier lector registrado debe poder introducir un
-	  nuevo documento en el taller. A partir de eso momento podrá
+	  nuevo documento en el taller. A partir de ese momento podrá
 	  introducir tantas nuevas versiones como considere necesario
 	  hasta decidir que desea su publicación. Posteriormente
 	  deberá poder introducir nuevas versiones del documento.</para>
@@ -357,7 +357,7 @@
     <para>
       El primer paso en el análisis es identificar los tipos de
       actores del sistema. En el caso del taller de documentación
-      libre actúan los siguientes participantes:
+      libre contamos con los siguientes participantes:
       <variablelist>
 	<varlistentry>
 	  <term>Lector</term>
@@ -486,14 +486,14 @@
 	  El siguiente diagrama de casos de uso muestra cómo responde el
 	  sistema ante la introducción de un documento nuevo. El
 	  objetivo tanto de este diagrama como de los siguientes es
-	  identificar las entidades con responsabilidades diferentes que
+	  identificar las entidades con diferentes responsabilidades que
 	  son necesarias para llevar a cabo esta acción. Las flechas
 	  muestran las relaciones entre ellas en un escenario típico. En
-	  este caso identificado 5 entidades involucradas:
+	  este caso, se han identificado 5 entidades involucradas:
 	  <emphasis>Aplicación web</emphasis>,
 	  <emphasis>Revisor automático</emphasis>,
 	  <emphasis>Bibliotecario</emphasis>,
-	  <emphasis>Almacen de metainformación</emphasis> y
+	  <emphasis>Almac&en de metainformación</emphasis> y
 	  <emphasis>Repositorio de ficheros.</emphasis>.
 	</para>
 	<para>
@@ -519,13 +519,13 @@
 	<para>
 	  Se pretende que un documento sea publicado sólo cuando tenga
 	  suficiente calidad, aunque después existe la posibilidad de seguir un
-	  proceso de mejora continua.
+	  proceso de mejora continua. Es importante en este punto tener clara una idea: un documento puede tener varias versiones paralelas. De esta forma, ser&a muy frecuente el hecho de que un documento tenga una versi&on en un estado, mientras otra versi&on del mismo documento se encuentre en otro estado. Los siguientes p&arrafos intentan mostrar el funcionamiento de este sistema, a la vez que pretende aclarar la idea de tener varias versiones simult&aneas de un documento.
 	</para>
 	<para>
 	  En un entorno colaborativo con
 	  más de un autor es necesario que existan simultáneamente dos
-	  estados del documento:
-	  <emphasis>publicado</emphasis> y 
+	  estados de la versi&on:
+	  <emphasis>publicada</emphasis> y 
 	  <emphasis>en elaboración</emphasis>. Este sistema nos va a
 	  permitir gozar de varias ventajas y de una mayor
 	  flexibilidad a la hora de realizar mejoras o modificaciones
@@ -533,49 +533,48 @@
 	</para>
 	<para>
 	  Por analogía con las versiones estables del núcleo Linux,
-	  consideraremos un documento 
-	  <emphasis>publicado</emphasis> 
-	  como un documento acabado, con concordancia en su totalidad
-	  y completo. Podríamos suponer que los documentos en este
+	  consideraremos una versi&on 
+	  <emphasis>publicada</emphasis> 
+	  como una versi&on del documento acabado y completo, con concordancia en su totalidad. Podríamos suponer que las versiones del documento en este
 	  estado se encuentran "listos para imprimir" y que tienen la
 	  calidad suficiente para poder ser difundidos tal cual. 
 	</para>
 	<para>
-	  Por su parte un documento se encuentra <emphasis>en
+	  Por su parte una versi&on del documento se encuentra <emphasis>en
 	  elaboración</emphasis> cuando, como su propia nomenclatura
 	  indica, necesita de ciertas mejoras o revisiones
 	  antes de pasar a ser publicados. En el caso análogo de
 	  Linux, existen versiones llamadas <emphasis>en
-	  desarrollo</emphasis> donde se introducen modificaciones que
+	  desarrollo</emphasis> en las que se introducen modificaciones que
 	  todavía no se encuentran convenientemente maduras o probadas
 	  como para que aparezcan en la versión estable. 
 	</para>
 	<figure float="0" id="figure-estados">
-	  <title>Estados de un documento</title>
+	  <title>Estados de las versiones de un documento</title>
 	  <graphic fileref="img/estados_documento.png" format="PNG"/>
 	</figure>
 	<para>
 	  Para entender mejor el concepto de
-	  <emphasis>estados</emphasis> de un documento, 
+	  <emphasis>estados</emphasis> de las versiones de un documento documento, 
 	  lo mejor será seguir el proceso de creación de documentación
 	  más frecuente. Consideramos que todo documento durante sus
-	  etapas iniciales se encuentra <emphasis>en
+	  etapas iniciales se compone de versiones que se encuentran <emphasis>en
 	  elaboración</emphasis>. Una vez que sus 
 	  autores lo encuentren suficientemente maduro, podrán cambiar
-	  el estado del documento y asignarlo como estable. Aunque el
+	  el estado de la versi&on del documento y asignarla como publicado. Aunque el
 	  hecho de considerarlo maduro es subjetivo y, por tanto,
 	  subceptible de discusión, se pueden establecer una serie de
 	  parámetros muy sencillos para certificar que esto es
-	  así. Por ejemplo, un documento estable no debe tener
+	  así. Por ejemplo, una versi&on publicada no debe tener
 	  secciones o párrafos por terminar (los famosos POR HACER). 
 	</para>
 	<para>
-	  Una vez un documento pasa a estado
-	  <emphasis>publicado</emphasis>, su difusión 
-	  será mucho mayor y por tanto probablemente también la
-	  probabilidad de que exista retroalimentación por parte de
+	  Una vez un documento pasa a tener una versi&on en estado
+	  <emphasis>publicada</emphasis>, su difusión 
+	  será mucho mayor y, por tanto, crecer&a también la
+	  probabilidad de que exista realimentación por parte de
 	  lectores. Es en este momento, donde pueden empezar a
-	  coexistir esta sección con una de documentos <emphasis>en
+	  coexistir esta versi&on publicada con otras versiones del documento <emphasis>en
 	  elaboración</emphasis>. Y es que
 	  las modificaciones realizadas por los lectores sobre la
 	  versión publicada, pasarán a formar parte de la versión
@@ -586,8 +585,8 @@
 	  hecho. 
 	</para>
 	<para>
-	  La potestad para hacer que un documento <emphasis>en
-	  elaboración</emphasis> pase a ser publicado corresponderá
+	  La potestad para hacer que una versi&on de documento <emphasis>en
+	  elaboración</emphasis> pase a ser publicada corresponderá
 	  siempre a sus autores 
 	  originales, por lo que de esta manera también se facilita el
 	  hecho de que el autor principal tenga el poder de validación
@@ -595,12 +594,12 @@
 	  documento. 
 	</para>
 	<para>
-	  En realidad, el proceso que se ha comentado, es un simplificación del proceso
-	  que se sigue en la realidad, ya que hemos obviado la etapa en la que el documento
+	  En realidad, el proceso que se ha comentado, es una simplificación del proceso
+	  que se sigue en la realidad, ya que hemos obviado la etapa en la que la versi&on del documento
 	  se encuentra <emphasis>en revisión</emphasis>. Se trata de un estado intermedio
-	  entre en elaboración y publicado durante el cual los revisores tras leerse el
-	  documento certifican que el mismo está listo para ser considerado como publicado
-	  o por el contrario todavía no se encuentra suficientemente maduro y ha de seguir
+	  entre en elaboración y publicada en el que los revisores, tras leerse el
+	  documento, podr&an certificar que está lista para ser considerada como publicada
+	  o por el contrario todavía no se encuentra suficientemente madura y ha de seguir
 	  en el estado en elaboración.
 	</para>
       </sect3>
@@ -609,7 +608,7 @@
 	<title>Caso de uso: Inserta nueva versión de un documento</title>
 	<para>
 	  Tras insertar un documento cualquiera de los autores del
-	  mismo puede realizar modificaciones sobre el mismo y
+	  mismo puede realizar modificaciones sobre el mismo e
 	  introducir en el sistema una nueva versión. Esto provocará
 	  que se actualice la metainformación del documento y que se
 	  introduzcan los nuevos ficheros en el <emphasis>repositorio
@@ -641,11 +640,11 @@
 	  control de calidad del sistema. La idea que se persigue es
 	  similar a la que se utiliza en un conocido portal de
 	  artículos sobre los efectos socio-económicos de Internet y
-	  las tecnologías de la información llamado Firstmonday 
+	  las tecnologías de la información llamado FirstMonday 
 	  (<ulink
 	  url="http://www.firstmonday.dk">www.firstmonday.dk</ulink>).
-	  Antes de ser publicado un
-	  artículo, debe ser leído por una serie de editores que darán
+	  Antes de que un
+	  artículo se publique, debe ser leído por una serie de editores que darán
 	  el visto bueno para la publicación definitiva. 
 	</para>
 	<para>
@@ -653,9 +652,9 @@
 	  es sólo un mero instrumento de publicación, sino que engloba
 	  potencialmente todo el proceso de creación y corrección. La
 	  revisión entre iguales es, por tanto, un buen instrumento
-	  para situar una frontera nítida entre las versiones en
-	  desarrollo y la primera versión estable. De esta manera, se
-	  garantiza que la versión estable ha alcanzado un nivel de
+	  para marcar una frontera nítida entre las versiones en
+	  desarrollo y la primera versión publicada. De esta manera, se
+	  garantiza que la versión publicada ha alcanzado un nivel de
 	  madurez, completitud y corrección aceptables para el amplio
 	  público. 
 	</para>
@@ -698,8 +697,8 @@
       <sect3 role="use-case">
 	<title>Caso de uso: Autor solicita revisión de su documento</title>
 	<para>
-	  Los autores disponen de una interfaz donde puede ver el estado
-	  de sus documentos. Desde esta interfaz pueden solicitar la
+	  Los autores disponen de una interfaz donde pueden ver el estado
+	  de las versiones de sus documentos. Desde esta interfaz podr&an solicitar la
 	  revisión del mismo para su publicación.
 	</para>
 	<para>
@@ -708,7 +707,7 @@
 	  publicadas directamente por cualquiera de los autores.
 	</para>
 	<para>
-	  Cuando un autor solicita una revisión deben enviarse
+	  Cuando un autor solicita una revisión, deben enviarse
 	  notificaciones a todos los revisores subscritos en la
 	  categoría del documento. 
 	</para>
@@ -747,7 +746,7 @@
       <sect3 role="use-case">
 	<title>Caso de uso: Revisor valida documento</title>
 	<para>
-	  Una vez el revisor considera que un documento dispone de la
+	  Una vez que el revisor considera que un documento dispone de la
 	  calidad necesaria puede acceder a la interfaz web para
 	  validarlo. Esto provocará que el sistema publique el
 	  documento. Si ya existía una versión anterior publicada del
@@ -761,7 +760,7 @@
 	  pertenece este documento. Por último, en el caso de que el
 	  documento publicado sea una nueva versión, también debería
 	  notificarse a aquellos lectores que se hayan mostrado
-	  interesados en recibir aviso cuando el documento se
+	  interesados en recibir avisos cuando el documento se
 	  actualice. 
 	</para>
 	<para>
@@ -781,7 +780,7 @@
       <title>Gestión de notificaciones</title>
       <para>
         Mediante el uso de notificaciones se pretende crear vínculos dinámicos entre 
-	intereses. De esta forma se da un servicio adicional que permite informar
+	intereses. As&i se da un servicio adicional que permite informar
 	de la evolución de contenidos a los que así lo deseen. Ésta es otra forma de 
 	conseguir que los usuarios visiten el sistema de manera asidua y vean que existe
 	movimiento.
@@ -829,7 +828,7 @@
 		  documentos. 
 		</para>
 		<para>
-		  Por otro lado la implementación de esta solución
+		  Por otro lad, esta solución
 		  es notablemente más difícil que la anterior y
 		  probablemente implicaría una implementación
 		  desde cero.
@@ -866,17 +865,17 @@
     <sect2>
       <title>Publicación e impresión de documentos</title>
       <para>
-	La publicación de un documento representa la aceptación de un
-	documento para ser mostrado al público general. Una vez
+        Un documento es publicado cuando se considera que tiene los requisitos necesarios
+	para ser mostrado al público general. Una vez
 	llegado a este estado ya ha alcanzado una calidad alta y la
-	labor del sistema será difundir dicho documento al mayor
+	labor del sistema será difundirlo al mayor
 	número de lectores posibles.
       </para>
       <para>
 	La impresión consiste en aplicar formato a un documento para
 	facilitar su lectura y difusión. Todos los documentos deben
-	compartir un formato homogéneo que de sensación de
-	homogeneidad y coherencia a los lectores. Por otro lado se
+	compartir un formato homogéneo que d&e sensación de
+	coherencia a los lectores. Por otro lado se
 	proporcionaran al menos una versión lista para imprimir (PDF) y otra
 	versión navegable (HTML) para ser consultada a través de la interfaz
 	web. En cada una de estas versiones se seguirán las normas de
@@ -949,11 +948,11 @@
 	  Antes de entrar en detalle sobre los tipos de aportación que
 	  hemos considerado, hemos de profundizar en el
 	  hecho de que la mayoría de los documentos cuenten con dos
-	  versiones del mismo, una estable y otra en desarrollo. Todas
+	  versiones del mismo, una publicada y otra en desarrollo. Todas
 	  las aportaciones al documento darán como resultado una
-	  versión inestable del documento, nunca una estable. Para
+	  versión en desarrollo del documento, nunca una publicada. Para
 	  pasar a este último estado, ha de ser el autor original el
-	  que valide el documento y lo asigne con un estado estable. 
+	  que valide esa versi&on del documento y le asigne el estado publicada. 
 	</para>
 	<para>
 	  Hemos desarrollado un caso de uso en el que especificamos
@@ -993,11 +992,14 @@
 	  </orderedlist>
 	</para>
       </sect3>
+
+<!-- FIXME: como no lo tenemos terminado, no lo ense&namos
+
       <sect3 role="use-case">
 	<title>Caso de uso: Usuario registrado envia aportación</title>
 
-	<para><!-- FIXME: Descripción de "Notifica Erratas", "Añade contenido",
-	  "Modifica contenido", "Añade comentario" --></para>
+	<para>Descripción de "Notifica Erratas", "Añade contenido",
+	  "Modifica contenido", "Añade comentario"</para>
 	<para>Las aportaciones se muestran instantáneamente junto
 	  al documento, pero no integradas en él, sino marcadas
 	  claramente como aportaciones.</para>
@@ -1008,7 +1010,7 @@
       </sect3>
     </sect2>
   </sect1>
-
+-->
 
 
   <sect1 id="analisis-arquitectonico">
@@ -1070,7 +1072,7 @@
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Gestion de notificaciones</term>
+	<term>Gesti&on de notificaciones</term>
 	<listitem>
 	  <para>Envío de notificaciones a lectores, autores y
 	  revisores y de acuerdo con las subscripciones realizadas por
@@ -1078,7 +1080,7 @@
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Almacen de metainformación</term>
+	<term>Almac&en de metainformación</term>
 	<listitem>
 	  <para>Contiene toda la información disponible en el taller
 	  sobre un documento, incluyendo su versión publicada y su
@@ -1099,7 +1101,7 @@
       <varlistentry>
 	<term>Formatos impresos</term>
 	<listitem>
-	  <para>En este almacen se encuentran los formatos de un
+	  <para>En este almac&en se encuentran los formatos de un
 	  documento listos para ser vistos a través de la interfaz
 	  web. Se incluye al menos una versión imprimible y una
 	  versión navegable del documento.</para>
@@ -1117,8 +1119,7 @@
   <sect1 id="tecnologias">
     <title>Análisis de tecnologías y herramientas</title>
     <para>
-      Una vez que hemos hecho un análisis detallado del sistema que queremos, a la vez
-      que hemos priorizado entre los diferentes objetivos, y para terminar este estudio
+      Hasta ahora, hemos hecho un an&alisis detallado del sistema y hemos priorizado entre los diferentes objetivos. Para terminar este estudio
       preliminar sobre un sistema de creación, edición y publicación de documentación,
       vale la pena reflexionar sobre las tecnologías sobre las que pudiera sustentarse.
       Los siguientes apartados intentan ser una breve introducción a las tecnologías y
@@ -1177,34 +1178,34 @@
       <sect3>
 	<title>PHP</title>
 	<para>
-	  PHP viene de &quot;PHP Hypertext Preprocessor" y es un acrónimo recursivo al estilo GNU. Se trata de un lenguaje de guión estructurado orientado inicialmente a la creación de páginas web que ha ido creciendo para incluir orientación (parcial) a objetos, convertirse en un lenguaje de shell y llegar incluso a hacer sus pinitos en campos tan diferentes a las páginas web como es un entorno de escritorio (proyecto PHP-GTK).
+	  PHP viene de &quot;PHP Hypertext Preprocessor" que es un acrónimo recursivo al estilo GNU. Se trata de un lenguaje de guión estructurado orientado inicialmente a la creación de páginas web que ha ido creciendo para incluir orientación (parcial) a objetos, convertirse en un lenguaje de shell y llegar incluso a hacer sus pinitos en campos tan diferentes a las páginas web como es un entorno de escritorio (proyecto PHP-GTK).
 	</para>
 	<para>
 	  PHP se ha convertido en uno de los lenguajes más populares debido sobre todo a su facilidad de aprendizaje, así como en la perfecta y sencilla integración con bases de datos con la que cuenta. De esta forma, muchas de las aplicaciones web que hacen uso extensivo de bases de datos utilizan PHP como lenguaje de programación.
 	</para>
 	<para>
-	  Sin embargo, sólo permite la programación orientada a objetos de manera bastante limitada, carece de grandes repositorios de clases o bibliotecas como las que cuenta Perl con CPAN y hace que los desarrolladores tiendan a integrar código de presentación en HTML y PHP en la creación de las aplicaciones web, de modo que el código se hace engorroso y difícil de depurar y mantener.
+	  Sin embargo, sólo permite la programación orientada a objetos de manera bastante limitada, carece de grandes repositorios de clases o bibliotecas como las que cuenta Perl con CPAN y hace que los desarrolladores tiendan a integrar código de presentación en HTML y c&odigo PHP en la creación de las aplicaciones web, de modo que el código se hace engorroso y difícil de depurar y mantener.
 	</para>
       </sect3>
       <sect3>
 	<title>Slashcode</title>
 	<para>
-	  Siendo generosos podemos considerar Slashcode, más conocido como Slash, como un servidor de aplicaciones para la publicación de contenidos web. Cuenta con una arquitectura modular que permite la agregación de plug-ins, además de infraestructura para generar un sistema de autentificación y autorización muy bueno basado en listas de control de acceso (listas ACL). Slashcode está escrito en Perl y su funcionamiento óptimo se produce funcionando con el módulo mod_perl de Apache. Los sitios de noticias de software libre, que cuentan con un gran número de accesos diario, como SlashDot y Barrapunto utilizan Slash.
+	  Siendo generosos podemos considerar Slashcode, más conocido como Slash, como un servidor de aplicaciones para la publicación de contenidos web. Cuenta con una arquitectura modular que permite la agregación de plug-ins, además de infraestructura para generar un sistema de autentificación y autorización muy bueno basado en listas de control de acceso (listas ACL). Slashcode está escrito en Perl y su funcionamiento óptimo se produce funcionando con el módulo mod_perl de Apache. Los sitios de noticias de software libre, que cuentan con un gran número de accesos diario como SlashDot y Barrapunto, utilizan Slash.
 	</para>
       </sect3>
       <sect3>
 	<title>Zope</title>
 	<para>
-	  Zope, acrónimo de "Z Object Publishing Environment", es un servidor de aplicaciones ideado con la finalidad de facilitar la publicación de contenidos en el web. En un principio, estaba pensado para ser usado como servicio de publicación para un periódico, aunque su flexibilidad, modularidad y orientación a objetos ha hecho del mismo un servidor de aplicaciones web en toda regla. Zope cuenta con una arquitectura muy sofisticada, a veces demasiado compleja. Permite crear aplicaciones de manera muy rápida, aunque se desestima su uso para aplicaciones con gran carga, ya que su arquitectura está sobredimensionada para hacer posible solucionar un montón de problemas. Zope cuenta con una curva de aprendizaje muy alta que hace muy difícil encontrar desarrolladores que lo conozcan.
+	  Zope, acrónimo de "Z Object Publishing Environment", es un servidor de aplicaciones ideado con la finalidad de facilitar la publicación de contenidos en el web. En un principio, estaba pensado para ser usado como servicio de publicación para un periódico, aunque su flexibilidad, modularidad y orientación a objetos ha hecho del mismo un servidor de aplicaciones web en toda regla. Zope cuenta con una arquitectura muy sofisticada, a veces demasiado compleja. Permite crear aplicaciones de manera muy rápida, aunque se desestima su uso para aplicaciones con gran carga, ya que su arquitectura está sobredimensionada para hacer posible utilizarlo para solucionar un montón de problemas. Zope cuenta con una curva de aprendizaje muy alta que hace muy difícil encontrar desarrolladores que lo conozcan.
 	</para>
       </sect3>
       <sect3>
 	<title>Wiki</title>
 	<para>
-	  Los wiki son portales web en los que la contribución de los visitantes es libre. Cualuqiera que entre en una página puede modificarla o añadir nuevos elementos a la misma. Los wiki más sofisticados cuentan con un sistema de control de versiones interno (transparente al usuario final) que posibilita volver atrás en caso de equivocación. El wiki en su máxima expresión es el porta Wikipedia, que como ellos mismos se definen es un &quot;esfuerzo colaborativo para crear una enciclopedia gratuita, libre y accesible por todos&quot;.
+	  Los wiki son portales web en los que la contribución de los visitantes es libre. Cualquiera que entre en una página puede modificarla o añadir nuevos elementos a la misma. Los wiki más sofisticados cuentan con un sistema de control de versiones interno (transparente al usuario final) que posibilita volver atrás en caso de equivocación. El wiki en su máxima expresión es el porta Wikipedia, que como ellos mismos se definen es un &quot;esfuerzo colaborativo para crear una enciclopedia gratuita, libre y accesible por todos&quot;.
 	</para>
 	<para>
-	  Aunque la finalidad que se suele hacer de los wikis es similar a la que se persigue en nuestro sistema, los aspectos de calidad y de autoría no se ven los suficientemente refrendados con el uso de un wiki. Un sistema basado en un wiki no permite puntos tan importantes como la validación por parte del autor, la revisión por parte de editores, etc. Por el contrario, una idea que se toma de los wiki es la posibilidad de que cualquier que así lo desee, pueda contribuir en el documento. Del mismo modo, nuestro sistema también hará uso de un sistema de control de versiones transparente al usuario final.
+	  Aunque la finalidad que se suele hacer de los wikis es similar a la que se persigue en nuestro sistema, los aspectos de calidad y de autoría no se ven los suficientemente refrendados con su uso. Un sistema basado en un wiki no permite puntos tan importantes como la validación por parte del autor, la revisión por parte de editores, etc. Por el contrario, una idea que se toma de los wiki es la posibilidad de que cualquiera que así lo desee, pueda contribuir al documento. Del mismo modo, nuestro sistema también hará uso de un sistema de control de versiones transparente al usuario final.
 	</para>
       </sect3>
     </sect2>
@@ -1236,7 +1237,7 @@
       <sect3>
 	<title>Listas de correo (Majordomo, GNU Mailman)</title>
 	<para>
-	  Las listas de correo han sido, en parte, las grandes artífices de muchos proyectos de software libre, ya que han permitido la discusión y difusión de información. Sin embargo, para el sistema que nos atañe, la funcionalidad que es más interesante es la gestión de sus usuarios. Mediante el uso de listas de correo, el usuario puede administrar su suscripción de manera bastante sencilla, sobre todo desde que todas las aplicaciones que las gestionan tienen un interfaz web de administración. En caso de que existan errores temporales o duraderos, es el propio software que gestiona la lista la que toma las medidas oportunas para que el funcionamiento de la misma siga siendo óptima y, lo que es más importante, no se tenga que dar intervención humana.
+	  Las listas de correo han sido, en parte, las grandes artífices de muchos proyectos de software libre, ya que han permitido la discusión y difusión de información. Sin embargo, para el sistema que nos atañe, la funcionalidad más interesante es la gestión de sus usuarios. Mediante el uso de listas de correo, el usuario puede administrar su suscripción de manera bastante sencilla, y m&as a&un desde que todos los gestores de listas tienen un interfaz web de administración. En caso de que existan errores temporales o duraderos, es el propio software de gesti&on el que toma las medidas oportunas para que el funcionamiento de la misma siga siendo óptimo y, lo que es más importante, no tenga que haber intervención humana.
 	</para>
 	<para>
 	  GNU Mailman y majordomo son los dos gestores de listas de correo-e con mayor implantación. Aunque GNU Mailman ha ido desbancando poco a poco al segundo gracias a sus muchas funcionalidades y a la facilidad de configuración a través de su interfaz web, en los últimos tiempos majordomo ha mejorado sustancialmente las posibilidades que ofrece.
@@ -1248,12 +1249,15 @@
 
   <sect1>
     <title>Conclusiones</title>
+
+<!-- FIXME: POR HACER. mientras tanto lo quitamos y no se ve
     <sect2>
       <title>Viabilidad del proyecto</title>
       <para>
         FIXME
       </para>
     </sect2>
+-->
     <sect2>
       <title>Dificultades identificadas</title>
       <para>
@@ -1293,10 +1297,6 @@
 	      abundantes. Es necesario seguir buscando mecanismos que
 	      faciliten aún más al autor la tarea de revisarlos e
 	      integrarlos. 
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
 	    </para>
 	  </listitem>
 	</itemizedlist>
@@ -1354,6 +1354,8 @@
 	    </para>
 	  </listitem>
 	</varlistentry>
+      </variablelist>
+<!-- FIXME: en un futuro ser&a una lista estructura
 	<varlistentry>
 	  <term>Biblioteca semántica</term>
 	  <listitem>
@@ -1373,6 +1375,10 @@
 	  </listitem>
 	</varlistentry>
       </variablelist>
+-->
+    <para>
+      Otras posibles extensiones podr&ian ser la inclusi&on de una biblioteca sem&antica, de soporte a las traducciones y de mecanismos de integraci&on con editores de escritorio.
+    </para>
     </sect2>
   </sect1>
 
