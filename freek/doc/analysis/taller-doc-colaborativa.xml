@@ -6,27 +6,53 @@
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
   </articleinfo>
+<!--
+ÍNDICE
+
+1. Introducción
+  1.1 Objetivos
+  1.2 Motivación
+2. Requisitos del taller de documentación
+  2.1 Requisitos funcionales
+  2.2 Requisitos no funcionales
+3. Análisis del sistema
+  3.1 Análisis de casos de uso
+  3.2 Análisis funcional
+       (Descripción del funcionamiento de cada uno de los casos de uso)
+  3.3 Análisis arquitectural
+       (Arquitectura de análisis para llevar a cabo cada caso de uso)
+4. Conclusiones
+  4.1 Viabilidad del proyecto
+  4.2 Dificultades previstas
+
+-->
+
   <sect1>
     <title>Introducción</title>
     <para>
-     La fusión de la filosofía del software libre y las nuevas formas de desarrollo propiciadas por la generalización de conexiones a Internet ha permitido que el desarrollo de software libre distribuido y colaborativo haya experimentado un gran auge en las dos últimas décadas (de hecho, se ha calculado que el volumen de código fuente de aplicaciones de software libre se duplica cada 18 meses). Este forma de hacer software se ha venido a denominar el modelo de bazar, ya que se deja atr&as un esquema donde unos pocos producen para el resto en favor de otro donde las interacciones entre los colaboradores son mucho m&as abiertas.
+     La fusión de la filosofía del software libre y las nuevas formas de desarrollo propiciadas por la generalización de conexiones a Internet ha permitido que el desarrollo de software libre distribuido y colaborativo haya experimentado un gran auge en las dos últimas décadas (de hecho, se ha calculado que el volumen de código fuente de aplicaciones de software libre se duplica cada 18 meses). Este forma de hacer software se ha venido a denominar el modelo de bazar, ya que se deja atrás un esquema donde unos pocos producen para el resto en favor de otro donde las interacciones entre los colaboradores son mucho más abiertas.
    </para>
 
    <para>
-     Este tipo de experiencias, sin embargo, no se ha implantado de manera similar a la hora de crear documentos, a&un cuando las habilidades necesarias para poder tomar parte en la creaci&on de un documento est&an potencialmente m&as generalizadas que las que hay que tener para desarrollar software. En los últimos tiempos se está viendo la necesidad de tener un sistema que, teniendo en cuenta ciertas circunstancias particulares de la creación, edición y modificación de documentos, permita disfrutar a la generación de los mismos de una sinergia similar a la que nos encontramos en el mundo del software libre a la hora de crear software.
+     Este tipo de experiencias, sin embargo, no se ha implantado de manera similar a la hora de crear documentos, aún cuando las habilidades necesarias para poder tomar parte en la creación de un documento están potencialmente más generalizadas que las que hay que tener para desarrollar software. En los últimos tiempos se está viendo la necesidad de tener un sistema que, teniendo en cuenta ciertas circunstancias particulares de la creación, edición y modificación de documentos, permita disfrutar a la generación de los mismos de una sinergia similar a la que nos encontramos en el mundo del software libre a la hora de crear software.
     </para>
 
     <para>
-      Este documento se centra en la posibilida de crear una aplicaci&on que permita y facilite la creaci&on colaborativa y distribuida de documentaci&on, as&i como su futuro adaptaci&on o mejora. En &el se va a presentar tanto los objetivos que perseguimos, como su manera de llevarlos a cabo, argumentando el porqu&e de las decisiones que se han tomado.
+      Este documento se centra en la posibilidad de crear una
+      aplicación que permita y facilite la creación colaborativa y
+      distribuida de documentación, así como su adaptación y mejora
+      contínua. En él se presentan tanto los objetivos perseguidos,
+      como la manera de llevarlos a cabo, argumentando el porqué de
+      las decisiones que se han tomado. 
     </para>
     <sect2>
       <title>Objetivos</title>
       <para>
-        La plataforma para creaci&on de documentaci&on distribuida tiene unos objetivos claros y concisos. Es probable que la forma de implementarlos en futuras fases de desarrollo var&ien a lo largo del tiempo, pero los objetivos que se van a enumerar en los siguientes p&arrafos deber&an prevalecer.
+        La plataforma para creación de documentación distribuida tiene unos objetivos claros y concisos. Es probable que la forma de implementarlos en futuras fases de desarrollo varíen a lo largo del tiempo, pero los objetivos que se van a enumerar en los siguientes párrafos deberán prevalecer.
       </para>
       <variablelist>
 	<varlistentry>
-	  <term>Publicaci&on de documentación original de forma distribuida</term>
+	  <term>Publicación de documentación original de forma distribuida</term>
 	  <listitem>
 	    <para>
 	      Mediante este proyecto se prentede crear una infraestructura que permita la creación de
@@ -45,9 +71,9 @@
 	       Este objetivo consiste en permitir que cualquier persona
 	      que lea una determinada documentación pueda colaborar en su
 	      mejora, ya sea corrigiendo errores o mejorando alguna
-	      sección que domine. Se debe hacer hincapi&e en facilitar todo tipo de colaboraci&on por parte de los lectores. Esto puede suponer que existan varios tipos de mecanismos de comunicaci&on con el autor, desde los m&as simples y primitivos para usuarios ocasionales y sin conocmientos t&ecnicos de publicaci&on hasta otros m&as complejos y efectivos para contribuidores asiduos o m&as experimentados con herramientas de edici&on y publicaci&on de documentaci&on.
+	      sección que domine. Se debe hacer hincapié en facilitar todo tipo de colaboración por parte de los lectores. Esto puede suponer que existan varios tipos de mecanismos de comunicación con el autor, desde los más simples y primitivos para usuarios ocasionales y sin conocmientos técnicos de publicación hasta otros más complejos y efectivos para contribuidores asiduos o más experimentados con herramientas de edición y publicación de documentación.
 
-FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as bajo nivel. Existen varias formas de hacer esto (con
+FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo nivel. Existen varias formas de hacer esto (con
 	      grado de dificultad creciente):
 	      <orderedlist inheritnum="ignore" continuation="restarts">
 		<listitem>
@@ -77,7 +103,7 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	  </listitem>
 	</varlistentry>
 	<varlistentry>
-	  <term>&Area para incubar proyectos de documentación</term> 
+	  <term>área para incubar proyectos de documentación</term> 
 	  <listitem>
 	    <para>
 	      Se propone la creación de un área donde uno o más autores
@@ -115,7 +141,7 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 		    <listitem>
 		      <para>Aunque no aporte nada directamente, se
 			mantienen estadísticas de las visitas que pueden
-			servir al autor como guía del inter&es o éxito que está
+			servir al autor como guía del interés o éxito que está
 			teniendo.</para> 
 		    </listitem>
 		  </itemizedlist>
@@ -285,9 +311,16 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	  libre actúan los siguientes participantes:
 	  <variablelist>
 	    <varlistentry>
+	      <term>Lector</term>
+	      <listitem>
+		<para>Usuario que accede a un documento para
+		leerlo.</para> 
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
 	      <term>Autor</term>
 	      <listitem>
-		<para>Es un individuo que está autorizado a realizar
+		<para>Usuario que está autorizado a realizar
 		todas las modificaciones que un documento
 		requiere. Generalmente será un autor original del
 		mismo o bien un colaborador habitual al que se le ha
@@ -295,28 +328,42 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	      </listitem>
 	    </varlistentry>
 	    <varlistentry>
-	      <term>Editor</term>
+	      <term>Revisor</term>
 	      <listitem>
-		<para>Un editor es un individuo cuya función principal es
-		revisar un documento con vistas a su aceptación final
-		y su publicación. Todo individuo que sea autor de un
-		documento ya publicado es un editor potencial.</para>
+		<para>Usuario que tiene permisos y acepta la tarea de
+		revisar un documento con vistas a su aceptación y su
+		publicación final.</para>
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term>Colaborador</term>
+	      <listitem>
+		<para>Usuario que realiza una aportación con vistas a
+		arreglar o mejorar la información presentada en un
+		documento. Cualquier lector debe poder realizar las
+		tareas asociadas a un colaborador.</para>
 	      </listitem>
 	    </varlistentry>
 	  </variablelist>
 	</para>
 	<para>
 	  Las acciones que estos actores pueden realizar sobre el
-	  sistema quedan reflejadas en el siguiente diagrama de casos
-	  de uso:
+	  sistema quedan reflejadas en los diagramas de casos
+	  de uso de las siguientes figuras. A la izquierda se sitúan
+	  los actores y a la derecha
+	  
 	</para>
-	<figure float="0" id="use-cases-figure-reader">
-	  <title>Diagrama de casos de uso</title>
-	  <graphic fileref="img/use-cases-reader.png" format="PNG"/>
-	</figure>
 	<figure float="0" id="use-cases-figure-author">
-	  <title>Diagrama de casos de uso</title>
+	  <title>Diagrama de casos de uso de autores</title>
 	  <graphic fileref="img/use-cases-author.png" format="PNG"/>
+	</figure>
+	<figure float="0" id="use-cases-figure-revisor">
+	  <title>Diagrama de casos de uso de revisores</title>
+	  <graphic fileref="img/use-cases-revisor.png" format="PNG"/>
+	</figure>
+	<figure float="0" id="use-cases-figure-contributor">
+	  <title>Diagrama de casos de uso de colaboradores</title>
+	  <graphic fileref="img/use-cases-contributor.png" format="PNG"/>
 	</figure>
       </sect3>
 
@@ -325,39 +372,39 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	<title>Análisis funcional</title>
 	<para></para>
 
-	<sect4 class="jorge">
+	<sect4 role="jorge">
 	  <title>Interacción con los autores</title>
 	  <para></para>
 	</sect4>
 
-	<sect4 class="grex">
+	<sect4 role="grex">
 	  <title>Estados de un documento y gestión de sus versiones</title>
 	  <para>
-	    Al igual que en muchos proyectos de software libre se ha considerado oportuno que el mismo documento se encuentre simult&aneamente en dos estados. Este sistema nos va a permitir gozar de varias ventajas y de una mayor flexibilidad a la hora de realizar mejoras o modificaciones a la documentaci&on existente.
+	    Al igual que en muchos proyectos de software libre se ha considerado oportuno que el mismo documento se encuentre simultáneamente en dos estados. Este sistema nos va a permitir gozar de varias ventajas y de una mayor flexibilidad a la hora de realizar mejoras o modificaciones a la documentación existente.
 	    </para>
 	    <para>
-	      Por analog&ia consideraremos un documento en estado 'estable' como un documento acabado, con concordancia en su totalidad y completo. Podr&iamos suponer que los documentos en este estado est&an "listos para imprimir" y que tienen la calidad suficiente para poder ser difundidos o publicados tal cual.
+	      Por analogía consideraremos un documento en estado 'estable' como un documento acabado, con concordancia en su totalidad y completo. Podríamos suponer que los documentos en este estado están "listos para imprimir" y que tienen la calidad suficiente para poder ser difundidos o publicados tal cual.
 	  </para>
 	  <para>
-	    Si el documento no cuenta con las caracter&isticas mencionadas y que le hacen 'estable' ser&a calificado como 'en desarrollo'. Como su propia nomenclatura indica, este tipo de documentos necesitan de ciertas mejoras o acciones para pasar a ser estables.
+	    Si el documento no cuenta con las características mencionadas y que le hacen 'estable' será calificado como 'en desarrollo'. Como su propia nomenclatura indica, este tipo de documentos necesitan de ciertas mejoras o acciones para pasar a ser estables.
 	  </para>
 	  <para>
-	    Para entender mejor el concepto de estados de un documento, lo mejor ser&a seguir el proceso de creaci&on de documentaci&on m&as frecuente. Consideramos que todo documento durante sus etapas iniciales se encuentra en desarrollo. Una vez que sus autores lo encuentren suficientemente maduro, podr&an cambiar el estado del documento y asignarlo como estable. Aunque el hecho de considerarlo maduro es subjetivo y, por tanto, subceptible de discusi&on, se pueden establecer una serie de par&ametros muy sencillos para certificar que esto es as&i. Por ejemplo, un documento estable no debe tener secciones o p&arrafos por terminar (los famosos POR HACER).
+	    Para entender mejor el concepto de estados de un documento, lo mejor será seguir el proceso de creación de documentación más frecuente. Consideramos que todo documento durante sus etapas iniciales se encuentra en desarrollo. Una vez que sus autores lo encuentren suficientemente maduro, podrán cambiar el estado del documento y asignarlo como estable. Aunque el hecho de considerarlo maduro es subjetivo y, por tanto, subceptible de discusión, se pueden establecer una serie de parámetros muy sencillos para certificar que esto es así. Por ejemplo, un documento estable no debe tener secciones o párrafos por terminar (los famosos POR HACER).
 	  </para>
 	  <para>
-	    Una vez especificado el documento como estable, su difusi&on ser&a mucho mayor y, por tanto, probablemente tambi&en la probabilidad de que exista retroalimentaci&on por parte de lectores. Es en este momento, donde pueden empezar a coexistir una secci&on estable y una en desarrollo. Y es que las modificaciones realizadas sobre la versi&on estable, pasar&an a formar parte de la versi&on en desarrollo. De esta forma, el lector podr&a leer siempre la &ultima versi&on estable, mientras el que quiera colaborar podr&a hacerlo teniendo en cuenta las &ultimas modificaciones que se han hecho.
+	    Una vez especificado el documento como estable, su difusión será mucho mayor y, por tanto, probablemente también la probabilidad de que exista retroalimentación por parte de lectores. Es en este momento, donde pueden empezar a coexistir una sección estable y una en desarrollo. Y es que las modificaciones realizadas sobre la versión estable, pasarán a formar parte de la versión en desarrollo. De esta forma, el lector podrá leer siempre la última versión estable, mientras el que quiera colaborar podrá hacerlo teniendo en cuenta las últimas modificaciones que se han hecho.
 	  </para>
           <para>
-	    La potestad para hacer que un documento en desarrollo pase a tener un estado estable corresponder&a siempre a sus autores originales, por lo que de esta manera tambi&en se facilita el hecho de que el autor principal tenga el poder de validaci&on sobre los cambios o modificaciones que se hagan sobre su documento.
+	    La potestad para hacer que un documento en desarrollo pase a tener un estado estable corresponderá siempre a sus autores originales, por lo que de esta manera también se facilita el hecho de que el autor principal tenga el poder de validación sobre los cambios o modificaciones que se hagan sobre su documento.
 	  </para>
 	</sect4>
 
-	<sect4 class="grex">
+	<sect4 role="grex">
 	  <title>Revisión entre iguales</title>
 	  <para></para>
 	</sect4>
 
-	<sect4 class="jorge">
+	<sect4 role="jorge">
 	  <title>Publicación de un documento</title>
 	  <para></para>
 	</sect4>
@@ -376,7 +423,7 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 
       
       <sect3>
-	<title>Arquitectura</title>
+	<title>Análisis arquitectural</title>
 	<para></para>
       </sect3>
 
@@ -403,10 +450,7 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
 	  masa crítica de lectores. Cómo lograr esto está fuera del
 	  alcance de este documento.
 	</para>
-      </sect2>
-
-    <para>
-    </para>
+    </sect2>
   </sect1>
 
   <sect1>
@@ -414,9 +458,6 @@ FIXME: los siguientes p&arrafos no vienen aqu&i, ya que son detalles de m&as baj
     <para>Documentando, Lucas, TLDP, ...</para>
   </sect1>
 
-  <bibliography>
-    
-  </bibliography>
 </article>
 
 
