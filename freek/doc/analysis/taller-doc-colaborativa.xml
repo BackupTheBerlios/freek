@@ -190,8 +190,6 @@
 	    elaboración. 
 	  </para>
 	</listitem>
-      </itemizedlist>
-      <itemizedlist>
 	<listitem>
 	  <para>
 	    Deben permitirse y fomentarse las aportaciones
@@ -215,7 +213,6 @@
 	    </itemizedlist>
 	  </para>
 	</listitem>
-      </itemizedlist>
       <listitem>
 	<para>
 	  Debe permitirse a los autores el acceso directo al
@@ -262,6 +259,7 @@
 	  comunidad que se crea alrededor del sistema. 
 	</para>
       </listitem>
+      </itemizedlist>
     </sect2>
     <sect2>
       <title>Requisitos no funcionales</title>
@@ -316,6 +314,7 @@
 	    </para>
 	  </listitem>
 	</itemizedlist>
+      </sect3>
     </sect2>
   </sect1>
   <sect1>
@@ -383,6 +382,7 @@
 	      será él el que cree nuevas secciones y
 	      categorías. Asimismo, tendrá poder para modificar o
 	      eliminar comentarios, etc. 
+	    </para>
 	    <para>
 	       Por otro lado, el administrador del sistema deberá
 	       realizar todas las actividades pertinentemente técnicas
@@ -391,7 +391,6 @@
 	       mantenimiento de los contenedores de conteidos (ya sean
 	       bases de datos, ficheros, etc.), la gestión de los
 	       recursos, etc. 
-	     </para>
 	    </para>
 	  </listitem>
 	</varlistentry>
