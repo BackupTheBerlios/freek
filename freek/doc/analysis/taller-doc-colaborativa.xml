@@ -430,9 +430,9 @@
       <sect3 role="use-case">
 	<title>Caso de uso: Inserta documento nuevo</title>
 	<para></para>
-	<figure float="0" id="figure-inserta1">
+	<figure float="0" id="figure-insertar1">
 	  <title>Inserción de un nuevo documento</title>
-	  <graphic fileref="img/inserta1.png" format="PNG"/>
+	  <graphic fileref="img/insertar1.png" format="PNG"/>
 	</figure>
 
       </sect3>
@@ -472,6 +472,10 @@
 	  indica, necesita de ciertas mejoras o revisiones
 	  antes de pasar a ser publicados. 
 	</para>
+	<figure float="0" id="figure-estados">
+	  <title>Estados de un documento</title>
+	  <graphic fileref="img/estados_documento.png" format="PNG"/>
+	</figure>
 	<para>
 	  Para entender mejor el concepto de
 	  <emphasis>estados</emphasis> de un documento, 
@@ -517,6 +521,11 @@
       <sect3 role="use-case">
 	<title>Caso de uso: Inserta nueva versión de un documento</title>
 	<para></para>
+	<figure float="0" id="figure-new-version">
+	  <title>Nueva versión de un documento</title>
+	  <graphic fileref="img/new-version.png" format="PNG"/>
+	</figure>
+
       </sect3>
 
     </sect2>
@@ -565,6 +574,10 @@
       <sect3 role="use-case">
 	<title>Caso de uso: Revisor acepta documento</title>
 	<para></para>
+	<figure float="0" id="figure-validate-document">
+	  <title>Revisión positiva de un documento</title>
+	  <graphic fileref="img/validate-document.png" format="PNG"/>
+	</figure>
       </sect3>
     </sect2>
 
