@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/10 13:59:40 $</date>
-    <releaseinfo>$Revision: 1.27 $</releaseinfo>
+    <date>$Date: 2002/07/10 17:50:16 $</date>
+    <releaseinfo>$Revision: 1.28 $</releaseinfo>
   </articleinfo>
   <sect1>
     <title>Introducción</title>
@@ -1486,4 +1486,55 @@
 
       <biblioentry id="zope">
 	<author>
-	  <firstname>Álvaro</fir
+	  <firstname>Álvaro</firstname>
+	  <surname>del Castillo</surname>
+	</author>
+	<title>Zope: el servidor de aplicaciones libre</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://programacion.com/tutorial.php?id=zope
+	</address>
+      </biblioentry>
+
+      <biblioentry id="wikipedia">
+	<title>Wikipedia</title>
+	<date>2002</date>
+	<address format="linespecific">
+	  http://es.wikipedia.com
+	</address>
+      </biblioentry>
+
+      <biblioentry id="CVS">
+	<author>
+	  <firstname>Ismael</firstname>
+	  <surname>Olea</surname>
+	</author>
+	<title>Micro-cómo empezar a trabajar con CVS</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://www.olea.org/como-empezar-cvs/
+	</address>
+      </biblioentry>
+
+
+      <biblioentry id="Subversion">
+	<author>
+	  <firstname>Ben</firstname>
+	  <surname>Collins-Sussman</surname>
+	</author>
+	<title>Goals of the Subversion Project</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=3
+	</address>
+      </biblioentry>
+
+     </bibliodiv>
+
+   </bibliography>
+</article>
+
+
+
+
+
