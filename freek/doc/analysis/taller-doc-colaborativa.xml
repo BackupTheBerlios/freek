@@ -6,35 +6,54 @@
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
   </articleinfo>
-<!--
-ÍNDICE
+  <!--
+  ÍNDICE
 
-1. Introducción
+  1. Introducción
   1.1 Objetivos
   1.2 Motivación
-2. Requisitos del taller de documentación
+  2. Requisitos del taller de documentación
   2.1 Requisitos funcionales
   2.2 Requisitos no funcionales
-3. Análisis del sistema
+  3. Análisis del sistema
   3.1 Análisis de casos de uso
   3.2 Análisis funcional
-       (Descripción del funcionamiento de cada uno de los casos de uso)
+  (Descripción del funcionamiento de cada uno de los casos de uso)
   3.3 Análisis arquitectural
-       (Arquitectura de análisis para llevar a cabo cada caso de uso)
-4. Conclusiones
+  (Arquitectura de análisis para llevar a cabo cada caso de uso)
+  4. Conclusiones
   4.1 Viabilidad del proyecto
   4.2 Dificultades previstas
 
--->
+  -->
 
   <sect1>
     <title>Introducción</title>
     <para>
-     La fusión de la filosofía del software libre y las nuevas formas de desarrollo propiciadas por la generalización de conexiones a Internet ha permitido que el desarrollo de software libre distribuido y colaborativo haya experimentado un gran auge en las dos últimas décadas (de hecho, se ha calculado que el volumen de código fuente de aplicaciones de software libre se duplica cada 18 meses). Este forma de hacer software se ha venido a denominar el modelo de bazar, ya que se deja atrás un esquema donde unos pocos producen para el resto en favor de otro donde las interacciones entre los colaboradores son mucho más abiertas.
-   </para>
+      La fusión de la filosofía del software libre y las nuevas formas
+      de desarrollo propiciadas por la generalización de conexiones a
+      Internet ha permitido que el desarrollo de software libre
+      distribuido y colaborativo haya experimentado un gran auge en las
+      dos últimas décadas (de hecho, se ha calculado que el volumen de
+      código fuente de aplicaciones de software libre se duplica cada
+      18 meses). Este forma de hacer software se ha venido a denominar
+      el modelo de bazar, ya que se deja atrás un esquema donde unos
+      pocos producen para el resto en favor de otro donde las
+      interacciones entre los colaboradores son mucho más abiertas. 
+    </para>
 
-   <para>
-     Este tipo de experiencias, sin embargo, no se ha implantado de manera similar a la hora de crear documentos, aún cuando las habilidades necesarias para poder tomar parte en la creación de un documento están potencialmente más generalizadas que las que hay que tener para desarrollar software. En los últimos tiempos se está viendo la necesidad de tener un sistema que, teniendo en cuenta ciertas circunstancias particulares de la creación, edición y modificación de documentos, permita disfrutar a la generación de los mismos de una sinergia similar a la que nos encontramos en el mundo del software libre a la hora de crear software.
+    <para>
+      Este tipo de experiencias, sin embargo, no se ha implantado de
+      manera similar a la hora de crear documentos, aún cuando las
+      habilidades necesarias para poder tomar parte en la creación de
+      un documento están potencialmente más generalizadas que las que
+      hay que tener para desarrollar software. En los últimos tiempos
+      se está viendo la necesidad de tener un sistema que, teniendo en
+      cuenta ciertas circunstancias particulares de la creación,
+      edición y modificación de documentos, permita disfrutar a la
+      generación de los mismos de una sinergia similar a la que nos
+      encontramos en el mundo del software libre a la hora de crear
+      software. 
     </para>
 
     <para>
@@ -48,14 +67,19 @@
     <sect2>
       <title>Objetivos</title>
       <para>
-        La plataforma para creación de documentación distribuida tiene unos objetivos claros y concisos. Es probable que la forma de implementarlos en futuras fases de desarrollo varíen a lo largo del tiempo, pero los objetivos que se van a enumerar en los siguientes párrafos deberán prevalecer.
+        La plataforma para creación de documentación distribuida tiene
+        unos objetivos claros y concisos. Es probable que la forma de
+        implementarlos en futuras fases de desarrollo varíen a lo
+        largo del tiempo, pero los objetivos que se van a enumerar en
+        los siguientes párrafos deberán prevalecer. 
       </para>
       <variablelist>
 	<varlistentry>
 	  <term>Publicación de documentación original de forma distribuida</term>
 	  <listitem>
 	    <para>
-	      Mediante este proyecto se prentede crear una infraestructura que permita la creación de
+	      Mediante este proyecto se prentede crear una
+	      infraestructura que permita la creación de 
 	      documentación empleando un sistema de gestión de versiones,
 	      un sistema de publicación automática y una serie de
 	      mecanismos que permitan la revisión entre iguales de la
@@ -71,10 +95,19 @@
 	       Este objetivo consiste en permitir que cualquier persona
 	      que lea una determinada documentación pueda colaborar en su
 	      mejora, ya sea corrigiendo errores o mejorando alguna
-	      sección que domine. Se debe hacer hincapié en facilitar todo tipo de colaboración por parte de los lectores. Esto puede suponer que existan varios tipos de mecanismos de comunicación con el autor, desde los más simples y primitivos para usuarios ocasionales y sin conocmientos técnicos de publicación hasta otros más complejos y efectivos para contribuidores asiduos o más experimentados con herramientas de edición y publicación de documentación.
+	      sección que domine. Se debe hacer hincapié en facilitar
+	      todo tipo de colaboración por parte de los
+	      lectores. Esto puede suponer que existan varios tipos de
+	      mecanismos de comunicación con el autor, desde los más
+	      simples y primitivos para usuarios ocasionales y sin
+	      conocmientos técnicos de publicación hasta otros más
+	      complejos y efectivos para contribuidores asiduos o más
+	      experimentados con herramientas de edición y publicación
+	      de documentación. 
 
-FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo nivel. Existen varias formas de hacer esto (con
-	      grado de dificultad creciente):
+	      FIXME: los siguientes párrafos no vienen aquí, ya que
+	      son detalles de más bajo nivel. Existen varias formas de
+	      hacer esto (con grado de dificultad creciente): 
 	      <orderedlist inheritnum="ignore" continuation="restarts">
 		<listitem>
 		  <para>
@@ -103,7 +136,7 @@ FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo n
 	  </listitem>
 	</varlistentry>
 	<varlistentry>
-	  <term>área para incubar proyectos de documentación</term> 
+	  <term>Área para incubar proyectos de documentación</term> 
 	  <listitem>
 	    <para>
 	      Se propone la creación de un área donde uno o más autores
@@ -297,157 +330,204 @@ FIXME: los siguientes párrafos no vienen aquí, ya que son detalles de más bajo n
     </sect2>
   </sect1>
   <sect1>
-    <title>Análisis del sistema</title>
-    <sect2>
-      <title>Análisis de casos de uso</title>
-	<para>
-	  Los casos de uso representan las acciones que un usuario del
-	  sistema puede realizar en éste. En este documento se usará
-	  el término <emphasis>actor</emphasis> para referirnos de
-	  forma general a cualquier tipo de usuario.
-	</para>
-	<para>
-	  El primer paso en el análisis es identificar los tipos de
-	  actores del sistema. En el caso del taller de documentación
-	  libre actúan los siguientes participantes:
-	  <variablelist>
-	    <varlistentry>
-	      <term>Lector</term>
-	      <listitem>
-		<para>Usuario que accede a un documento para
-		leerlo.</para> 
-	      </listitem>
-	    </varlistentry>
-	    <varlistentry>
-	      <term>Autor</term>
-	      <listitem>
-		<para>Usuario que está autorizado a realizar
-		todas las modificaciones que un documento
-		requiere. Generalmente será un autor original del
-		mismo o bien un colaborador habitual al que se le ha
-		dado autorización de modificación.</para>
-	      </listitem>
-	    </varlistentry>
-	    <varlistentry>
-	      <term>Revisor</term>
-	      <listitem>
-		<para>Usuario que tiene permisos y acepta la tarea de
-		revisar un documento con vistas a su aceptación y su
-		publicación final.</para>
-	      </listitem>
-	    </varlistentry>
-	    <varlistentry>
-	      <term>Colaborador</term>
-	      <listitem>
-		<para>Usuario que realiza una aportación con vistas a
-		arreglar o mejorar la información presentada en un
-		documento. Cualquier lector debe poder realizar las
-		tareas asociadas a un colaborador.</para>
-	      </listitem>
-	    </varlistentry>
-	  </variablelist>
-	</para>
-	<para>
-	  Las acciones que estos actores pueden realizar sobre el
-	  sistema quedan reflejadas en los diagramas de casos
-	  de uso de las siguientes figuras. A la izquierda se sitúan
-	  los actores y a la derecha
-	  
-	</para>
-	<figure float="0" id="use-cases-figure-author">
-	  <title>Diagrama de casos de uso de autores</title>
-	  <graphic fileref="img/use-cases-author.png" format="PNG"/>
-	</figure>
-	<figure float="0" id="use-cases-figure-revisor">
-	  <title>Diagrama de casos de uso de revisores</title>
-	  <graphic fileref="img/use-cases-revisor.png" format="PNG"/>
-	</figure>
-	<figure float="0" id="use-cases-figure-contributor">
-	  <title>Diagrama de casos de uso de colaboradores</title>
-	  <graphic fileref="img/use-cases-contributor.png" format="PNG"/>
-	</figure>
-      </sect2>
-
-
-      <sect2>
-	<title>Análisis funcional</title>
-	<para></para>
-
-	<sect3 role="jorge">
-	  <title>Interacción con los autores</title>
-	  <para></para>
-	</sect3>
-
-	<sect3 role="grex">
-	  <title>Estados de un documento y gestión de sus versiones</title>
-	  <para>
-	    Al igual que en muchos proyectos de software libre se ha considerado oportuno que el mismo documento se encuentre simultáneamente en dos estados. Este sistema nos va a permitir gozar de varias ventajas y de una mayor flexibilidad a la hora de realizar mejoras o modificaciones a la documentación existente.
-	    </para>
+    <title>Análisis de casos de uso</title>
+    <para>
+      Los casos de uso representan las acciones que un usuario del
+      sistema puede realizar en éste. En este documento se usará
+      el término <emphasis>actor</emphasis> para referirnos de
+      forma general a cualquier tipo de usuario.
+    </para>
+    <para>
+      El primer paso en el análisis es identificar los tipos de
+      actores del sistema. En el caso del taller de documentación
+      libre actúan los siguientes participantes:
+      <variablelist>
+	<varlistentry>
+	  <term>Lector</term>
+	  <listitem>
+	    <para>Usuario que accede al sistema fundamentalmente
+	      para leer documentos.</para> 
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Lector registrado</term>
+	  <listitem>
 	    <para>
-	      Por analogía consideraremos un documento en estado 'estable' como un documento acabado, con concordancia en su totalidad y completo. Podríamos suponer que los documentos en este estado están "listos para imprimir" y que tienen la calidad suficiente para poder ser difundidos o publicados tal cual.
-	  </para>
-	  <para>
-	    Si el documento no cuenta con las características mencionadas y que le hacen 'estable' será calificado como 'en desarrollo'. Como su propia nomenclatura indica, este tipo de documentos necesitan de ciertas mejoras o acciones para pasar a ser estables.
-	  </para>
-	  <para>
-	    Para entender mejor el concepto de estados de un documento, lo mejor será seguir el proceso de creación de documentación más frecuente. Consideramos que todo documento durante sus etapas iniciales se encuentra en desarrollo. Una vez que sus autores lo encuentren suficientemente maduro, podrán cambiar el estado del documento y asignarlo como estable. Aunque el hecho de considerarlo maduro es subjetivo y, por tanto, subceptible de discusión, se pueden establecer una serie de parámetros muy sencillos para certificar que esto es así. Por ejemplo, un documento estable no debe tener secciones o párrafos por terminar (los famosos POR HACER).
-	  </para>
-	  <para>
-	    Una vez especificado el documento como estable, su difusión será mucho mayor y, por tanto, probablemente también la probabilidad de que exista retroalimentación por parte de lectores. Es en este momento, donde pueden empezar a coexistir una sección estable y una en desarrollo. Y es que las modificaciones realizadas sobre la versión estable, pasarán a formar parte de la versión en desarrollo. De esta forma, el lector podrá leer siempre la última versión estable, mientras el que quiera colaborar podrá hacerlo teniendo en cuenta las últimas modificaciones que se han hecho.
-	  </para>
-          <para>
-	    La potestad para hacer que un documento en desarrollo pase a tener un estado estable corresponderá siempre a sus autores originales, por lo que de esta manera también se facilita el hecho de que el autor principal tenga el poder de validación sobre los cambios o modificaciones que se hagan sobre su documento.
-	  </para>
-	</sect3>
-
-	<sect3 role="grex">
-	  <title>Revisión entre iguales</title>
-	  <para></para>
-	</sect3>
-
-	<sect3 role="jorge">
-	  <title>Publicación de un documento</title>
-	  <para></para>
-	</sect3>
-
-	<sect3>
-	  <title>Recepción de aportaciones</title>
-	  <para></para>
-	</sect3>
-
-	<sect3>
-	  <title>Validación de aportaciones</title>
-	  <para></para>
-	</sect3>
-
-      </sect2>
-
+	      Usuario que se ha registrado en el sistema. De esta
+	      forma puede autenticarse cuando accede y realizar
+	      aportaciones a los documentos existentes. Se pretende
+	      promover que todos los lectores se conviertan en
+	      lectores registrados.
+	    </para> 
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Autor</term>
+	  <listitem>
+	    <para>
+	      Usuario que puede insertar documentos en el sistema y
+	      realizar cambios en estos documentos. También puede
+	      revisar documentos de otros autores a petición suya
+	      tras un cambio grande.
+	    </para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </para>
+    <para>
+      Las acciones que estos actores pueden realizar sobre el
+      sistema quedan reflejadas en los diagramas de casos
+      de uso de las siguientes figuras. A la izquierda se sitúan
+      los actores y a la derecha
       
-      <sect2>
-	<title>Análisis arquitectural</title>
+    </para>
+    <figure float="0" id="figure-use-cases-reader">
+      <title>Diagrama de casos de uso de lectores</title>
+      <graphic fileref="img/use-cases-reader.png" format="PNG"/>
+    </figure>
+    <figure float="0" id="figure-use-cases-contributor">
+      <title>Diagrama de casos de uso de lectores registrados</title>
+      <graphic fileref="img/use-cases-contributor.png" format="PNG"/>
+    </figure>
+    <figure float="0" id="figure-use-cases-author">
+      <title>Diagrama de casos de uso de autores</title>
+      <graphic fileref="img/use-cases-author.png" format="PNG"/>
+    </figure>
+  </sect1>
+  <sect1>
+    <title>Análisis funcional</title>
+    <para></para>
+
+    <sect2>
+      <title>Creación de documentos</title>
+      <sect3 role="use-case">
+	<title>Caso de uso: Inserta documento nuevo</title>
 	<para></para>
-      </sect2>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title>Gestión de versiones de documentos</title>
+      <para></para>
+
+      <sect3 role="grex">
+	<title>Estados de un documento y gestión de sus versiones</title>
+	<para>
+	  Al igual que en muchos proyectos de software libre se ha considerado oportuno que el mismo documento se encuentre simultáneamente en dos estados. Este sistema nos va a permitir gozar de varias ventajas y de una mayor flexibilidad a la hora de realizar mejoras o modificaciones a la documentación existente.
+	</para>
+	<para>
+	  Por analogía consideraremos un documento en estado 'estable' como un documento acabado, con concordancia en su totalidad y completo. Podríamos suponer que los documentos en este estado están "listos para imprimir" y que tienen la calidad suficiente para poder ser difundidos o publicados tal cual.
+	</para>
+	<para>
+	  Si el documento no cuenta con las características mencionadas y que le hacen 'estable' será calificado como 'en desarrollo'. Como su propia nomenclatura indica, este tipo de documentos necesitan de ciertas mejoras o acciones para pasar a ser estables.
+	</para>
+	<para>
+	  Para entender mejor el concepto de estados de un documento, lo mejor será seguir el proceso de creación de documentación más frecuente. Consideramos que todo documento durante sus etapas iniciales se encuentra en desarrollo. Una vez que sus autores lo encuentren suficientemente maduro, podrán cambiar el estado del documento y asignarlo como estable. Aunque el hecho de considerarlo maduro es subjetivo y, por tanto, subceptible de discusión, se pueden establecer una serie de parámetros muy sencillos para certificar que esto es así. Por ejemplo, un documento estable no debe tener secciones o párrafos por terminar (los famosos POR HACER).
+	</para>
+	<para>
+	  Una vez especificado el documento como estable, su difusión será mucho mayor y, por tanto, probablemente también la probabilidad de que exista retroalimentación por parte de lectores. Es en este momento, donde pueden empezar a coexistir una sección estable y una en desarrollo. Y es que las modificaciones realizadas sobre la versión estable, pasarán a formar parte de la versión en desarrollo. De esta forma, el lector podrá leer siempre la última versión estable, mientras el que quiera colaborar podrá hacerlo teniendo en cuenta las últimas modificaciones que se han hecho.
+	</para>
+	<para>
+	  La potestad para hacer que un documento en desarrollo pase a tener un estado estable corresponderá siempre a sus autores originales, por lo que de esta manera también se facilita el hecho de que el autor principal tenga el poder de validación sobre los cambios o modificaciones que se hagan sobre su documento.
+	</para>
+      </sect3>
+
+      <sect3 role="use-case">
+	<title>Caso de uso: Inserta nueva versión de un documento</title>
+	<para></para>
+      </sect3>
+
+    </sect2>
+
+    <sect2>
+      <title>Proceso de revisión</title>
+      <para></para>
+
+      <sect3 role="grex">
+	<title>La revisión entre iguales</title>
+	<para></para>
+      </sect3>
+      <sect3 role="use-case">
+	     <title>Caso de uso: Autor solicita revisión por otro autor</title>
+	     <para></para>
+	     </sect3>
+	     <sect3 role="use-case">
+	<title>Caso de uso: Autor revisa y envía comentarios al autor</title>
+	<para></para>
+      </sect3>
+      <sect3 role="use-case">
+	     <title>Caso de uso: Autor revisa y acepta documento</title>
+	     <para></para>
+	     </sect3>
+
+
+	     </sect2>
+
+	     <sect2>
+	     <title>Publicación e impresión de documentos</title>
+	     <para></para>
+
+	     <sect3 role="use-case">
+	  <title>Caso de uso: Dar formato al documento</title>
+	<para></para>
+      </sect3>
+
+      <sect3 role="use-case">
+	<title>Caso de uso: Publicar documento</title>
+	<para></para>
+      </sect3>
+
+    </sect2>
+
+    <sect2>
+      <title>Aportaciones de los lectores</title>
+      <para></para>
+      <sect3>
+	<title>El papel de las aportaciones de los lectores</title>
+	<para></para>
+      </sect3>
+      <sect3 role="use-case">
+	<title>Caso de uso: Usuario registrado envia aportación</title>
+	<para>Descripción de "Notifica Erratas", "Añade contenido",
+	  "Modifica contenido", "Añade comentario"</para>
+	<para>Las aportaciones se muestran de instantáneamente junto
+	  al documento. Pero no integradas en él, sino marcadas
+	  claramente como aportaciones.</para>
+      </sect3>
+      <sect3 role="use-case">
+	<title>Caso de uso: Autor valida aportación</title>
+	<para></para>
+      </sect3>
+    </sect2>
 
   </sect1>
+
+
+
+  <sect1>
+    <title>Análisis arquitectónico</title>
+    <para>Modelo de dominio</para>
+  </sect1>
+
+
   <sect1>
     <title>Conclusiones</title>
     <sect2>
       <title>Viabilidad del proyecto</title>
       <para></para>
     </sect2>
-      <sect2>
-	<title>Dificultades</title>
-	<para>
-	  Se han identificado una serie de dificultades que se podrían
-	  presentar al llevar a cabo la implementación en implantación
-	  con éxito del taller de documentación libre. Las más
-	  importantes son:
-	  - La falta de un editor de documentación estructurado de uso
-	  sencillo así como su integración con el taller
-	  - Para que el sistema funcione es necesario conseguir una
-	  masa crítica de lectores. Cómo lograr esto está fuera del
-	  alcance de este documento.
-	</para>
+    <sect2>
+      <title>Dificultades identificadas</title>
+      <para>
+	Se han identificado una serie de dificultades que se podrían
+	presentar al llevar a cabo la implementación en implantación
+	con éxito del taller de documentación libre. Las más
+	importantes son:
+	- La falta de un editor de documentación estructurado de uso
+	sencillo así como su integración con el taller
+	- Para que el sistema funcione es necesario conseguir una
+	masa crítica de lectores. Cómo lograr esto está fuera del
+	alcance de este documento.
+      </para>
     </sect2>
   </sect1>
 
