@@ -1,0 +1,37 @@
+libr-e
+una herramienta colaborativa de creaci&on de documentos
+
+$Id: libr-e.es.txt,v 1.1 2002/06/01 17:56:01 grex Exp $
+
+Jorge Ferrer y Gregorio Robles
+<jorge@jorgeferrer.com> // <grex@scouts-es.org>
+Universidad Polit&ecnica de Madrid
+Junio 2002
+
+
+La fusi&on de la filosof&ia del software libre y las nuevas formas de desarrollo propiciadas por la generalizaci&on de conexiones a Internet ha permitido que el desarrollo de software libre distribuido y colaborativo haya experimentado un gran auge en las dos &ultimas d&ecadas (de hecho, se ha calculado que el volumen de c&odigo fuente de aplicaciones de software libre se duplica cada 18 meses) y que se ha venido a denominar el modelo del bazar. Esta experiencia, sin embargo, no se ha implantado de manera similar a la hora de crear documentos. Por eso, en los &ultimos tiempos se est&a viendo la necesidad de tener un sistema que, teniendo en cuenta ciertas circunstancias particulares de la creaci&on, edici&on y modificaci&on de documentos, permita disfrutar a la generaci&on de los mismos de una sinergia similar a la que nos encontramos en el mundo del software libre.
+
+(aqu&i hay que explicar qu&e entendemos por documento)
+
+Requisitos del sistema
+
+* Debe seguir el proceso de creaci&on de documentos "tradicional". El n&umero de procesos nuevos introducidos debe limitarse al m&inimo para no conllevar rechazo. En definitiva, este punto se puede resumir como que el proceso de creaci&on debe ser lo m&as intuitivo posible. En el caso ideal, aunque el sistema interiormente funcione de una forma pensada para el tratamiento &optimo de documentaci&on, el usuario debe encontrarse con una herramienta que cuente con lo imprescindible para lo que quiere hacer: escribir.
+
+
+* Debe abstraer en lo posible de las herramientas utilizadas para que no exista una barrera de entrada infranqueable o una curva de aprendizaje muy empinada. En el marco ideal, el creador del documento deber&ia escribir abstray&endose del hecho de que lo est&a haciendo en una plataforma que permite hacerlo de manera distribuida y colaborativa. Otra vez observamos que la manera de escribir debe asemejarse lo m&as posible al marco de trabajo al que est&a acostumbrado el creador.
+
+
+* Las decisiones finales sobre las correcciones, modificaciones y a&nadidos a un documento corresponder&an al (los) autor(es) originales. La versi&on oficial (estable) siempre deber&a contar con el visto bueno de los creadores originales para que no se de pie a malentendidos ni a abusos por parte de terceros.
+
+La argumentaci&on que hemos seguido para especificar este punto tiene razones hist&oricas. Una de los aspectos que diferencian, por ejemplo, a las licencias de documentaci&on libre de sus hom&ologas en el campo del software libre, es el tratamiento que se hace tanto de los autores como de las modificaciones posteriores. Socialmente se hace mucho m&as hincapi&e en los autores de documentaci&on que en los creadores de software, b&asicamente porque lo segundo se utiliza como una herramienta cuya finalidad al fin y al cabo es que sea &util y nos resuelva el problema que tenemos de manera m&as o menos eficiente. Sin embargo, la documentaci&on la tratamos desde un punto de vista diferente. Es com&un encontrar anexos a los documentos introduci&endonos al autor, mostr&andonos su biograf&ia, sus tendencias dentro del marco que ha escrito, a la vez que otras personas (normalmente asimismo creadores de documentaci&on) que han influido su pensamiento y, por ende, el documento actual.
+
+* Debe existir un interfaz simple donde se pueda conseguir tanto el documento en su versi&on estable, su versi&on en desarrollo, a la vez que se pueda seguir la evoluci&on del mismo, con todas las interacciones que forman parte del mismo, al igual que las personas que las han llevado a cabo.
+
+
+
+Requisitos t&ecnicos
+
+* El formato de documentaci&on elegido es DocBook. Adem&as de estar muy arraigado dentro del mundo de la documentaci&on de software libre, cuenta con el benepl&acito de tener una reciente versi&on en XML, una tecnolog&ia alrededor de la cual parece que se basar&a la sociedad del conocimiento del futuro.
+
+* Debe existir un sistema de control de versiones
+
