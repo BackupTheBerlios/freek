@@ -236,8 +236,8 @@
       <listitem>
 	<para>
 	  Los usuarios registrados pueden solicitar que se les
-	  notifique mediante correo electrónico cuando una aportación suya haya sido
-	  aceptada. 
+	  notifique mediante correo electrónico cuando una aportación
+	  suya haya sido aceptada. 
 	</para>
       </listitem>
       <listitem>
@@ -429,7 +429,7 @@
     <para>
       Se irán examinando cada uno de dichos casos de uso y se
       describirá el funcionamiento textualmente y acompañado con
-      diagramas UML de secuencia <!-- FIXME: y estado --> para
+      diagramas UML de secuencia y estado para
       facilitar su comprensión.
     </para>
     <para>
