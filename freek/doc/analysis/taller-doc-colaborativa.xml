@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd">
+
+<article lang="es" id="taller-doc">
+  <articleinfo>
+    <title>Taller de creación colaborativa de documentación</title>
+  </articleinfo>
+  <sect1>
+    <title>Introducción</title>
+    <note><para>
+	Esta sección le toca a Grex. Hay que revisar los objetivos,
+	que son parte de la propuesta inicial o bien reescribirlo
+    </para></note>
+    <sect2>
+      <title>Objetivos</title>
+      <variablelist>
+	<varlistentry>
+	  <term>Creación de documentación original de forma distribuida</term>
+	  <listitem>
+	    <para>
+	      Crear una infraestructura que permita la creación de
+	      documentación empleando un sistema de gestión de versiones,
+	      un sistema de publicación automática y una serie de
+	      mecanismos que permitan la revisión entre iguales de la
+	      documentación anterior a la publicación. 
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Modificación y mejora de documentación de forma
+	    continuada y colaborativa</term> 
+	  <listitem>
+	    <para>
+	       Este objetivo consiste en permitir que cualquier persona
+	      que lea una determinada documentación pueda colaborar en su
+	      mejora, ya sea corrigiendo errores o mejorando alguna
+	      sección que domine. Existen varias formas de hacer esto (con
+	      grado de dificultad creciente):
+	      <orderedlist inheritnum="ignore" continuation="restarts">
+		<listitem>
+		  <para>
+		    Mandar un mail al autor describiendo donde está el
+		    error u ofreciendo una sección mejorada.
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>
+		    Añadiendo comentarios en la página que son
+		    inmediatamente accesibles para el resto de lectores. 
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>
+		    Modificando on-line el documento. En este esquema debe
+		    proveerse de un mecanismo que permita al autor
+		    original o editores autorizados revisar los cambios y
+		    aceptarlos antes de que puedan ser visualizados por el
+		    resto de lectores. Mientras se aceptan podrían ser
+		    mostrados en una sección de mejoras propuestas. 
+		  </para>
+		</listitem>
+	      </orderedlist>
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Area para incubar proyectos de documentación</term> 
+	  <listitem>
+	    <para>
+	      Se propone la creación de un área donde uno o más autores
+	      pueden exponer sus ideas y buscar colaboradores para crear
+	      documentación o bien ideas sobre cómo crearlo.
+	    </para>
+	    <para>
+	      El funcionamiento esperado de esta <emphasis>incubadora es
+		el siguiente</emphasis>:
+	      <itemizedlist>
+		<listitem>
+		  <para>Un autor tiene una idea sobre la que quiere escribir</para>
+		</listitem>
+		<listitem>
+		  <para>Comienza a escribir y a exponer sus ideas sobre
+		    lo que está escribiendo o va a escribir. Lo que va
+		    escribiendo y las ideas asociadas se hacen públicas en
+		    un área especial para proyectos en desarrollo.</para>
+		</listitem>
+		<listitem>
+		  <para>Todos los que leen las ideas o lo que se va
+		    escribiendo pueden aportar algo:</para>
+		  <itemizedlist>
+		    <listitem>
+		      <para>Contactando con el autor para colaborar</para>
+		    </listitem>
+		    <listitem>
+		      <para>Enviando correcciones</para>
+		    </listitem>
+		    <listitem>
+		      <para>Añadiendo comentarios con ideas o peticiones
+			de temas que le gustaría que se trataran</para>
+		    </listitem>
+		    <listitem>
+		      <para>Aunque no aporte nada directamente se
+			mantienen estadísticas de las visitas que pueden
+			servir al autor como guía del éxito que está
+			teniendo.</para> 
+		    </listitem>
+		  </itemizedlist>
+		</listitem>
+	      </itemizedlist>
+	    </para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2>
+      <title>Motivación</title>
+      <para>
+	¿Porqué el bazar funciona para el software y no lo va a hacer
+	para la documentación?
+      </para>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Requisitos del taller</title>
+    <sect2>
+      <title>Requisitos funcionales</title>
+      <sect3>
+	<title>Generales</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Debe soportarse una gestión de versiones de los
+	      documentos. Debe resolverse el problema de la
+	      posibilidad de que haya aportaciones realizadas sobre
+	      versiones antiguas. 
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+      <sect3>
+	<title>Relativos a usuarios/lectores</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Todo el que lee un documento debe poder realizar
+	      aportaciones con el menor esfuerzo posible 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Deben permitirse y fomentarse las aportaciones
+	      pequeñas. Por ejemplo:
+	      <itemizedlist>
+		<listitem>
+		  <para>Añadido</para>
+		</listitem>
+		<listitem>
+		  <para>Nota</para>
+		</listitem>
+		<listitem>
+		  <para>Comentario</para>
+		</listitem>
+		<listitem>
+		  <para>Referencia</para>
+		</listitem>
+		<listitem>
+		  <para>Modificar línea</para>
+		</listitem>
+	      </itemizedlist>
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Debe poder modificarse el documento sin necesidad de
+	      saber docbook.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title>Requisitos no funcionales</title>
+      <sect3>
+	<title>Generales</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      El sistema debe ser accesible por el mayor número de
+	      usuarios y autores posibles, por lo que se usará un
+	      acceso a través del WWW. ¿hay alternativas?  
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Adicionalente deben darse facilidades para integrarse
+	      con aplicaciones de escritorio que permitan trabajo
+	      colaborativo remoto (por ejemplo TeXMacs).  
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+      <sect3>
+	<title>Relativas al sistema</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Las aportaciones de los lectores deben ser visibles
+	      inmediatamente. Estas deben separarse claramente del
+	      texto original hasta que sean aceptadas. El objetivo es
+	      fomentar que aporten al ver que sus aportaciones son
+	      visibles por todos los lectores instantáneamente. 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Los usuarios registrados pueden solicitar que se les
+	      notifique cuando una aportación suya haya sido
+	      aceptada. 
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+
+      <sect3>
+	<title>Relativos a autores</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      No debe necesitar más conocimientos técnicos que
+	      aquellos sobre los que escribe. 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Si el autor conoce herramientas como CVS, docbook, etc
+	      debe poder beneficiarse de ello. De esta forma se
+	      promueve que los autores las aprendan, ya que conocerlas
+	      aporta beneficios. 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      El autor debe recibir notificaciones por correo
+	      electrónico de las aportaciones hechas por los
+	      usuarios. 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Debe implementarse un flujo de trabajo que permita a los
+	      autores revisar las aportaciones y aceptarlas con la
+	      mayor facilidad posible. 
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title>Análisis del sistema</title>
+      <sect3>
+	<title>Casos de uso</title>
+	<para>
+	  Los casos de uso representan las acciones que un usuario del
+	  sistema puede realizar en éste. En este documento se usará
+	  el término <emphasis>actor</emphasis> para referirnos de
+	  forma general a cualquier tipo de usuario.
+	</para>
+	<para>
+	  El primer paso en el análisis es identificar los tipos de
+	  actores del sistema. En el caso del taller de documentación
+	  libre actúan los siguientes participantes:
+	  <variablelist>
+	    <varlistentry>
+	      <term>Autor</term>
+	      <listitem>
+		<para>Es un individuo que está autorizado a realizar
+		todas las modificaciones que un documento
+		requiere. Generalmente será un autor original del
+		mismo o bien un colaborador habitual al que se le ha
+		dado autorización de modificación.</para>
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term>Editor</term>
+	      <listitem>
+		<para>Un editor es un individuo cuya función principal es
+		revisar un documento con vistas a su aceptación final
+		y su publicación. Todo individuo que sea autor de un
+		documento ya publicado es un editor potencial.</para>
+	      </listitem>
+	    </varlistentry>
+	  </variablelist>
+	</para>
+	<para>
+	  Las acciones que estos actores pueden realizar sobre el
+	  sistema quedan reflejadas en el siguiente diagrama de casos
+	  de uso:
+	</para>
+	<!--
+	<figure float="0" id="use-cases-figure">
+	  <title>Use cases</title>
+	  <graphic fileref="img/use-cases.png" format="PNG"/>
+	</figure>
+        -->
+      </sect3>
+
+
+      <sect3>
+	<title>Análisis funcional</title>
+	<para></para>
+
+	<sect4 class="jorge">
+	  <title>Interacción con los autores</title>
+	  <para></para>
+	</sect4>
+
+	<sect4 class="grex">
+	  <title>Estados de un documento y gestión de sus versiones</title>
+	  <para></para>
+	</sect4>
+
+	<sect4 class="grex">
+	  <title>Revisión entre iguales</title>
+	  <para></para>
+	</sect4>
+
+	<sect4 class="jorge">
+	  <title>Publicación de un documento</title>
+	  <para></para>
+	</sect4>
+
+	<sect4>
+	  <title>Recepción de aportaciones</title>
+	  <para></para>
+	</sect4>
+
+	<sect4>
+	  <title>Validación de aportaciones</title>
+	  <para></para>
+	</sect4>
+
+      </sect3>
+
+      
+      <sect3>
+	<title>Arquitectura</title>
+	<para></para>
+      </sect3>
+
+      <sect3>
+	<title>Dificultades</title>
+	<para>
+	  Se han identificado una serie de dificultades que se podrían
+	  presentar al llevar a cabo la implementación en implantación
+	  con éxito del taller de documentación libre. Las más
+	  importantes son:
+	  - La falta de un editor de documentación estructurado de uso
+	  sencillo así como su integración con el taller
+	  - Para que el sistema funcione es necesario conseguir una
+	  masa crítica de lectores. Cómo lograr esto está fuera del
+	  alcance de este documento.
+	</para>
+      </sect3>
+
+    </sect2>
+    
+  </sect1>
+  <sect1>
+    <title>Conclusiones</title>
+    <para>
+    </para>
+  </sect1>
+
+  <sect1>
+    <title>Agradecimientos</title>
+    <para>Documentando, Lucas, TLDP, ...</para>
+  </sect1>
+
+  <bibliography>
+    
+  </bibliography>
+</article>
+
+
+
+
+
+
