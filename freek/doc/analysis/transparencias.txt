@@ -26,6 +26,11 @@ Objetivos
 
 Requisitos
 
+* Soporte de versiones de documentos
+* Deben permitirse y fomentarse las aportaciones pequeñas.
+* Debe permitirse a los autores el acceso directo al sistema de gestión de versiones si disponen de los conocimientos necesarios.
+* Las aportaciones de los lectores deben ser visibles inmediatamente.
+
 Análisis: casos de uso
 
 Análisis Funcional

@@ -211,7 +211,7 @@
       <listitem>
 	<para>
 	  Las aportaciones de los lectores deben ser visibles
-	  inmediatamente. Estas deben separarse claramente del
+	  inmediatamente. Éstas deben separarse claramente del
 	  texto original hasta que sean aceptadas. El objetivo es
 	  fomentar que aporten haciendo que sus aportaciones sean
 	  visibles por todos los lectores incluso antes de su
@@ -221,15 +221,18 @@
       <listitem>
 	<para>
 	  Los usuarios registrados pueden solicitar que se les
-	  notifique cuando una aportación suya haya sido
+	  notifique mediante correo electrónico cuando una aportación suya haya sido
 	  aceptada. 
 	</para>
       </listitem>
       <listitem>
 	<para>
 	  Los usuarios registrados pueden solicitar que se les
-	  notifique cuando aparezca una nueva versión de un
+	  notifique por correo-e cuando aparezca una nueva versión de un
 	  documento publicado.
+	</para>
+	<para>
+	  Todo lector podrá contar con una página web personal donde además de información personal que el propio lector publique voluntariamente, se podrán seguir las aportaciones que ha hecho a los diferentes documentos. En futuras implementaciones del sistema, podrá exitir un mecanismo para que esas aportaciones sean evaluadas en su conjunto (por otros lectores o por el interés que propicien) y que esto revierta en el estado del lector para con el sistema. Esta idea es utilizada, por ejemplo, en sitios de noticias en Internet como Slashdot o Barrapunto y se conoce como karma. Tener mucho karma es signo inequívoco de que el lector es un miembro con cierto prestigio dentro de la comunidad que se crea alrededor del sistema.
 	</para>
       </listitem>
     </sect2>
