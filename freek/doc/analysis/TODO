@@ -1,0 +1,31 @@
+Queda por hacer
+===============
+
+Documento
+---------
+- Decidir integración entre requisitos y casos de uso
+- Completar descripción y diagramas de:
+  - Caso de uso: Inserta documento nuevo
+  - Caso de uso: Inserta nueva versión de un documento
+  - Proceso de revisión (y sus tres casos de uso asociados)
+  - Gestión de notificaciones (y sus tres casos de uso asociados)
+  - Publicación e impresión (y sus dos casos de uso asociados)
+  - Aportaciones de los lectores: falta diagrama de secuencia/estado
+- Análisis arquitectónico
+- ¡Más bibliografía!
+
+Transparencias
+--------------
+- Decidir qué diagramas se van a mostrar
+- Dar formato
+- Añadir más información significativa: lo que hay ahora está bien,
+pero hay que añadir algo para que se note que está muy pensado 
+
+Cuestiones pendientes
+=====================
+- ¿Pueden borrarse o "despublicarse" documentos?
+- ¿Hacemos un análisis de herramientas? en caso contrario deberíamos
+quitar el apartado de Viabilidad
+- ¿Cuando se aplica formato a un documento, nada mas insertarlo o al
+publicarlo?
+- ¿cual es la diferencia entre un comentario y una nota
