@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/07 22:41:09 $</date>
-    <releaseinfo>$Revision: 1.23 $</releaseinfo>
+    <date>$Date: 2002/07/08 17:40:47 $</date>
+    <releaseinfo>$Revision: 1.24 $</releaseinfo>
   </articleinfo>
   <!--
   ÍNDICE
@@ -1163,7 +1163,7 @@
       <sect3>
 	<title>Docbook</title>
 	<para>
-	  FIXME
+	  
 	</para>
 	<para>
 	  En el caso de Docbook pueden emplearse plantillas DSSL o XSL
@@ -1200,30 +1200,39 @@
     <sect2>
       <title>Tecnologías web</title>
       <para>
-        FIXME
+        Como el sistema va a tener una interfaz web, es interesante ver las diferentes soluciones que el software libre ofrece en la actualidad. Veremos desde lenguajes de programaci&on, pasando por aplicaciones web hasta servidores de aplicaciones.
       </para>
       <sect3>
 	<title>PHP</title>
 	<para>
-	  FIXME
+	  PHP viene de &quot;PHP Hypertext Preprocessor" y es un acr&onimo recursivo al estilo GNU. Se trata de un lenguaje de gui&on estructurado orientado inicialmente a la creaci&on de p&aginas web que ha ido creciendo para incluir orientaci&on (parcial) a objetos, convertirse en un lenguaje de shell y llegar incluso a hacer sus pinitos en campos tan diferentes a las p&aginas web como es un entorno de escritorio (proyecto PHP-GTK).
+	</para>
+	<para>
+	  PHP se ha convertido en uno de los lenguajes m&as populares debido sobre todo a su facilidad de aprendizaje, as&i como en la perfecta y sencilla integraci&on con bases de datos con la que cuenta. De esta forma, muchas de las aplicaciones web que hacen uso extensivo de bases de datos utilizan PHP como lenguaje de programaci&on.
+	</para>
+	<para>
+	  Sin embargo, s&olo permite la programaci&on orientada a objetos de manera bastante limitada, carece de grandes repositorios de clases o bibliotecas como las que cuenta Perl con CPAN y hace que los desarrolladores tiendan a integrar c&odigo de presentaci&on en HTML y PHP en la creaci&on de las aplicaciones web, de modo que el c&odigo se hace engorroso y dif&icil de depurar y mantener.
 	</para>
       </sect3>
       <sect3>
-	<title>Slash</title>
+	<title>Slashcode</title>
 	<para>
-	  FIXME
+	  Siendo generosos podemos considerar Slashcode, m&as conocido como Slash, como un servidor de aplicaciones para la publicaci&on de contenidos web. Cuenta con una arquitectura modular que permite la agregaci&on de plug-ins, adem&as de infraestructura para generar un sistema de autentificaci&on y autorizaci&on muy bueno basado en listas de control de acceso (listas ACL). Slashcode est&a escrito en Perl y su funcionamiento &optimo se produce funcionando con el m&odulo mod_perl de Apache. Los sitios de noticias de software libre, que cuentan con un gran n&umero de accesos diario, como SlashDot y Barrapunto utilizan Slash.
 	</para>
       </sect3>
       <sect3>
 	<title>Zope</title>
 	<para>
-	  FIXME
+	  Zope, acr&onimo de "Z Object Publishing Environment", es un servidor de aplicaciones ideado con la finalidad de facilitar la publicaci&on de contenidos en el web. En un principio, estaba pensado para ser usado como servicio de publicaci&on para un peri&odico, aunque su flexibilidad, modularidad y orientaci&on a objetos ha hecho del mismo un servidor de aplicaciones web en toda regla. Zope cuenta con una arquitectura muy sofisticada, a veces demasiado compleja. Permite crear aplicaciones de manera muy r&apida, aunque se desestima su uso para aplicaciones con gran carga, ya que su arquitectura est&a sobredimensionada para hacer posible solucionar un mont&on de problemas. Zope cuenta con una curva de aprendizaje muy alta que hace muy dif&icil encontrar desarrolladores que lo conozcan.
 	</para>
       </sect3>
       <sect3>
 	<title>Wiki</title>
 	<para>
-	  FIXME
+	  Los wiki son portales web en los que la contribuci&on de los visitantes es libre. Cualuqiera que entre en una p&agina puede modificarla o a&nadir nuevos elementos a la misma. Los wiki m&as sofisticados cuentan con un sistema de control de versiones interno (transparente al usuario final) que posibilita volver atr&as en caso de equivocaci&on. El wiki en su m&axima expresi&on es el porta Wikipedia, que como ellos mismos se definen es un &quot;esfuerzo colaborativo para crear una enciclopedia gratuita, libre y accesible por todos&quot;.
+	</para>
+	<para>
+	  Aunque la finalidad que se suele hacer de los wikis es similar a la que se persigue en nuestro sistema, los aspectos de calidad y de autor&ia no se ven los suficientemente refrendados con el uso de un wiki. Un sistema basado en un wiki no permite puntos tan importantes como la validaci&on por parte del autor, la revisi&on por parte de editores, etc. Por el contrario, una idea que se toma de los wiki es la posibilidad de que cualquier que as&i lo desee, pueda contribuir en el documento. Del mismo modo, nuestro sistema tambi&en har&a uso de un sistema de control de versiones transparente al usuario final.
 	</para>
       </sect3>
     </sect2>
@@ -1231,18 +1240,18 @@
     <sect2>
       <title>Gestión de versiones y repositorio</title>
       <para>
-        FIXME
+        Como hemos visto a lo largo de todo el documento, contar con un sistema de gesti&on de versiones es de capital importancia para el proyecto. En la actualidad existen pocas opciones libres, aunque parece que en los pr&oximos tiempos podremos contar con mayor elecci&on.
       </para>
       <sect3>
-	<title>Concurren Version System (CVS)</title>
+	<title>Concurrent Version System (CVS)</title>
 	<para>
-	  FIXME
+	  El CVS es el sistema de gesti&on de versiones m&as extendido en la actualidad, aunque desde hace mucho tiempo existen graves cr&iticas a su arquitectura y a detalles de implementaci&on. CVS cuenta, sin embargo, con un sistema sencillo de utilizar y aprender, adem&as de permitir la mayor&ia de las acciones que se requieren.
 	</para>
       </sect3>
       <sect3>
 	<title>Subversion</title>
 	<para>
-	  FIXME
+	  Subversion es el sistema de gesti&on de versiones de siguiente generaci&on. Pretende a la vez ganar en potencia e integridad, pero mantener la sencillez de CVS. Necesita Apache y de sus m&odulos mod_dav y mod_dav_svn para poder ser ejecutado correctamente. Podemos comprobar, por tanto, que se integrar&a perfectamente con entornos web. No cuenta con los fallos m&as comunes en CVS, como por ejemplo el de corrupci&on de sistemas de ficheros, que se arregla utilizando una base de datos que simula un sistema de ficheros. En la actualidad todav&ia se encuentra en una fase inestable, aunque el proyecto que se ha creado para su elaboraci&on utiliza para su propio desarrollo el propio sistema Subversion.
 	</para>
       </sect3>
     </sect2>
@@ -1250,12 +1259,15 @@
     <sect2>
       <title>Gestión de notificaciones</title>
       <para>
-        FIXME
+        La gesti&on de notificaciones permitir&a una cierta interacci&on entre los visitantes y el sistema. Lo m&as adecuado es automatizar en lo posible su funcionamiento, a la vez que evitar el n&umero de acciones que el administrador ha de ejecutar manualmente. Por eso, las listas de correo electr&onico y, sobre todo, el software de gesti&on que incorporan hacen que sea un opci&on muy a tener en cuenta.
       </para>
       <sect3>
 	<title>Listas de correo (Majordomo, GNU Mailman)</title>
 	<para>
-	  FIXME
+	  Las listas de correo han sido, en parte, las grandes art&ifices de muchos proyectos de software libre, ya que han permitido la discusi&on y difusi&on de informaci&on. Sin embargo, para el sistema que nos ata&ne, la funcionalidad que es m&as interesante es la gesti&on de sus usuarios. Mediante el uso de listas de correo, el usuario puede administrar su suscripci&on de manera bastante sencilla, sobre todo desde que todas las aplicaciones que las gestionan tienen un interfaz web de administraci&on. En caso de que existan errores temporales o duraderos, es el propio software que gestiona la lista la que toma las medidas oportunas para que el funcionamiento de la misma siga siendo &optima y, lo que es m&as importante, no se tenga que dar intervenci&on humana.
+	</para>
+	<para>
+	  GNU Mailman y majordomo son los dos gestores de listas de correo-e con mayor implantaci&on. Aunque GNU Mailman ha ido desbancando poco a poco al segundo gracias a sus muchas funcionalidades y a la facilidad de configuraci&on a trav&es de su interfaz web, en los &ultimos tiempos majordomo ha mejorado sustancialmente las posibilidades que ofrece.
 	</para>
       </sect3>
     </sect2>
@@ -1467,8 +1479,86 @@
 	  http://www.firstmonday.dk/issues/issue4_12/bezroukov/
 	</address>
       </biblioentry>
- 
      </bibliodiv>
+
+     <bibliodiv>
+      <title>Tecnolog&ias presentadas</title>
+
+      <biblioentry id="Docbook">
+	<author>
+	  <firstname>Norman</firstname>
+	  <surname>Walsh</surname>
+	</author>
+	<author>
+	  <firstname>Leonard</firstname>
+	  <surname>Muellner</surname>
+	</author>
+	<title>DocBook: The Definitive Guide</title>
+	<date>1999</date>
+	<address format="linespecific">
+	  http://www.docbook.org/tdg/en/html/docbook.html
+	</address>
+      </biblioentry>
+
+      <biblioentry id="Slashcode">
+	<author>
+	  <firstname>&Alvaro</firstname>
+	  <surname>del Castillo</surname>
+	</author>
+	<title>Slashcode: Un servidor de aplicaciones libre</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://congreso.hispalinux.es/congreso2001/actividades/ponencias/delcastillo/book1.html
+	</address>
+      </biblioentry>
+
+      <biblioentry id="zope">
+	<author>
+	  <firstname>&Alvaro</firstname>
+	  <surname>del Castillo</surname>
+	</author>
+	<title>Zope: el servidor de aplicaciones libre</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://programacion.com/tutorial.php?id=zope
+	</address>
+      </biblioentry>
+
+      <biblioentry id="wikipedia">
+	<title>Wikipedia</title>
+	<date>2002</date>
+	<address format="linespecific">
+	  http://es.wikipedia.com
+	</address>
+      </biblioentry>
+
+      <biblioentry id="CVS">
+	<author>
+	  <firstname>Ismael</firstname>
+	  <surname>Olea</surname>
+	</author>
+	<title>Micro-c&omo empezar a trabajar con CVS</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://www.olea.org/como-empezar-cvs/
+	</address>
+      </biblioentry>
+
+
+      <biblioentry id="Subversion">
+	<author>
+	  <firstname>Ben</firstname>
+	  <surname>Collins-Sussman</surname>
+	</author>
+	<title>Goals of the Subversion Project</title>
+	<date>2001</date>
+	<address format="linespecific">
+	  http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=3
+	</address>
+      </biblioentry>
+
+     </bibliodiv>
+
    </bibliography>
 </article>
 
