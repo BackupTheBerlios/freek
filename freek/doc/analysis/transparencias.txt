@@ -41,11 +41,17 @@ Requisitos no funcionales
 
 Análisis: casos de uso
 
-
+* Actores del sistema
 
 
 Análisis Funcional
 
+
+
 Conclusiones
+
+* Viabilidad
+* Dificultades
+* Extensiones
 
 Bibliografía

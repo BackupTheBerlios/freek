@@ -263,7 +263,7 @@
 	  <listitem>
 	    <para>
 	      No debe necesitar más conocimientos técnicos que
-	      aquellos sobre los que escribe. 
+	      aquéllos sobre los que escribe. 
 	    </para>
 	  </listitem>
 	  <listitem>
@@ -342,6 +342,17 @@
 	      su publicación o enviar comentarios al autor. Cualquier
 	      autor puede jugar el rol de revisor de los documentos de
 	      otro autor.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Administrador</term>
+	  <listitem>
+	    <para>
+	      El administrador del sistema no cuenta entre sus funciones con tareas relacionadas directamente con los contenidos como en el caso de los anteriores roles. Sin embargo, su labor estará estrechamente ligada a la ordenación y mantenimiendo de la documentación, ya que será él el que cree nuevas secciones y categorías. Asimismo, tendrá poder para modificar o eliminar comentarios, etc.
+	    <para>
+	       Por otro lado, el administrador del sistema deberá realizar todas las actividades pertinentemente técnicas para mantener el sistema en pie, como son el mantenimiento y actualización del software, el mantenimiento de los contenedores de conteidos (ya sean bases de datos, ficheros, etc.), la gestión de los recursos, etc.
+	     </para>
+	    </para>
 	  </listitem>
 	</varlistentry>
       </variablelist>
