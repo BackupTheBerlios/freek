@@ -1,5 +1,5 @@
 # This code is a part of Freek, and is released under the GPL.
-# Copyright 2002 by Alvaro del Castillo, acs@barrapunto.com. See README
+# Copyright 2002 by Jorge Ferrer, jorge@jorgeferrer.com. See README
 # and COPYING for more information
 
 package Slash::DocbookXML;
@@ -15,7 +15,7 @@ use vars qw($VERSION);
 #use base 'Slash::DB::Utility';
 #use base 'Slash::DB::MySQL';
 
-($VERSION) = ' $Revision: 1.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+($VERSION) = ' $Revision: 1.2 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 sub new {
     my($class, $filePath) = @_;
