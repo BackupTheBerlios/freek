@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/03 21:17:03 $</date>
-    <releaseinfo>$Revision: 1.21 $</releaseinfo>
+    <date>$Date: 2002/07/07 16:11:24 $</date>
+    <releaseinfo>$Revision: 1.22 $</releaseinfo>
   </articleinfo>
   <!--
   ÍNDICE
@@ -50,7 +50,7 @@
 	dos últimas décadas. De hecho, se ha calculado que el volumen de
 	código fuente de aplicaciones de software libre se duplica cada
 	18 meses. Esta forma de hacer software se ha venido a denominar
-	el modelo de bazar, ya que se deja atrás un esquema donde unos
+	el modelo de bazar, ya que deja atrás un esquema donde unos
 	pocos producen para el resto en favor de otro donde las
 	interacciones entre los colaboradores son mucho más abiertas. 
       </para>
@@ -160,7 +160,7 @@
 	      principio cerrado, deben existir mecanismos para medir
 	      la popularidad, así como el interés despertado por un
 	      documento. De esta forma, siempre es interesante ver
-	      cuántos lectores ha tenido así cómo cuál es la
+	      cuántos lectores ha tenido, así cómo cuál es la
 	      valoración que éstos hacen del contenido que se les
 	      ofrece. 
 	    </para>
@@ -177,17 +177,28 @@
     </para>
     <sect2>
       <title>Requisitos funcionales</title>
-      <itemizedlist>
+      
+      <orderedlist inheritnum="ignore" continuation="restarts"
+		   role="functional-requisites">
 	<listitem>
 	  <para>
-	    Debe soportarse una gestión de versiones de los
-	    documentos.  
+	    Consulta por parte de los lectores de los documentos
+	    registrados. Para facilitar la búsqueda de dichos
+	    documentos deben estar clasificados. En concreto se
+	    presentará una lista de los últimos documentos global y
+	    por categorías.
 	  </para>
 	</listitem>
 	<listitem>
+	  <para>Los usuarios del sistema podrán registrarse en el
+	  mismo. Cuando accedan al sistema y se autentiquen podrán
+	  disponer de ventajas adicionales. No se requerirá ningún
+	  dato personal para realizar el registro.</para>
+	</listitem>
+	<listitem>
 	  <para>
-	    Deben permitirse y fomentarse las aportaciones
-	    pequeñas. En concreto:
+	    Deben permitirse las aportaciones pequeñas a un documento
+	    por parte de los lectores. En concreto:
 	    <itemizedlist>
 	      <listitem>
 		<para>Añadir bloques simples: párrafo, lista, etc.</para>
@@ -207,112 +218,164 @@
 	    </itemizedlist>
 	  </para>
 	</listitem>
-      <listitem>
-	<para>
-	  Debe permitirse a los autores el acceso directo al
-	  sistema de gestión de versiones si disponen de los
-	  conocimientos necesarios.
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Las aportaciones de los lectores deben ser visibles
-	  inmediatamente. Éstas deben separarse claramente del
-	  texto original hasta que sean aceptadas. El objetivo es
-	  fomentar que colaboren haciendo que sus aportaciones sean
-	  visibles por todos los lectores incluso antes de su
-	  aceptación final por parte del autor. 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Los usuarios registrados pueden solicitar que se les
-	  notifique mediante correo electrónico u otro medio de notificación cuando una aportación
-	  suya haya sido aceptada. 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Los usuarios registrados pueden solicitar que se les
-	  notifique por correo-e u otro medio de notificación cuando aparezca una nueva versión de un
-	  documento publicado del que hayan mostrado explícitamente interés.
-	</para>
-	<para>
-	  Todo lector podrá contar con una página web personal donde
-	  además de información personal que el propio lector publique
-	  voluntariamente, se podrán seguir las aportaciones que ha
-	  hecho a los diferentes documentos. En futuras
-	  implementaciones del sistema, podrá exitir un mecanismo para
-	  que esas aportaciones sean evaluadas en su conjunto (por
-	  otros lectores o por el interés que propicien) y que esto
-	  revierta en el estado del lector para con el sistema. Esta
-	  idea es utilizada, por ejemplo, en sitios de noticias en
-	  Internet como Slashdot o Barrapunto y se conoce como
-	  karma. Tener mucho karma es signo inequívoco de que el
-	  lector es un miembro con cierto prestigio dentro de la
-	  comunidad que se crea alrededor del sistema. 
-	</para>
-      </listitem>
-      </itemizedlist>
+	
+	<listitem>
+	  <para>
+	    Los usuarios registrados pueden solicitar que se les
+	    notifique mediante correo electrónico u otro medio de
+	    notificación cuando una aportación suya haya sido
+	    aceptada.  
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Los usuarios registrados pueden solicitar que se les  
+	    notifique por correo-e u otro medio de notificación cuando 
+	    aparezca una nueva versión de un determinado documento o
+	    bien cuando aparezca un nuevo documento de una categoría
+	    concreta. 
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Todo lector podrá contar con una página web personal donde
+	    además de información personal que el propio lector publique
+	    voluntariamente, se podrán seguir las aportaciones que ha
+	    hecho a los diferentes documentos. Se plantea como mejora
+	    futura la creación de un mecanismo para
+	    que esas aportaciones sean evaluadas en su conjunto (por
+	    otros lectores o por el interés que propicien) y que esto
+	    revierta en el estado del lector para con el taller. Esta
+	    idea es utilizada, por ejemplo, en sitios de noticias en
+	    Internet como Slashdot o Barrapunto y se conoce como
+	    <emphasis>karma</emphasis>. Tener mucho
+	    <emphasis>karma</emphasis> es signo inequívoco de que el  
+	    lector es un miembro con cierto prestigio dentro de la
+	    comunidad que se crea alrededor del taller.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Debe soportarse una gestión de versiones de los
+	    documentos. En concreto debe permitirse:
+	    <itemizedlist>
+	      <listitem>
+		<para>A los autores introducir nuevas versiones,
+		compararlas con versiones anteriores y volver atrás si
+		lo consideran necesario.</para>
+	      </listitem>
+	      <listitem>
+		<para>A los lectores acceder a la última versión
+		publicada, a versiones anteriores publicadas o a la
+		última versión de un documento que está todavía en
+		elaboración.</para> 
+	      </listitem>
+	      <listitem>
+		<para>
+		  Debe permitirse a los autores el acceso directo al
+		  sistema de gestión de versiones si desean aprovechar
+		  todas las funcionalidades del mismo incluidas las no
+		  ofrecidas a través de la interfaz del taller.
+		</para>
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>Cualquier lector registrado debe poder introducir un
+	  nuevo documento en el taller. A partir de eso momento podrá
+	  introducir tantas nuevas versiones como considere necesario
+	  hasta decidir que desea su publicación. Posteriormente
+	  deberá poder introducir nuevas versiones del documento.</para>
+	</listitem>
+	<listitem>
+	  <para>En la elaboración de un documento podrán participar
+	    varios autores. Debe facilitarse su colaboración por los
+	    medios posibles. En concreto deben soportarse el envío
+	    automático de notificaciones a los demás cuando uno realiza
+	    cambios.
+	  </para>
+	</listitem>
+	<listitem>
+	  Debe soportarse un mecanismo de revisión que permita
+	  garantizar la calidad de los documentos publicados. Este
+	  mecanismo no debe convertirse en un cuello de botella que
+	  retrase notablemente la publicación de los documentos.
+	</listitem>
+      </orderedlist>
     </sect2>
     <sect2>
       <title>Requisitos no funcionales</title>
-      <sect3>
-	<title>Requisitos de interfaz</title>
-	<para>
-	  El sistema debe ser accesible por el mayor número de
-	  usuarios y autores posibles. Esto implica garantizar el
-	  acceso independientemente de la localización así como la no
-	  necesidad de tener conocimientos técnicos específicos para
-	  poder usarlo, tal y como se concreta en los siguientes
-	  requisitos. 
-	</para>
-	<itemizedlist>
-	  <listitem>
-	    <para>
-	      Los documentos y la funcionalidad del sistema deben
-	      estar disponibles a través del WWW.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      No debe cerrarse la posibilidad de otras interfaces:
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      No debe necesitar más conocimientos técnicos que
-	      aquéllos sobre los que escribe. 
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Si el autor conoce herramientas como CVS, docbook o cualquiera sobre las que se base el sistema que se va a crear,
-	      debe poder beneficiarse de ello. De esta forma se
-	      promueve que los autores las aprendan, ya que conocerlas
-	      les aporta beneficios directos.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      El autor debe recibir notificaciones por correo
-	      electrónico u otro medio de notificación de las aportaciones hechas por los
-	      lectores u otros autores. 
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Debe implementarse un flujo de trabajo que permita a los
-	      autores revisar las aportaciones y aceptarlas con la
-	      mayor facilidad posible. 
-	    </para>
-	  </listitem>
-	</itemizedlist>
-      </sect3>
+      <orderedlist>
+	<listitem>
+	  <para>
+	    Las aportaciones de los lectores deben ser visibles
+	    inmediatamente. Éstas deben separarse claramente del
+	    texto original hasta que sean aceptadas. El objetivo es
+	    fomentar la colaboración haciendo que las aportaciones sean
+	    visibles por todos los lectores incluso antes de su
+	    aceptación final por parte del autor. 
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Los documentos y la funcionalidad del taller deben
+	    estar disponibles a través del WWW. El taller debe ser
+	    accesible por el mayor número de 
+	    usuarios y autores posibles. Esto implica garantizar el
+	    acceso independientemente de la localización así como la no
+	    necesidad de tener conocimientos técnicos específicos para
+	    poder usarlo, tal y como se concreta en los siguientes
+	    requisitos. 
+
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    No debe cerrarse la posibilidad de otras interfaces. En
+	    particular el acceso directo desde una herramienta de
+	    autoría. 
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    No debe necesitar más conocimientos técnicos que
+	    aquéllos sobre los que escribe para hacer uso del taller. 
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Si el autor conoce las herramientas o tecnologías en
+	    las que se base el taller, debe poder beneficiarse de
+	    ello. De esta forma se 
+	    promueve que los autores las aprendan, ya que conocerlas
+	    les aporta beneficios directos.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    El autor debe recibir notificaciones por correo
+	    electrónico u otro medio de notificación de las
+	    aportaciones hechas por los lectores u otros autores. 
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>Debe ofrecerse a los autores un mecanismo que les
+	  facilite la gestión de las aportaciones. Es fundamental
+	  facilitar su aplicación al documento.</para>
+	</listitem>
+      </orderedlist>
     </sect2>
   </sect1>
   <sect1>
     <title>Análisis de casos de uso</title>
+    <para>
+      Una vez especificado el sistema se presenta un análisis de los
+      elementos y mecanismos que se han considerado necesarios para
+      llevar a cabo su realización. Comenzamos con un análisis de los
+      actores y casos de uso involucrados, para después estudiar con
+      mayor detalle el funcionamiento del sistema.
+    </para>
     <para>
       Los casos de uso representan las acciones que un usuario del
       sistema puede realizar en éste. En este documento se usará
