@@ -5,6 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
+    <date>$Date: 2002/07/03 21:17:03 $</date>
+    <releaseinfo>$Revision: 1.21 $</releaseinfo>
   </articleinfo>
   <!--
   ÍNDICE
@@ -407,10 +409,14 @@
       <title>Diagrama de casos de uso de autores</title>
       <graphic fileref="img/use-cases-author.png" format="PNG"/>
     </figure>
+    <figure float="0" id="figure-use-cases-revisor">
+      <title>Diagrama de casos de uso de revisores</title>
+      <graphic fileref="img/use-cases-revisor.png" format="PNG"/>
+    </figure>
   </sect1>
 
 
-  <sect1>
+  <sect1 id="analisis-funcional">
     <title>Análisis funcional</title>
     <para>
       En esta sección se describe el funcionamiento del sistema.
@@ -425,16 +431,50 @@
 
     <sect2>
       <title>Creación de documentos</title>
+      <para>
+	Crear un documento en el sistema significa darlo de alta y
+	poder acceder así a las funcionalidades de colaboración y
+	recepción de aportaciones de los lectores. Al insertar un
+	documento se crea una ficha sobre el mismo que le acompañará
+	en esta primera versión y en las versiones sucesivas.
+      </para>
+      <para>
+	Por ello nos referiremos con el término documento al conjunto
+	formado por el texto y metainformación del mismo, las imágenes
+	y otros datos. Todo ello puede encontrarse en un único fichero
+	o en varios en función del formato empleado.
+      </para>
+      <!-- ¡¡¡ OJO !!! ¿Hay versionado de la metainformación? -->
       <sect3 role="use-case">
 	<title>Caso de uso: Inserta documento nuevo</title>
-	<para></para>
+	<para>
+	  El siguiente diagrama de casos de uso muestra cómo responde el
+	  sistema ante la introducción de un documento nuevo. El
+	  objetivo tanto de este diagrama como de los siguientes es
+	  identificar las entidades con responsabilidades diferentes que
+	  son necesarias para llevar a cabo esta acción. Las flechas
+	  muestran las relaciones entre ellas en un escenario típico. En
+	  este caso identificado 5 entidades involucradas:
+	  <emphasis>Aplicación web</emphasis>,
+	  <emphasis>Revisor automático</emphasis>,
+	  <emphasis>Bibliotecario</emphasis>,
+	  <emphasis>Almacen de metainformación</emphasis> y
+	  <emphasis>Repositorio de ficheros.</emphasis>.
+	</para>
+	<para>
+	  Para simplificar este diagrama se ha sustituido la
+	  aplicación de un formato al documento por una nota. En
+	  <xref linkend="inserta-nueva-version"/> se incluye esta
+	  parte desglosado.
+	</para>
 	<figure float="0" id="figure-insertar1">
 	  <title>Inserción de un nuevo documento</title>
 	  <graphic fileref="img/insertar1.png" format="PNG"/>
 	</figure>
-
       </sect3>
     </sect2>
+
+
     <sect2>
       <title>Gestión de versiones de documentos</title>
       <para></para>
@@ -457,7 +497,8 @@
 	  a la documentación existente. 
 	</para>
 	<para>
-	  Por analogía con las versiones estables del núcleo Linux, consideraremos un documento
+	  Por analogía con las versiones estables del núcleo Linux,
+	  consideraremos un documento 
 	  <emphasis>publicado</emphasis> 
 	  como un documento acabado, con concordancia en su totalidad
 	  y completo. Podríamos suponer que los documentos en este
@@ -468,7 +509,11 @@
 	  Por su parte un documento se encuentra <emphasis>en
 	  elaboración</emphasis> cuando, como su propia nomenclatura
 	  indica, necesita de ciertas mejoras o revisiones
-	  antes de pasar a ser publicados. En el caso análogo de Linux, existen versiones llamadas <emphasis>en desarrollo</emphasis> donde se introducen modificaciones que todavía no se encuentran convenientemente maduras o probadas como para que aparezcan en la versión estable.
+	  antes de pasar a ser publicados. En el caso análogo de
+	  Linux, existen versiones llamadas <emphasis>en
+	  desarrollo</emphasis> donde se introducen modificaciones que
+	  todavía no se encuentran convenientemente maduras o probadas
+	  como para que aparezcan en la versión estable. 
 	</para>
 	<figure float="0" id="figure-estados">
 	  <title>Estados de un documento</title>
@@ -525,9 +570,23 @@
 	</para>
       </sect3>
 
-      <sect3 role="use-case">
+      <sect3 role="use-case" id="inserta-nueva-version">
 	<title>Caso de uso: Inserta nueva versión de un documento</title>
-	<para></para>
+	<para>
+	  Tras insertar un documento cualquiera de los autores del
+	  mismo puede realizar modificaciones sobre el mismo y
+	  introducir en el sistema una nueva versión. Esto provocará
+	  que se actualice la metainformación del documento y que se
+	  introduzcan los nuevos ficheros en el <emphasis>repositorio
+	  de ficheros</emphasis>. Tras hacer esto se dará formato al
+	  documento y se mostrará como nueva versión "en
+	  elaboración".
+	</para>
+	<para>
+	   A partir de ese momento un autor puede pedir su revisión
+	   tal y como se explica en uno de los casos de uso
+	   posteriores. 
+	</para>
 	<figure float="0" id="figure-new-version">
 	  <title>Nueva versión de un documento</title>
 	  <graphic fileref="img/new-version.png" format="PNG"/>
@@ -566,26 +625,115 @@
 	  público. 
 	</para>
 	<para>
-	  Existe una revisión que es indispensable para todos los documentos del sistema
-	  que es aquélla que se ha de pasar la primera vez que un documento pase del estado
-	  en elaboración al de publicado (esto pasará, claro está, si los revisores así
-	  lo consideran). Una vez que el documento tiene una versión que está en el estado 
-	  publicado, el autor es libre de pasar una versión en elaboración a publicado
-	  sin tener que pedir una revisión para tal efecto. En todo caso, si lo cree oportuno
-	  podrá hacerlo, pero se tratará de una medida voluntaria.
+	  Existe una revisión que es indispensable para todos los
+	  documentos del sistema que es aquélla que se ha de pasar la
+	  primera vez que un documento pase del estado en elaboración
+	  al de publicado (esto pasará, claro está, si los revisores
+	  así lo consideran). Una vez que el documento tiene una
+	  versión que está en el estado publicado, el autor es libre
+	  de pasar una versión en elaboración a publicado sin tener
+	  que pedir una revisión para tal efecto. En todo caso, si lo
+	  cree oportuno podrá hacerlo, pero se tratará de una medida
+	  voluntaria. 
 	</para>
       </sect3>
       <sect3 role="use-case">
-	<title>Caso de uso: Autor solicita revisión por otro autor</title>
-	<para></para>
+	<title>Caso de uso: Revisor se subscribe a una
+	categoría</title>
+	<para>
+	  Cualquier autor que haya publicado un documento tiene la
+	  posibilidad de convertirse en 
+	  revisor simplemente subscribiéndose a una categoría concreta
+	  de documentos. A partir de ese momento le llegarán
+	  notificaciones de autores que desean que sus documentos sean
+	  publicados.
+	</para>
+	<para>
+	  También puede subscribirse como revisor genérico. En este
+	  caso recibirá también las peticiones que no hayan encajado
+	  en ninguna de las categorías existentes. En <xref
+	  linkend="categorias-documentos"/> se incluye una descripción
+	  más amplia sobre el concepto de categoría de un documento.
+	</para>
+	<para>
+	  El sistema de subscripciones es gestionado por el
+	  <emphasis>Gestor de notificaciones</emphasis>.
+	</para>
+      </sect3>
+      <sect3 role="use-case">
+	<title>Caso de uso: Autor solicita revisión de su documento</title>
+	<para>
+	  Los autores disponen de una interfaz donde puede ver el estado
+	  de sus documentos. Desde esta interfaz pueden solicitar la
+	  revisión del mismo para su publicación.
+	</para>
+	<para>
+	  Esta tarea sólo es obligatoria para la primera publicación
+	  del documento. Posteriores revisiones del mismo podrán ser
+	  publicadas directamente por cualquiera de los autores.
+	</para>
+	<para>
+	  Cuando un autor solicita una revisión deben enviarse
+	  notificaciones a todos los revisores subscritos en la
+	  categoría del documento. 
+	</para>
+      </sect3>
+      <sect3 role="use-case">
+	<title>Caso de uso: Revisor acepta revisión de un documento</title>
+	<para>
+	  Tras recibir una notificación un revisor puede acceder a la
+	  interfaz web y autoasignarse la revisión de dicho
+	  documento. El autor o autores recibirán una notificación con
+	  información sobre quien es el encargado.
+	</para>
+	<para>
+	  A partir de este momento el revisor puede enviar comentarios
+	  al autor o bien validar el documento para que se proceda a
+	  su publicación.
+	</para>
       </sect3>
       <sect3 role="use-case">
 	<title>Caso de uso: Revisor envía comentarios al autor</title>
-	<para></para>
+	<para>
+	  Cuando un revisor lee un documento puede enviar comentarios
+	  al autor o autores recomendándoles cambios en el mismo. Se
+	  deja a elección del revisor determinar si los cambios
+	  propuestos son obligatorios para la aceptación del documento
+	  o simplemente opcionales. En cualquier caso la función del
+	  revisor será siempre la de recomendar y explicar; no debe
+	  modificar el documento directamente. 
+	</para>
+	<para>
+	  La comunicación entre el revisor y los autores puede
+	  realizarse a través del gestor de notificaciones o usando
+	  medios externos al sistema como el correo electrónico.
+	</para>
       </sect3>
       <sect3 role="use-case">
-	<title>Caso de uso: Revisor acepta documento</title>
-	<para></para>
+	<title>Caso de uso: Revisor valida documento</title>
+	<para>
+	  Una vez el revisor considera que un documento dispone de la
+	  calidad necesaria puede acceder a la interfaz web para
+	  validarlo. Esto provocará que el sistema publique el
+	  documento. Si ya existía una versión anterior publicada del
+	  documento será sustituida por la nueva.
+	</para>
+	<para>
+	  Cuando un documento es validado sus autores reciben una
+	  notificación. Como consecuencia de su publicación también
+	  serán notificados todos aquellos lectores que se hayan
+	  subscrito como interesados en la categoría a la que
+	  pertenece este documento. Por último, en el caso de que el
+	  documento publicado sea una nueva versión, también debería
+	  notificarse a aquellos lectores que se hayan mostrado
+	  interesados en recibir aviso cuando el documento se
+	  actualice. 
+	</para>
+	<para>
+	  La siguiente figura muestra un diagrama de secuencia con las
+	  entidades que participan en este proceso y las relaciones
+	  entre ellas en un escenario típico.
+	</para>
 	<figure float="0" id="figure-validate-document">
 	  <title>Revisión positiva de un documento</title>
 	  <graphic fileref="img/validate-document.png" format="PNG"/>
@@ -603,41 +751,118 @@
 	conseguir que los usuarios visiten el sistema de manera asidua y vean que existe
 	movimiento.
       </para>
-      <para>
-	Casos de uso involucrados:
-	<itemizedlist>
-	  <listitem>
-	    <para>Lector registrado se suscribe a un documento</para>
-	  </listitem>
-	  <listitem>
-	    <para>Lector registrado se suscribe a una categoría</para>
-	  </listitem>
-	  <listitem>
-	    <para>Revisor se suscribe como revisor a una categoría</para>
-	  </listitem>
-	</itemizedlist>
-      </para>
-      <para>
-        Las notificaciones pueden realizarse mediante mensajes de correo electrónico u otro 
-	tipo alternativo de mensajería.
-      </para>
+      <sect3 id="categorias-documentos">
+	<title>Categorías de los documentos</title>
+	<para>
+	  Se han identificado dos formas de determinar la
+	  categoría de un documento con vistas a notificar a los
+	  usuarios del sistema interesados:
+	  <variablelist>
+	    <varlistentry>
+	      <term>Estática</term>
+	      <listitem>
+		<para>
+		  Consiste en la creación de una serie de
+		  categorías concretas y todos los documentos
+		  deben ser clasificados en alguna de ellas por
+		  los autores o revisores. 
+		</para>
+		<para>
+		  La principal ventaja de esta solución es la
+		  facilidad de su implementación por medio de
+		  listas de correo.
+		</para>
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term>Dinámica</term>
+	      <listitem>
+		<para>
+		  Los documentos se clasifican dinámicamente en
+		  función de su metainformación (por ejemplo de
+		  palabras clave) o de su contenido. Se compara
+		  dinámicamente el perfil del documento con el
+		  interés de los subscriptores para determinar si
+		  deben recibir una notificación o no.
+		</para>
+		<para>
+		  La principal ventaja de este sistema es su
+		  flexibilidad y fácil evolución. Permite
+		  subscripciones a temas muy concretos o a temas
+		  muy genéricos y no hay necesidad de
+		  predeterminar las posibles categorías de los
+		  documentos. 
+		</para>
+		<para>
+		  Por otro lado la implementación de esta solución
+		  es notablemente más difícil que la anterior y
+		  probablemente implicaría una implementación
+		  desde cero.
+		</para>
+	      </listitem>
+	    </varlistentry>
+	  </variablelist>
+	</para>
+      </sect3>
+      <sect3>
+	<title>
+	  Caso de uso: lector registrado se suscribe a un documento
+	</title>
+	<para>
+	  Un lector registrado puede informar al sistema de su
+	  interés por un documento. De esta forma cuando aparezcan
+	  nuevas versiones del mismo se le enviarán notificaciones.
+	</para>
+      </sect3>
+      <sect3>
+	<title>
+	  Caso de uso: lector registrado se suscribe a una categoría
+	</title>
+	<para>
+	  Un lector que se ha registrado en el sistema puede
+	  subscribirse a una categoría concreta y recibir
+	  notificaciones cuando haya nuevos documentos de dicha
+	  categoría o nuevas versiones de los mismos.
+	</para>
+      </sect3>
     </sect2>
 
 
     <sect2>
       <title>Publicación e impresión de documentos</title>
       <para>
-        FIXME
+	La publicación de un documento representa la aceptación de un
+	documento para ser mostrado al público general. Una vez
+	llegado a este estado ya ha alcanzado una calidad alta y la
+	labor del sistema será difundir dicho documento al mayor
+	número de lectores posibles.
+      </para>
+      <para>
+	La impresión consiste en aplicar formato a un documento para
+	facilitar su lectura y difusión. Todos los documentos deben
+	compartir un formato homogéneo que de sensación de
+	homogeneidad y coherencia a los lectores. Por otro lado se
+	proporcionaran al menos una versión lista para imprimir (PDF) y otra
+	versión navegable (HTML) para ser consultada a través de la interfaz
+	web. En cada una de estas versiones se seguirán las normas de
+	estilo adecuadas para facilitar su lectura.
       </para>
 
       <sect3 role="use-case">
 	<title>Caso de uso: Dar formato al documento</title>
-	<para></para>
+	<para>
+	  Cuando se da formato a un documento a un documento se
+	  aplican plantillas para darle un formato homogéneo y para
+	  crear formatos de impresión y navegación.
+	</para>
+	<para>
+	  Existen varios mecanismos para aplicar plantillas a un
+	  documento. Estos dependen fundamentalmente del formato en
+	  que se encuentre el documento original. En <xref
+	  linkend="tecnologias"/> se describen las posibilidades que
+	  se contemplan para este taller.
+	</para>
       </sect3>
-
-      <para>
-        FIXME
-      </para>
 
       <sect3 role="use-case">
 	<title>Caso de uso: Publicar documento</title>
@@ -735,8 +960,9 @@
       </sect3>
       <sect3 role="use-case">
 	<title>Caso de uso: Usuario registrado envia aportación</title>
-	<para>Descripción de "Notifica Erratas", "Añade contenido",
-	  "Modifica contenido", "Añade comentario"</para>
+
+	<para><!-- FIXME: Descripción de "Notifica Erratas", "Añade contenido",
+	  "Modifica contenido", "Añade comentario" --></para>
 	<para>Las aportaciones se muestran instantáneamente junto
 	  al documento, pero no integradas en él, sino marcadas
 	  claramente como aportaciones.</para>
@@ -750,14 +976,88 @@
 
 
 
-  <sect1>
+  <sect1 id="analisis-arquitectonico">
     <title>Análisis arquitectónico</title>
-    <para>Modelo de dominio: FIXME --> Jorge: esto te lo dejo a ti, que no sé ni por
-    dónde cogerlo ;-)</para>
+    <para>
+      Esta sección se muestra el resultado del análisis funcional
+      realizado en <xref linkend="analisis-funcional"/> por medio de
+      un diagrama que muestra la relación existente entre todas las
+      entidades del sistema que han sido identificadas.
+    </para>
+    <para>
+      Hemos decidido agrupar estas relaciones en un único diagrama en
+      lugar de crear uno por cada grupo de funcionalidades debido a
+      que el sistema está formado por un número no muy grande de
+      entidades. 
+    </para>
+    <figure float="0">
+      <title>Modelo de dominio del taller</title>
+      <graphic fileref="img/domain-model.png" format="PNG"/>
+    </figure>
+    <para>
+      A continuación se describen las responsabilidades asociadas a
+      cada una de las entidades mostradas en este diagrama:
+    </para>
+    <variablelist>
+      <varlistentry>
+	<term>Aplicación web</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Revisor automático</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Bibliotecario</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Publicador</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Impresor</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Gestor de notificaciones</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Almacen de metainformación</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Repositorio de ficheros</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Ficheros publicados</term>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
   </sect1>
 
 
-  <sect1>
+  <sect1 id="tecnologias">
     <title>Análisis de tecnologías y herramientas</title>
     <para>
       Una vez que hemos hecho un análisis detallado del sistema que queremos, a la vez
@@ -779,6 +1079,17 @@
 	<title>Docbook</title>
 	<para>
 	  FIXME
+	</para>
+	<para>
+	  En el caso de Docbook pueden emplearse plantillas DSSL o XSL
+	  para dar formato al documento. Ambas permiten generar
+	  formatos HTML y PDF con bastante calidad. En ambos casos
+	  existen un juego de plantillas estándar que son
+	  personalizables a la apariencia deseada. XSL sólo es
+	  aplicable para la versión XML de Docbook y no están tan 
+	  maduras como la versión DSSL aún. Sin embargo actualmente
+	  están evolucionando con mayor rapidez y existen un mayor
+	  número de herramientas para su tratamiento.
 	</para>
       </sect3>
       <sect3>
