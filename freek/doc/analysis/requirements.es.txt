@@ -1,0 +1,69 @@
+     TALLER DE CREACIÓN COLABORATIVA DE DOCUMENTACIÓN
+                      - REQUISITOS -
+
+1 Requisitos funcionales
+  ======================
+
+1.1 Generales
+
+- Debe soportarse una gestión de versiones de los documentos. Debe
+  resolverse el problema de la posibilidad de que haya aportaciones
+  realizadas sobre versiones antiguas.
+
+
+1.2 Relativos a usuarios/lectores
+
+- Todo el que lee un documento debe poder realizar aportaciones con el
+menor esfuerzo posible
+
+- Deben permitirse y fomentarse las aportaciones pequeñas:
+  * Añadido
+  * Nota
+  * Comentario
+  * Referencia
+  * Modificar línea
+
+- Debe poder modificarse el documento sin necesidad de saber docbook
+
+
+2 Requisitos no funcionales
+  =========================
+
+
+2.1 Generales
+
+- El sistema debe ser accesible por el mayor número de usuarios y
+autores posibles, por lo que se usará un acceso a través del WWW. ¿hay
+alternativas? 
+
+- Adicionalente deben darse facilidades para integrarse con
+aplicaciones de escritorio que permitan trabajo colaborativo remoto
+(por ejemplo TeXMacs). 
+
+
+2.2 Relativas al sistema
+
+- Las aportaciones de los lectores deben ser visibles
+inmediatamente. Estas deben separarse claramente del texto original
+hasta que sean aceptadas. El objetivo es fomentar que aporten al ver
+que sus aportaciones son visibles por todos los lectores
+instantáneamente.
+
+- Los usuarios registrados pueden solicitar que se les notifique
+cuando una aportación suya haya sido aceptada.
+
+
+2.3 Relativos a autores
+
+- No debe necesitar más conocimientos técnicos que aquellos sobre los
+que escribe
+
+- Si el autor conoce herramientas como CVS, docbook, etc debe poder
+beneficiarse de ello. De esta forma se promueve que los autores las
+aprendan, ya que conocerlas aporta beneficios
+
+- El autor debe recibir notificaciones por correo electrónico de las
+aportaciones hechas por los usuarios
+
+- Debe implementarse un flujo de trabajo que permita a los autores
+revisar las aportaciones y aceptarlas con la mayor facilidad posible.
