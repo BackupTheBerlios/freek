@@ -1,0 +1,60 @@
+__section__
+default
+__description__
+template for the list staff
+
+* docs = an array ref with a list of the current documents in the system
+__title__
+
+__page__
+doc
+__lang__
+es_ES
+__name__
+list
+__template__
+[% USE Slash %]
+<H4>Documentos disponibles en el sistema de proyectos de Ándago</H4>
+
+
+<TABLE WIDTH="100%" BGCOLOR="[% user.bg.0 %]" BORDER="0" CELLPADDING="5" CELLSPACING="0">
+	<TR VALIGN="TOP">	
+	<TH>Nombre</TH>
+	<TH>Proyecto</TH><TH>Tamaño</TH><TH>Comentario</TH><TH>Dueño</TH>
+	</TR>
+	[% FOREACH doc = docs %]
+	[% i = i + 1 %]
+		[% IF i % 2 %]
+                <TR VALIGN="TOP" BGCOLOR="[% user.bg.4 %]">
+		[% ELSE %]
+		<TR VALIGN="TOP">
+		[% END %]
+			<TD>
+                        <FONT FACE="[% constants.mainfontface %]" SIZE="3" COLOR="[% user.fg.0 %]">
+                                <A HREF="[% doc.url %]">[% doc.name %]</A>
+                        </FONT>
+                	</TD>
+			<TD>
+                        <FONT FACE="[% constants.mainfontface %]" SIZE="3" COLOR="[% user.fg.0 %]">
+                                [% doc.project %]
+                        </FONT>
+                	</TD>
+			<TD>
+                        <FONT FACE="[% constants.mainfontface %]" SIZE="3" COLOR="[% user.fg.0 %]">
+                                [% doc.size %]
+                        </FONT>
+                	</TD>
+			<TD>
+			<FONT FACE="[% constants.mainfontface %]" SIZE="3" COLOR="[% user.fg.0 %]">
+                                [% doc.comment %]
+                        </FONT>
+                	</TD>
+			<TD>
+			<FONT FACE="[% constants.mainfontface %]" SIZE="3" COLOR="[% user.fg.0 %]">
+                                [% doc.uid %]
+                        </FONT>
+                	</TD>
+			
+		</TR>
+        [% END %]
+</TABLE>

@@ -1,0 +1,17 @@
+Subir ficheros
+--------------
+
+Los permisos a la hora de subir ficheros deben ser adecuados.
+Los directorios destino para los documentos son los directorios
+de las secciones de los proyectos asociadas a ellos.
+
+En dichos directorios, el usuario con el que se ejecuta el servidor
+de web (www-data normalmente) debe de tener permiso de 
+escritura.
+
+Para ello:
+
+find . -type d -exec chgrp www-data {} \;
+find . -type d -exec chmod 2775 {} \;
+
+dentro del directorio "htdocs" de un sitio slash.

@@ -1,0 +1,2 @@
+cat clean_plugin.sql | mysql -u root proyectos -p
+echo "Plugin removed from the database"

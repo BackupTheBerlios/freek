@@ -1,0 +1,29 @@
+__section__
+default
+__description__
+template with the upload description
+* name
+* file
+* size
+* project_id
+* comments
+* format_id
+
+__title__
+
+__page__
+upload
+__lang__
+es_ES
+__name__
+info
+__template__
+falla el [% project_id %]
+<TABLE>
+<TR><TD>Nombre del fichero:</TD><TD>[% name %]</TD></TR>
+<TR><TD>Fichero:</TD>		<TD>[% file %]</TD></TR>
+<TR><TD>Tamaño:</TD>		<TD>[% size %]</TD></TR>
+<TR><TD>Proyecto:</TD>		<TD>[% project_id %]</TD></TR>
+<TR><TD>Comentario:</TD>	<TD>[% comments %]</TD></TR>
+<TR><TD>Formato:</TD>		<TD>[% format_id %]</TD></TR>
+</TABLE>

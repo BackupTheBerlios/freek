@@ -1,0 +1,9 @@
+2002-06-05  Alvaro del Castillo  <acs@andago.com>
+
+    * Funcionando upload basado en plantillas y haciendo
+    ya uso del plugin de Projects para obtener el listado
+    de proyectos.
+
+2002-06-05  Alvaro del Castillo  <acs@andago.com>
+
+    * Integrado upload.pl y creada la estructura del plugin

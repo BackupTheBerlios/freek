@@ -1,0 +1,25 @@
+Instrucciones de instalación:
+
+Leer el fichero LEEME
+
+1. Copiar Slash-Doc al directorio de plugins de Slash que
+en Debian está en: 
+    
+    /usr/share/slash/plugins
+
+2. Instalar la librería del plugin:
+
+    perl Makefile.PL
+    make install
+
+3. Instalar el plugin en slash:
+
+    install-plugin -u <usuario_virtual>
+    Seleccionar el plugin Doc
+    Instalarlo
+
+4. Acceder al servlet doc.pl
+
+
+
+acs - 2002

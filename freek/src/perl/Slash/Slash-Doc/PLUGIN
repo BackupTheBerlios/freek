@@ -1,0 +1,16 @@
+name=Documents
+description="Document manage system"
+mysql_schema=mysql_schema.sql
+mysql_dump=dump.sql
+htdoc=doc.pl
+template=templates_es/titles;doc;default
+template=templates_es/ispellok;doc;default
+template=templates_es/messages;doc;default
+template=templates_es/editStory;doc;default
+template=templates_es/data;doc;default
+template=templates_es/list;doc;default
+template=templates_es/info;upload;default
+template=templates_es/editStory;admin;default
+template=templates_es/form;upload;default
+template=templates_es/editbuttons;doc;default
+template=templates_es/relatedlinks;doc;default

@@ -1,0 +1,24 @@
+__section__
+default
+__description__
+template form for a person staff register
+* user_project: hasref with all the information for the project
+
+__title__
+
+__page__
+upload
+__lang__
+es_ES
+__name__
+form
+__template__
+<FORM ACTION="[% env.script_name %]" METHOD="POST" ENCTYPE="multipart/form-data">
+<TABLE>
+<TR><TD>Fichero:</TD>	<TD><INPUT 	TYPE="FILE" NAME="importme"></TD></TR>
+<TR><TD>Comentario:</TD><TD><TEXTAREA 	NAME="comments" COLS="50" ROWS="5"></TEXTAREA></TD></TR>
+<TR><TD>Proyecto:</TD>	<TD>[% INCLUDE select_projects  %]</TD></TR>
+
+<TR><TD><INPUT TYPE="SUBMIT" NAME="op" VALUE="Subir"></TD></TR>
+</TABLE>
+</FORM>
