@@ -5,8 +5,8 @@
 <article lang="es" id="taller-doc">
   <articleinfo>
     <title>Taller de creación colaborativa de documentación</title>
-    <date>$Date: 2002/07/07 16:11:24 $</date>
-    <releaseinfo>$Revision: 1.22 $</releaseinfo>
+    <date>$Date: 2002/07/07 22:41:09 $</date>
+    <releaseinfo>$Revision: 1.23 $</releaseinfo>
   </articleinfo>
   <!--
   ÍNDICE
@@ -1065,55 +1065,77 @@
       <varlistentry>
 	<term>Aplicación web</term>
 	<listitem>
-	  <para></para>
+	  <para>Se encarga de ofrecer una interfaz a los usuarios del
+	    taller para que puedan acceder a toda su funcionalidad.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Revisor automático</term>
+	<term>Revisión automática</term>
 	<listitem>
-	  <para></para>
+	  <para>Representa el proceso de revisión de un documento en
+	  el momento de su inserción en el taller. En este proceso
+	  puede revisarse tanto la sintaxis como la ortografía del
+	  documento entre otros aspectos.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Bibliotecario</term>
+	<term>Gestión documental</term>
 	<listitem>
-	  <para></para>
+	  <para>Este es el proceso central del taller, el que se
+	  encarga de gestionar los documentos y de mantener las
+	  relaciones entre los distintos almacenamientos
+	  (metainformación, fuentes y formatos impresos). Este proceso
+	  es similar al llevado a cabo por un bibliotecario en una
+	  biblioteca tradicional.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Publicador</term>
+	<term>Impresión</term>
 	<listitem>
-	  <para></para>
+	  <para>Proceso por el cual se generan los formatos que serán
+	  mostrados a los usuarios. Estos formatos se crearán a partir
+	  de los ficheros fuentes originales.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Impresor</term>
+	<term>Gestion de notificaciones</term>
 	<listitem>
-	  <para></para>
-	</listitem>
-      </varlistentry>
-      <varlistentry>
-	<term>Gestor de notificaciones</term>
-	<listitem>
-	  <para></para>
+	  <para>Envío de notificaciones a lectores, autores y
+	  revisores y de acuerdo con las subscripciones realizadas por
+	  estos.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
 	<term>Almacen de metainformación</term>
 	<listitem>
-	  <para></para>
+	  <para>Contiene toda la información disponible en el taller
+	  sobre un documento, incluyendo su versión publicada y su
+	  versión en elaboración. Además de la metainformación típica
+	  se incluye la localización de los ficheros fuente y de los
+	  formatos impresos.
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Repositorio de ficheros</term>
+	<term>Repositorio de ficheros fuente</term>
 	<listitem>
-	  <para></para>
+	  <para>Contiene los documentos en el formato en que fueron
+	  introducidos por su autor. Este repositorio dispone de un
+	  sistema de gestión de versiones que permite controlar la
+	  evolución con el tiempo de estos ficheros.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
-	<term>Ficheros publicados</term>
+	<term>Formatos impresos</term>
 	<listitem>
-	  <para></para>
+	  <para>En este almacen se encuentran los formatos de un
+	  documento listos para ser vistos a través de la interfaz
+	  web. Se incluye al menos una versión imprimible y una
+	  versión navegable del documento.</para>
+	  <para>Cada documento puede disponer de formatos impresos de
+	  su última versión publicada y de su versión en
+	  elaboración. Cuando se publica esta última se mueven sus
+	  formatos impresos sustituyendo a los que había para la
+	  versión anterior publicada.</para>
 	</listitem>
       </varlistentry>
     </variablelist>
@@ -1448,9 +1470,5 @@
  
      </bibliodiv>
    </bibliography>
-
-  <ackno>
-    Documentando, Lucas, TLDP, ...
-  </ackno>
 </article>
 
